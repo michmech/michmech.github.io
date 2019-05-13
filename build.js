@@ -1,13 +1,14 @@
 const markdown=require("markdown").markdown; //https://www.npmjs.com/package/markdown
 const fs=require("fs");
 
-//buildIndex();
+buildIndex();
 buildArticle("sample-article");
 
 function buildIndex(){
-  var message=fs.readFileSync("./index.md", "utf8").trim();
+  var raw=fs.readFileSync("./index.md", "utf8");
+  var body=doMarkdown(raw)+"\n";
   var html=fs.readFileSync("./index.html", "utf8");
-  html=html.replace(/(<!--begin message-->).*(<!--end message-->)/s, function(m, $1, $2){ return $1+message+$2; });
+  html=html.replace(/(<!--begin body-->\n).*(<!--end body-->)/s, function(m, $1, $2){ return $1+body+$2; });
   fs.writeFileSync("./index.html", html, "utf8");
 }
 
@@ -41,7 +42,7 @@ function buildArticle(dir){
     metatags+=`<meta name="article:published_time" content="${metadata.published}"/>\n`;
   }
   if(metadata.modified){
-    metatags+=`<meta name="article:modified_time" content="${metadata.modified}">\n`;
+    metatags+=`<meta name="article:modified_time" content="${metadata.modified}"/>\n`;
   }
   var html=fs.readFileSync(dir+"/index.html", "utf8");
   html=html.replace(/(<!--begin metatags-->\n).*(<!--end metatags-->)/s, function(m, $1, $2){ return $1+metatags+$2; });
@@ -55,6 +56,7 @@ function doMarkdown(str){
   //str=str.replace(/\<a href=\"http/g, "<a target=\"_blank\" href=\"http");
   return str;
 }
+
 function htmlEncode(s){
   s=s.replace(/\</g, "&lt;");
   s=s.replace(/\>/g, "&gt;");
