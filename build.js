@@ -1,8 +1,16 @@
-const markdown=require("markdown").markdown; //https://www.npmjs.com/package/markdown
+const md=require('markdown-it')({html: true}); //https://www.npmjs.com/package/markdown-it
+const attrs=require('markdown-it-attrs'); md.use(attrs); //https://www.npmjs.com/package/markdown-it-attrs
 const fs=require("fs");
 
-buildIndex();
+//buildIndex();
 buildArticle("sample-article");
+buildArticle("minority-languages-machine-translation");
+buildArticle("retrodigitization");
+buildArticle("sub-specie-aeternitatis");
+buildArticle("tir-faoi-bhlath");
+buildArticle("feabhas-ar-ghaeilge");
+buildArticle("maru-na-muice");
+buildArticle("support-don-ghaeilge");
 
 function buildIndex(){
   var raw=fs.readFileSync("./index.md", "utf8");
@@ -15,7 +23,7 @@ function buildIndex(){
 function buildArticle(dir){
   var raw=fs.readFileSync(dir+"/index.md", "utf8");
   var metadata={};
-  raw=raw.replace(/^---\n(.*)\n---\n/s, function(m, $1){
+  raw=raw.replace(/^(.*?)\n---\n/s, function(m, $1){
     $1.split("\n").map(line => {
       line.replace(/^([^:]+): (.*)$/, function(m, $1, $2){
         metadata[$1]=htmlEncode($2);
@@ -44,16 +52,19 @@ function buildArticle(dir){
   if(metadata.modified){
     metatags+=`<meta name="article:modified_time" content="${metadata.modified}"/>\n`;
   }
-  var html=fs.readFileSync(dir+"/index.html", "utf8");
+  var html=fs.readFileSync("./sample-article/index.html", "utf8");
   html=html.replace(/(<!--begin metatags-->\n).*(<!--end metatags-->)/s, function(m, $1, $2){ return $1+metatags+$2; });
   html=html.replace(/(<!--begin body-->\n).*(<!--end body-->)/s, function(m, $1, $2){ return $1+body+$2; });
   fs.writeFileSync(dir+"/index.html", html, "utf8");
 }
 
 function doMarkdown(str){
-  var tree=markdown.parse(str);
-  str=markdown.renderJsonML(markdown.toHTMLTree(tree));
-  //str=str.replace(/\<a href=\"http/g, "<a target=\"_blank\" href=\"http");
+  //markup images in my own way:
+  str=str.replace(/\!\[([^\]]*)\]\(([^\)]+)\)\s*(\{\.(([^\}]+))\})?/g, function(m, caption, filename, x, className){
+    return `<figure class="${className}"><img src="${filename}" alt=""><figcaption>${caption}</figcaption></figure>`;
+  });
+  //markdown to HTML:
+  str=md.render(str);
   return str;
 }
 

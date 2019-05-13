@@ -1,13 +1,33 @@
-body {border-top: 2px solid #209CEE;}
+body {margin: 0px; padding: 0px; border-top: 2px solid #209CEE; background-color: #f6f6f6; font-family: Helvetica, sans-serif; font-size: 1.3rem; line-height: 1.5em; text-shadow: 1px 1px 0px #ffffff;}
+div#body {max-width: 1040px; margin: 0px auto; padding: 0px 20px;}
+
 div#homelink {margin-bottom: 50px;}
 div#homelink > a {
-  display: inline-block; height: 75px; width: 50px; background-color: #209CEE; border-radius: 0px 0px 2px 2px;
+  display: inline-block; height: 100px; width: 50px; background-color: #209CEE; border-radius: 0px 0px 2px 2px;
   background-image: url(favicon-32x32.png); background-position: center bottom; background-repeat: no-repeat;
 }
 div#homelink > a:hover {background-position: center bottom+1px;}
+
 div#backstop {margin: 50px 0px; text-align: right;}
 div#backstop > a {
   display: inline-block; height: 25px; width: 75px; background-color: #209CEE; border-radius: 2px;
   background-image: url(favicon-16x16.png); background-position: center left+5px; background-repeat: no-repeat;
 }
 div#backstop > a:hover {background-position: center left+6px;}
+
+h1 {font-size: 2em; line-height: 1.15em;}
+p.subtitle {font-size: 1.15em; line-height: 1.65em; color: #445566; margin-top: -1em; margin-bottom: 1em;}
+h2 {font-size: 1.5em; line-height: 1.15em; margin: 1.25em 0 0.75em 0;}
+p {margin: 1em 0;}
+hr {border: 0px; height: 1px; background-color: #cccccc;}
+
+a {color: #0f6ba8; text-decoration: none;}
+a:hover {color: #209CEE;}
+p.lead {font-size: 1.15em; line-height: 1.65em; color: #445566}
+p.meta {color: #445566}
+
+figure {margin: 2em 0px}
+figure img {max-width: 100%; border-radius: 2px; border: 1px solid #999999;}
+figure figcaption {color: #999999; font-size: 0.9em}
+figure.floatLeft {float: left; margin-right: 1.75em; margin-top: 1em;}
+figure.center {text-align: center;}

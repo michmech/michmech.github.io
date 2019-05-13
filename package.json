@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "markdown": "^0.5.0"
+    "markdown-it": "^8.4.2",
+    "markdown-it-attrs": "^2.3.4"
   }
 }

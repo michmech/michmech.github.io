@@ -1,0 +1,43 @@
+---
+<!-- modified: 2015-11-13 -->
+published: 2015-11-13
+author: Michal Měchura
+title: Do minority languages need machine translation?
+blurb: I want to bust the myth that machine translation is necessary for the revival of minority languages.
+---
+
+# Do minority languages need machine translation?
+
+This is an abbreviated transcript of a talk I gave at a [British-Irish Council](http://www.britishirishcouncil.org/) conference on language technology in indigenous, minority and lesser-used languages in Dublin in November 2015 under the title ‘Do minority languages need the same language technology as majority languages?’ I wanted to bust the myth that machine translation is necessary for the revival of minority languages. {.lead}
+
+![A sign in Dublin Airport](be-patient.jpg)
+
+This sign, which you could find in Dublin airport at one stage until public outcry forced the authorities to change it, is meant to be bilingual but the Irish version – which is probably machine-translated from English – is nothing more than word salad. Apart from the grammar being so jumbled up that it’s virtually incomprehensible, it translates the adjective ‘patient’ with a noun meaning ‘hospital patient’. This is not an exception: botched signs like this are common in Ireland and probably outnumber correct ones. While some are produced by incompetent humans the old-school way, many are machine-translated. Their proliferation is a consequence of widely available machine translation in deadly combination with irresponsible people who don’t understand its limitations.
+
+For better of worse, publicly available machine translation has been with us for some time now, thanks mainly to Google Translate and Microsoft’s Bing Translator. While the output is sometimes so bad it makes people react with laughter and anger and everything in between, machine translation is undeniably useful if used responsibly and for the right purpose. So far so good. But the question I want to ask here is, do minority languages such as Irish, Welsh and Scottish Gaelic need machine translation technology as much as majority languages such as English and French do?
+
+## Machine translation: a double-edged sword
+
+Machine translation is viewed by many to be the most prominent artifact of language technology. So the idea naturally springs to mind that, because majority languages have it, minority languages need it too.
+
+Do they? That depends on what machine translation is for, what it can do and what it cannot. One thing people are not aware of enough is that current machine translation technology comes with a margin of error: it is designed with the caveat that it will produce substandard translations some of the time. This means that machine translation is really only suitable for **comprehension** (= helping me understand a text in a language I don’t speak) and not for **production** (= writing a text in a language I don’t speak).
+
+In a sense, using machine translation for production, when not followed by post-editing, constitutes not a use but an abuse of the technology. In the English-to-Irish language pair, the abuses are so numerous and so prominently visible in public that they probably outnumbers the valid uses. Monolingual English speakers everywhere, including Ireland’s government and civil service, routinely abuse machine translation to produce texts in a language they don’t speak (Irish), in apparent ignorance of the fact that the technology was never intended for production-quality output. Consequently, Google Translate et al. have become a running joke in the Irish-language community in Ireland. From what I hear the story is not too different in other minority languages where a machine translation tool is publicly available.
+
+## How is a minority language different from a majority language?
+
+The languages we are dealing with here, Irish, Welsh, Breton and so on, are minority languages which coexist with a majority language like English and French in a situation I call **subset bilingualism:** everybody who speaks the minority language also speaks the majority language, but not everybody who speaks the majority language speaks the minority language. There are no monolingual speakers of the minority language. The minority-language community is bilingual and forms a subset of the majority-language community.
+
+With this in mind, does anybody really need machine translation from the majority language to the minority language? Not really. It isn’t needed for comprehension and it isn’t meant to be used for production (except when followed by post-editing). When used for production without post-editing, it does more harm than good: it floods the world with inadequate translations which alienate those who speak the language well and mislead those who don’t. And yet, this is exactly what it seems to be (ab)used for most of the time.
+
+Does anybody need the opposite, that is, machine translation from a minority language to a majority language? There the use case for comprehension is valid: there are English speakers in Ireland who don’t speak Irish, French speakers in Brittany who don’t speak Breton. But, in actual reality, the amount of content that gets translated from a minority language to a majority one is small, in fact practically zero, for the obvious reason that very little original content tends to be created in the minority language, and whatever little exists, the majority-language community isn’t interested in it. Most translation flows in the opposite direction, from the majority language to the minority language.
+
+Neither of this means that machine translation has no legitimate uses for a minority language. But it does mean that those legitimate uses are much less numerous when compared to machine translation when both languages in the language pair are mainstream global languages with no subset bilingualism, such as German and Spanish. There the role of machine translation is often to ‘overcome’ the perceived ‘barriers’ posed by linguistic diversity. In a minority-language setting, however, we often want the opposite: we want to recreate and reinforce linguistic diversity. Machine translation is counter-productive here: it brings lots of low-quality content into the language (= inadequate translations from the majority language) and it allows original content authored in the minority language to ‘escape’ out of it with ease (= via translation to the majority language), leading to even more domain loss for the minority language (domain loss is a sociolinguistic concept describing a situation when a language is being used in fewer and fewer areas of public life until it is reduced to purely domestic use – think ‘kitchen Welsh’ – before it dies out completely).
+
+## If we don’t need machine translation, what do we need instead?
+
+I am of the opinion that languages are judged by the quality of what is said and written in them – not by the quantity of what can be cheaply translated into and out of them. A language begins to die when nobody has anything original to say in it any more. Therefore, what minority languages need most of all, as far as technology is concerned, is tools that support the creation of original content in them: things like spellcheckers, grammar checkers and dictionaries, including importantly monolingual dictionaries. Minority languages need technology for moving content from one modality to another while keeping it in the same language: speech synthesis, speech recognition, optical character recognition. Minority languages need technology for disseminating content, which in this day and age means online media, web TV, internet radio. Finally, minority languages need technology that normalizes the use of the language in public and in as many domains as possible (by ‘normalize’ I mean ‘create the impression that it is normal, not strange, not weird’), which in the IT industry implies localized software: Windows, Facebook, your favourite word processor.
+
+These are the tools the language technology industry needs to provide in order to support language revival. What they have in common is that they work ‘inside’ the language. They enable speakers of the minority language to have a life in the language. They facilitate contact with other speakers, they make possible the emergence of a language community engaged in a constant conversation with itself. A language that has this is a language worth using, learning and not forgetting, not for its own sake but for the sake of what’s said and written in it.
+
+Only when all this has been provided and taken care of is the right time to start pouring money and effort into machine translation.
