@@ -12,9 +12,9 @@
 <title>Breathing new life into old data: how to retro-digitize a dictionary</title>
 <meta itemprop="name" content="Breathing new life into old data: how to retro-digitize a dictionary"/>
 <meta name="og:title" content="Breathing new life into old data: how to retro-digitize a dictionary"/>
-<meta name="description" content="I have recently worked on a project where we retro-digitized two Irish dictionaries and published them on the web, so I thought it would be a good idea to summarize my experience here. Hopefully somebody somewhere will find it useful."/>
-<meta itemprop="description" content="I have recently worked on a project where we retro-digitized two Irish dictionaries and published them on the web, so I thought it would be a good idea to summarize my experience here. Hopefully somebody somewhere will find it useful."/>
-<meta name="og:description" content="I have recently worked on a project where we retro-digitized two Irish dictionaries and published them on the web, so I thought it would be a good idea to summarize my experience here. Hopefully somebody somewhere will find it useful."/>
+<meta name="description" content="I have recently worked on a project where we retro-digitized two Irish dictionaries and published them on the web, so I thought it would be a good idea to summarize my experience here."/>
+<meta itemprop="description" content="I have recently worked on a project where we retro-digitized two Irish dictionaries and published them on the web, so I thought it would be a good idea to summarize my experience here."/>
+<meta name="og:description" content="I have recently worked on a project where we retro-digitized two Irish dictionaries and published them on the web, so I thought it would be a good idea to summarize my experience here."/>
 <meta name="article:author" content="Michal Měchura"/>
 <meta name="article:published_time" content="2014-01-04"/>
 <!--end metatags-->
@@ -31,12 +31,12 @@
 <h2>Step 1: Getting your hands on the text</h2>
 <p>We were lucky to already have access to machine-readable versions of the two dictionaries, so no scanning or OCRing was necessary. In the case of <em>English-Irish Dictionary</em> (EID from now on), the text had already been scanned, OCRed, proof-read and even marked-up into a fairly detailed XML structure before it landed on my desk. The trouble was that much of that structure had been lost again in the process of proof-reading the text: people were using Microsoft Word which only preserved some of the structure, basically just bold and italics and not much more. Still, better than starting from paper.</p>
 <p><em>Foclóir Gaeilge-Béarla</em> (FGB from now on) was a different matter. I had access to a typesetting file from which the dictionary had originally been printed. I have no idea where that file came from but I assume it was the output of some early DTP software. It contained the entire text of the dictionary interlaced with formatting mark-up which was quite unlike anything I had seen before (see pic 1). But luckily it was not hard to make sense of and, again, this was a lot better than starting from paper. In fact, it was better than starting from OCRed text because you could take for granted that there were no spelling errors – none that wouldn’t be in the printed version too, at least.</p>
-<figure class="undefined"><img src="pic1.gif" alt=""><figcaption>Pic 1: FGB in typesetting format</figcaption></figure>
+<figure class="undefined"><div><img src="pic1.gif" alt=""></div><figcaption>Pic 1: FGB in typesetting format</figcaption></figure>
 <h2>Step 2: Structuring the entries</h2>
 <p>Modern born-digital dictionaries often have a complex and explicit structure, usually encoded in XML, where each entry is subdivided into senses, usage examples, various kinds of sub-entries, grammatical labels and so on. You can forget about all that when dealing with a paper-born dictionary though: the entries are just paragraphs of text, sometimes with surface formatting like bold and italics, but very little explicit structure beyond that. As a retro-digitizer, you need to be able to infer just enough structure from this to produce something useful, something that beats paper.</p>
-<figure class="undefined"><img src="pic2.gif" alt=""><figcaption>Pic 2: FGB converted into semi-structured data</figcaption></figure>
+<figure class="undefined"><div><img src="pic2.gif" alt=""></div><figcaption>Pic 2: FGB converted into semi-structured data</figcaption></figure>
 <p>In FGB, I was able to use the formatting codes from the typesetting file to infer where one sense ended and another began, where one usage example ended and another began, what was a grammatical label and what was a translation, and so on. Pic 2 shows an example entry in its original formatting (you can see it’s basically just text with bold and italics), with the inferred structure indicated by colour-coding and superscripts. The accuracy was so high that we decided not to do any manual proof-reading, at least not for now.</p>
-<figure class="undefined"><img src="pic3.gif" alt=""><figcaption>Pic 3: EID in markdown notation</figcaption></figure>
+<figure class="undefined"><div><img src="pic3.gif" alt=""></div><figcaption>Pic 3: EID in markdown notation</figcaption></figure>
 <p>EID was a tougher beast to tame. Even though I was able to infer a lot of structure too, the accuracy was far from acceptable and we decided we needed to do a fair bit of manual proof-reading and correction. The question was, how? The lexicographers on our team, highly able as they are, couldn’t be expected to edit raw XML. There was no time to look for a suitable editorial GUI as the deadline was looming large. So, in a sudden fit of inspiration, I devised a plain-text notation that was explicit enough structurally while still being readable by humans. Pic 3 shows an example. There are various notational conventions: square brackets enclose text in the target language (Irish), double square brackets in the source language (English), an ampersand @ says the rest of the line is a usage example, and so on. I think I may have accidentally invented a <a href="http://en.wikipedia.org/wiki/Markdown">markdown</a> format for dictionaries. With a plain-text editor and a team of several people, we were able to proof-read the entire dictionary in a few weeks and bring the structural mark-up to an acceptable level of accuracy.</p>
 <p>Our strategy in both dictionaries was to mark up the text without altering it. We wanted to keep the text exactly as it appeared in the printed version. The other option would be to reinterpret and restructure the entries to bring them closer to modern lexicographic standards, but we did not dare to do that.</p>
 <h2>Step 3: Wrapping it up in a pretty website</h2>
@@ -47,7 +47,10 @@
 <p>Provided, yes. Digitizing old data can be a nightmare. The data had been written entirely by humans, so you must expect annoying little inconsistencies everywhere. There will be grammatical labels that nobody knows what they mean, there will be gaps in homonym numbering, there will be dead cross-references. All this will conspire to limit what you can do in terms of structure, mark-up and search. So it’s a game of finding a good balance between what’s desirable and what’s possible. I hope the balance we have found for FGB and EID is good.</p>
 
 <!--end body-->
-      <div id="backstop"><a href="../"></a></div>
+      <div id="sig">
+        <a class="backstop" href="../"></a>
+        <!--begin myrole--><!--end myrole--> <a href="../">Michal Měchura</a>, <!--begin date-->2014-01-04, <!--end date--> <a class="initialism" href="https://creativecommons.org/licenses/by-sa/3.0/ie/deed.en">CC BY-SA</a>
+      </div>
     </div>
   </body>
 </html>

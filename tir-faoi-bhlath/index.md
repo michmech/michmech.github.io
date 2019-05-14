@@ -1,7 +1,7 @@
 ---
-<!-- modified: 2015-11-13 -->
 published: 2012-01-07
 author: Václav Havel
+myrole: Aistrithe ag
 title: Níl ár dtír faoi bhláth
 blurb: An chéad óráid theilifísithe de chuid Václav Havel, Uachtarán na Seicslóvaice, 1 Eanáir 1990
 ---
@@ -10,11 +10,9 @@ blurb: An chéad óráid theilifísithe de chuid Václav Havel, Uachtarán na Se
 
 Václav Havel {.subtitle}
 
----
+![](vaclav-havel.jpg) {.center}
 
 Fuair [Václav Havel](http://ga.wikipedia.org/wiki/V%C3%A1clav_Havel) bás 18 Nollaig 2011 – an chéad uachtarán daonlathach a bhí ag an tSeicslóvaic tar éis imeacht na deachtóireachta cumannaí agus príomhphearsa sa ghluaiseacht i gcoinne na deachtóireachta céanna. Bhí meas agam ar Václav Havel riamh toisc nár pholaiteoir den ghnáthdhéanamh é. Intleachtóir ab ea é thar aon rud eile, duine meabhrach a raibh an coinsias mar chompás aige. Ní landálfadh duine mar seo sa pholaitíocht ach faoi chúinsí thar a bheith eisceachtúla. Ach bhí na cúinsí eisceachtúil, landáil Václav Havel sa pholaitíocht, agus ba chun sochair na tíre agus an domhain é. Ní thagann polaiteoir mar seo chun cinn i saol náisiúin ach uair i ngach 100 bliain, más chomh minic sin féin é. {.meta}
-
-![Václav Havel](vaclav-havel.jpg) {.center}
 
 Ba mhór le Václav Havel prionsabail ar nós na gceart daonna, na cothromaíochta agus na fírinne. Chuir sé iad seo roimh Realpolitik na bpáirtithe agus tharraing sé aird orthu fiú nuair nár thaitin sé lena mhuintir féin: mar shampla, bhí sé de shíor ag tarraing airde ar dhíbirt na nGearmánach as an tSeicslóvaic tar éis an Dara Cogadh Domhanda, cé gur chuir sé sin míchompord ar mhuintir na Seicslóvaice féin. {.meta}
 

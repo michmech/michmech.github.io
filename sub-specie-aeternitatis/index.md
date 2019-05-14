@@ -1,7 +1,7 @@
 ---
-<!-- modified: 2015-11-13 -->
 published: 2018-12-30
 author: Pavel Eisner
+myrole: Aistrithe ag
 title: Sub Specie Aeternitatis
 blurb: Aiste leis an teangeolaí Seiceach Pavel Eisner a amharcann ar athbheochan na Seicise agus ar a bhfuil i ndán feasta di féin agus do mhionteangacha eile.
 ---

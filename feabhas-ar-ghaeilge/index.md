@@ -1,16 +1,16 @@
 ---
-<!-- modified: 2015-11-13 -->
 published: 2014-04-24
 author: Michal Měchura
+myrole:
 title: Caithfidh tú feabhas a chur ar do chuid Gaeilge!
-<!-- blurb:  -->
+blurb:
 ---
 
 # Caithfidh tú feabhas a chur ar do chuid Gaeilge!
 
 Tá creatlach an scéil seo goidte agam ó scéal a léigh mé sa nuachtán Frankfurter Allgemeine Zeitung le déanaí. An Ghearmáinis a bhí in áit na Gaeilge ansin. {.meta}
 
----
+![](imzug.jpg){.center}
 
 Bhí beirt ar an traein, iad suite ar aghaidh a chéile. Dhá ríomhaire glúine oscailte acu. Dhá ghuthán cliste ar an bhord. Dhá chupán caife Starbucks taobh leo. Léine bhán agus casóg dhubh orthu araon, carbhat air siúd, gan carbhat uirthi féin. Bhí siad sáite ina gcuid ríomhairí, ag clóscríobh leo.
 

@@ -11,6 +11,13 @@ buildArticle("tir-faoi-bhlath");
 buildArticle("feabhas-ar-ghaeilge");
 buildArticle("maru-na-muice");
 buildArticle("support-don-ghaeilge");
+buildArticle("bip-bip-bip");
+buildArticle("cogadh-ar-phrinteiri");
+buildArticle("awesome-irish");
+buildArticle("up-and-down");
+buildArticle("diacritic");
+buildArticle("linguistic-relativity");
+buildArticle("flags-as-language-symbols");
 
 function buildIndex(){
   var raw=fs.readFileSync("./index.md", "utf8");
@@ -49,19 +56,22 @@ function buildArticle(dir){
   if(metadata.published){
     metatags+=`<meta name="article:published_time" content="${metadata.published}"/>\n`;
   }
-  if(metadata.modified){
-    metatags+=`<meta name="article:modified_time" content="${metadata.modified}"/>\n`;
-  }
   var html=fs.readFileSync("./sample-article/index.html", "utf8");
   html=html.replace(/(<!--begin metatags-->\n).*(<!--end metatags-->)/s, function(m, $1, $2){ return $1+metatags+$2; });
   html=html.replace(/(<!--begin body-->\n).*(<!--end body-->)/s, function(m, $1, $2){ return $1+body+$2; });
+  if(metadata.published){
+    html=html.replace(/(<!--begin date-->).*(<!--end date-->)/, function(m, $1, $2){ return $1+metadata.published+", "+$2; });
+  }
+  if(metadata.myrole){
+    html=html.replace(/(<!--begin myrole-->).*(<!--end myrole-->)/, function(m, $1, $2){ return $1+metadata.myrole+$2; });
+  }
   fs.writeFileSync(dir+"/index.html", html, "utf8");
 }
 
 function doMarkdown(str){
   //markup images in my own way:
   str=str.replace(/\!\[([^\]]*)\]\(([^\)]+)\)\s*(\{\.(([^\}]+))\})?/g, function(m, caption, filename, x, className){
-    return `<figure class="${className}"><img src="${filename}" alt=""><figcaption>${caption}</figcaption></figure>\n\n`;
+    return `<figure class="${className}"><div><img src="${filename}" alt=""></div><figcaption>${caption}</figcaption></figure>\n\n`;
   });
   //markdown to HTML:
   str=md.render(str);

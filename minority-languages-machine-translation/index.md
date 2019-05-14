@@ -1,7 +1,7 @@
 ---
-<!-- modified: 2015-11-13 -->
 published: 2015-11-13
 author: Michal Měchura
+myrole:
 title: Do minority languages need machine translation?
 blurb: I want to bust the myth that machine translation is necessary for the revival of minority languages.
 ---
@@ -10,7 +10,7 @@ blurb: I want to bust the myth that machine translation is necessary for the rev
 
 This is an abbreviated transcript of a talk I gave at a [British-Irish Council](http://www.britishirishcouncil.org/) conference on language technology in indigenous, minority and lesser-used languages in Dublin in November 2015 under the title ‘Do minority languages need the same language technology as majority languages?’ I wanted to bust the myth that machine translation is necessary for the revival of minority languages. {.lead}
 
-![A sign in Dublin Airport](be-patient.jpg)
+![A sign in Dublin Airport](be-patient.jpg) {.center}
 
 This sign, which you could find in Dublin airport at one stage until public outcry forced the authorities to change it, is meant to be bilingual but the Irish version – which is probably machine-translated from English – is nothing more than word salad. Apart from the grammar being so jumbled up that it’s virtually incomprehensible, it translates the adjective ‘patient’ with a noun meaning ‘hospital patient’. This is not an exception: botched signs like this are common in Ireland and probably outnumber correct ones. While some are produced by incompetent humans the old-school way, many are machine-translated. Their proliferation is a consequence of widely available machine translation in deadly combination with irresponsible people who don’t understand its limitations.
 

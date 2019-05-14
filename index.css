@@ -1,5 +1,8 @@
 body {margin: 0px; padding: 0px; border-top: 2px solid #209CEE; background-color: #f6f6f6; font-family: Helvetica, sans-serif; font-size: 1.3rem; line-height: 1.5em; text-shadow: 1px 1px 0px #ffffff;}
 div#body {max-width: 1040px; margin: 0px auto; padding: 0px 20px;}
+@media print{
+	div#body {max-width: auto; padding: 0px;}
+}
 
 div#homelink {margin-bottom: 50px;}
 div#homelink > a {
@@ -8,26 +11,33 @@ div#homelink > a {
 }
 div#homelink > a:hover {background-position: center bottom+1px;}
 
-div#backstop {margin: 50px 0px; text-align: right;}
-div#backstop > a {
-  display: inline-block; height: 25px; width: 75px; background-color: #209CEE; border-radius: 2px;
+div#sig {color: #445566; margin: 0 0 100px 0; border-top: 1px solid #cccccc; padding-top: 1em;}
+div#sig > a.backstop {
+  float: right; margin-top: 2px;
+  display: inline-block; height: 30px; width: 100px; background-color: #209CEE; border-radius: 2px;
   background-image: url(favicon-16x16.png); background-position: center left+5px; background-repeat: no-repeat;
 }
-div#backstop > a:hover {background-position: center left+6px;}
+div#sig > a.backstop:hover {background-position: center left+6px;}
 
 h1 {font-size: 2em; line-height: 1.15em;}
 p.subtitle {font-size: 1.15em; line-height: 1.65em; color: #445566; margin-top: -1em; margin-bottom: 1em;}
 h2 {font-size: 1.5em; line-height: 1.15em; margin: 1.25em 0 0.75em 0;}
-p {margin: 1em 0;}
-hr {border: 0px; height: 1px; background-color: #cccccc;}
+p {margin: 0 0 1em 0px;}
+hr {border: 0px; border-top: 1px solid #cccccc; margin-bottom: 1em;}
 
 a {color: #0f6ba8; text-decoration: none;}
 a:hover {color: #209CEE;}
 p.lead {font-size: 1.15em; line-height: 1.65em; color: #445566}
 p.meta {color: #445566}
 
-figure {margin: 2em 0px}
-figure img {max-width: 100%; border-radius: 2px; border: 1px solid #999999;}
-figure figcaption {color: #999999; font-size: 0.9em}
-figure.floatLeft {float: left; margin-right: 1.75em; margin-top: 1em;}
+figure {margin: 2em 0px;}
+figure img {max-width: 100%; border-radius: 4px; border: 1px solid #999999;}
+figure figcaption {color: #999999; font-size: 0.9em;}
+figure.floatLeft {float: left; margin-right: 1.75em; margin-top: 0; padding-top: 10px;}
+figure.floatRight {float: right; margin-left: 1.75em; margin-top: 0; padding-top: 10px;}
 figure.center {text-align: center;}
+figure.center > div {background-color: #999999; line-height: 0; border-radius: 4px; border: 1px solid #999999;}
+figure.center > div > img {border: 0; border-radius: 0px;}
+figure.center figcaption {margin-top: 10px;}
+
+.initialism {font-size: 0.9em;}

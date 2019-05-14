@@ -1,14 +1,18 @@
 ---
-<!-- modified: 2015-11-13 -->
 published: 2015-06-15
 author: Michal Měchura
+myrole:
 title: Petition le haghaidh support don Ghaeilge
-<!-- blurb:  -->
+blurb:
 ---
 
 # Petition le haghaidh support don Ghaeilge
 
 Bunaithe ar [Aufruf zum Support der deutschen Sprache](https://dolmetscher-berlin.blogspot.com/2009/04/aufruf-zum-support-der-deutschen-sprache.html) {.subtitle}
+
+---
+
+![](petition.jpg){.floatRight}
 
 Ní ag insiders amháin atá a fhios gur underperformer í an tír seo sna ratings idirnáisiúnta. Má leanann cúrsaí mar atá, bainfear dínn ár status mar global player agus cuirfear an way of life againn i gcontúirt.
 
