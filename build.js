@@ -61,7 +61,7 @@ function buildArticle(dir){
 function doMarkdown(str){
   //markup images in my own way:
   str=str.replace(/\!\[([^\]]*)\]\(([^\)]+)\)\s*(\{\.(([^\}]+))\})?/g, function(m, caption, filename, x, className){
-    return `<figure class="${className}"><img src="${filename}" alt=""><figcaption>${caption}</figcaption></figure>`;
+    return `<figure class="${className}"><img src="${filename}" alt=""><figcaption>${caption}</figcaption></figure>\n\n`;
   });
   //markdown to HTML:
   str=md.render(str);

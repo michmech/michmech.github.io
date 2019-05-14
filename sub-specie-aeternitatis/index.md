@@ -8,7 +8,9 @@ blurb: Aiste leis an teangeolaí Seiceach Pavel Eisner a amharcann ar athbheocha
 
 # Sub Specie Aeternitatis
 
-Aiste é seo leis an teangeolaí Seiceach [Pavel Eisner](http://en.wikipedia.org/wiki/Pavel_Eisner) a amharcann ar athbheochan na Seicise agus ar a bhfuil i ndán feasta di féin agus do mhionteangacha eile. Cé gur sa bhliain 1946 a céadfhoilsíodh an téacs, tá na conclúidí chomh ábhartha céanna inniu. Mise a d’aistrigh agus ghiorraigh de bheagán. {.lead}
+Pavel Eisner {.subtitle}
+
+Aiste é seo leis an teangeolaí Seiceach [Pavel Eisner](http://en.wikipedia.org/wiki/Pavel_Eisner) a amharcann ar athbheochan na Seicise agus ar a bhfuil i ndán feasta di féin agus do mhionteangacha eile. Cé gur sa bhliain 1946 a céadfhoilsíodh an téacs, tá na conclúidí chomh ábhartha céanna inniu. Mise a d’aistrigh agus ghiorraigh de bheagán. {.meta}
 
 ---
 
