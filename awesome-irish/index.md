@@ -3,7 +3,7 @@ published: 2014-09-15
 author: Michal Měchura
 myrole:
 title: 10 reasons why Irish is an absolutely awesome language
-blurb:
+blurb: And these are proper linguistic reasons, too – none of that starry-eyed sentimental nonsense about the language being ‘beautiful’ or ‘romantic’.
 ---
 
 # 10 reasons why Irish is an absolutely awesome language

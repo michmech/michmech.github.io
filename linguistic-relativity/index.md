@@ -3,7 +3,7 @@ published: 2009-08-16
 author: Michal Měchura
 myrole:
 title: Linguistic relativity: fact or wishful thinking?
-blurb: Most linguists secretly wish the Sapir-Whorf Hypothesis to be true. Is it?
+blurb: Most linguists secretly wish the Sapir-Whorf Hypothesis to be true. But is it?
 ---
 
 # Linguistic relativity: fact or wishful thinking?

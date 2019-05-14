@@ -3,7 +3,7 @@ published: 2015-06-15
 author: Michal Měchura
 myrole:
 title: Petition le haghaidh support don Ghaeilge
-blurb:
+blurb: Ní ag insiders amháin atá a fhios gur underperformer í an tír seo sna ratings idirnáisiúnta.
 ---
 
 # Petition le haghaidh support don Ghaeilge

@@ -3,7 +3,7 @@ published: 2014-07-29
 author: Michal Měchura
 myrole:
 title: Fearaim cogadh ar phrintéirí!
-blurb:
+blurb: Cogar seo liom: conas go bhfuil muid ábalta duine a chur ag spaisteoireacht ar dhroim na gealaí, ach níl muid in ann printéir a chruthú a dhéanfadh a chuid oibre gan coraí gan gearán ar feadh cúig lá as a chéile?
 ---
 
 # Fearaim cogadh ar phrintéirí!

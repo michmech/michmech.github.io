@@ -1,0 +1,1029 @@
+[
+	{
+		"id": "http://zotero.org/users/4089510/items/PE7N65KK",
+		"type": "book",
+		"title": "An Ríomhaire Ilteangach",
+		"publisher": "Cois Life",
+		"publisher-place": "Dublin",
+		"number-of-pages": "145",
+		"event-place": "Dublin",
+		"abstract": "Treoirleabhar don teicneolaíocht teanga atá dírithe ar an léitheoir ginearálta. Léitheoireacht riachtanach é seo do gach duine a láimhseálann breis is teanga amháin ar an ríomhaire. |  A guide to language technology for general readers. This book is required reading for everybody who uses more than one language on their computer.",
+		"URL": "http://www.lexiconista.com/arit/",
+		"ISBN": "978-1-907494-70-3",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/QP9U6FF3",
+		"type": "paper-conference",
+		"title": "Data Structures in Lexicography: from Trees to Graphs",
+		"container-title": "Recent Advances in Slavonic Natural Language Processing",
+		"abstract": "In lexicography, a dictionary entry is typically encoded in XML as a tree: a hierarchical data structure of parent-child relations where every element has at most one parent. This choice of data structure makes some aspects of the lexicographer’s work unnecessarily difficult, from deciding where to place multi-word items to reversing anentire bilingual dictionary. This paper proposes that these and other notorious areas of difficulty can be made easier by remodelling dictionaries as graphs rather than trees. However, unlike other authors who have proposed a radical departure from tree structures and whose proposals have remained largely unimplemented, this paper proposes a conservative compromise in which existing tree structures become augmented with specific types of inter-entry relations designed to solve specific problems.",
+		"URL": "http://www.lexiconista.com/raslan2016.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"editor": [
+			{
+				"family": "Horák",
+				"given": "Aleš"
+			},
+			{
+				"family": "Rychlý",
+				"given": "Pavel"
+			},
+			{
+				"family": "Rambousek",
+				"given": "Adam"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/WRN42C8H",
+		"type": "speech",
+		"title": "Towards a database of Irish surnames",
+		"event": "25th Spring Conference of the Society for Name Studies in Britain and Ireland",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			},
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			},
+			{
+				"family": "Ní Loingsigh",
+				"given": "Katie"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/Z9CSQIW4",
+		"type": "speech",
+		"title": "Things to think about when building a dictionary website",
+		"publisher-place": "Barcelona, Catalonia",
+		"event": "European Network of e-Lexicography",
+		"event-place": "Barcelona, Catalonia",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/4BI4RP7M",
+		"type": "paper-conference",
+		"title": "Irish National Morphology Database: a high-accuracy open-source dataset of Irish words",
+		"container-title": "Proceedings of the First Celtic Language Technology Workshop",
+		"abstract": "The Irish National Morphology Database is a human-verified, Official Standard-compliant dataset containing the inflected forms and other morphosyntactic properties of Irish nouns,adjectives, verbs and prepositions. It is being developed by Foras na Gaeilge as part of the New English-Irish Dictionary project. This paper introduces this dataset and its accompanying software library Gramadán.",
+		"URL": "http://www.lexiconista.com/gramadan-cltw-2014.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"editor": [
+			{
+				"family": "Judge",
+				"given": "J."
+			},
+			{
+				"family": "Lynn",
+				"given": "T."
+			},
+			{
+				"family": "Ward",
+				"given": "M."
+			},
+			{
+				"family": "Raghallaigh",
+				"given": "B. Ó"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/DAP36QII",
+		"type": "paper-conference",
+		"title": "The logainm.ie Placenames Database of Ireland: Software demonstration",
+		"publisher": "Dublin City University",
+		"page": "115–122",
+		"event": "Placenames Workshop 2012",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			},
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			}
+		],
+		"editor": [
+			{
+				"family": "Lochlainn",
+				"given": "M. Nic"
+			},
+			{
+				"literal": "B. Ó Raghallaigh"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/CIBAQI9P",
+		"type": "speech",
+		"title": "Idir foclóir agus léarscáil: Bunachar Logainmneacha na hÉireann",
+		"publisher-place": "Waterford, Ireland",
+		"event": "Daonscoil na Mumhan",
+		"event-place": "Waterford, Ireland",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/2XTGI88X",
+		"type": "paper-conference",
+		"title": "Léacslann: a platform for building dictionary writing systems",
+		"container-title": "Proceedings of the 15th Euralex International Congress",
+		"publisher": "University of Oslo",
+		"publisher-place": "Oslo",
+		"page": "855–861",
+		"event-place": "Oslo",
+		"abstract": "The  purpose  of  this  demo  is  to  introduce Léacslann,  a  new  platform  for  building  dictionary  writing  systems (DWS) and terminology management systems (TMS) as well as other lexicographic and reference applications. Léacslann  can  be  used  without  anyknowledge  of  programming  to  create  a  basic  lexical  database  with  an arbitrary structure. This will be demonstrated in the first half of the demo, while the second half will show how a software developer can customize Léacslann for more demanding applications.",
+		"URL": "http://www.lexiconista.com/EuralexOslo2012.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"editor": [
+			{
+				"family": "Fjeld",
+				"given": "R. V."
+			},
+			{
+				"family": "Torjusen",
+				"given": "J. L."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/UEF6JJAP",
+		"type": "speech",
+		"title": "Landscapes, languages and data structures: Issues in building the Placenames Database of Ireland",
+		"publisher-place": "Hamburg, Germany",
+		"event": "Digital Humanities Conference",
+		"event-place": "Hamburg, Germany",
+		"URL": "http://lecture2go.uni-hamburg.de/konferenzen/-/k/13986",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/FB4KIXCJ",
+		"type": "paper-conference",
+		"title": "How to build a termbase for 500,000 users (and live to tell the story)",
+		"container-title": "Proceedings of Terminology and Knowledge Engineering (TKE) Conference",
+		"publisher": "Dublin City University",
+		"publisher-place": "Dublin, Ireland",
+		"page": "9–10",
+		"event-place": "Dublin, Ireland",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			},
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			}
+		],
+		"editor": [
+			{
+				"family": "Bhreathnach",
+				"given": "Úna"
+			},
+			{
+				"family": "Barra-Cusack",
+				"given": "Fionnuala",
+				"non-dropping-particle": "de"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/FCWSPINK",
+		"type": "paper-conference",
+		"title": "When definitions are not enough",
+		"container-title": "Proceedings of Terminology and Knowledge Engineering (TKE) Conference",
+		"publisher": "Dublin City University",
+		"page": "81–92",
+		"abstract": "This paper introduces Compositional Term Diagrams (CTDs) as a formalism for analysing the structure of multi-word terms. CTDs have the potential to help terminologists resolve ambiguities related to transitivity (“who does what to whom”), modification (“what modifies what”) and evocation (“which sense is evoked by this word?”).",
+		"URL": "http://www.lexiconista.com/TKE2010definitions.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"editor": [
+			{
+				"family": "Bhreathnach",
+				"given": "Úna"
+			},
+			{
+				"family": "Barra-Cusack",
+				"given": "Fionnuala",
+				"non-dropping-particle": "de"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/RBZGXHF5",
+		"type": "paper-conference",
+		"title": "The Focal.ie National Terminology Database for Irish",
+		"container-title": "Proceedings of the 14th Euralex International Congress",
+		"publisher": "Fryske Akademy",
+		"publisher-place": "Ljouwert/Leeuwarden",
+		"page": "937–948",
+		"event-place": "Ljouwert/Leeuwarden",
+		"URL": "http://www.lexiconista.com/FocalDemoEuralex2010.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			},
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			}
+		],
+		"editor": [
+			{
+				"family": "Dykstra",
+				"given": "A."
+			},
+			{
+				"family": "Schoonheim",
+				"given": "T."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/IBESPPGN",
+		"type": "paper-conference",
+		"title": "What WordNet does not know about selectional preferences",
+		"container-title": "Proceedings of the 14th Euralex International Congress",
+		"publisher": "Fryske Akademy",
+		"publisher-place": "Ljouwert/Leeuwarden",
+		"page": "431-436",
+		"event-place": "Ljouwert/Leeuwarden",
+		"abstract": "Selectional preferences are the tendencies of words to co-occur with other words that belong to certain semantictypes. In this paper, I will investigate how closely these corpus-attested preferences correspond to WordNet. For example, for all possible direct objects of cancel, is there a single category (or a union of several categories) in WordNet that subsumes them, and only them? Selectional preferences manifest themselves in authentic texts andcan be revealed through corpus analysis. I will introduce an experimental tool I have built which attempts to do this automatically by aligning corpus-extracted lists of collocates (for example a list of the direct objects of cancel) with WordNet. The strength of this method is that it can discover and name selectional preferences automatically, but its weakness is that it can only do so when WordNet contains a suitable category. We will see that WordNet often lacks a category (or even a union of several categories) that fully corresponds to an attested selectional preference – for example, there is no category in WordNet that includes all the kinds of events that can be direct objects of cancel (meeting, wedding, concert etc.) but excludes those that cannot (accident, sunset, invention etc.).",
+		"URL": "http://www.lexiconista.com/EuralexLeeuwarden2010.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"editor": [
+			{
+				"family": "Dykstra",
+				"given": "A."
+			},
+			{
+				"family": "Schoonheim",
+				"given": "T."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/ZA7FEVEC",
+		"type": "speech",
+		"title": "Tabhair dom a bhfuil uaim: conas inneall cuardaigh a thógáil d'fhoclóir leictreonach",
+		"publisher-place": "Baile Bhuirne, Ireland",
+		"event": "Imbolc",
+		"event-place": "Baile Bhuirne, Ireland",
+		"URL": "http://imbolc.ie/2010/04/michal-mechura/",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/VSAZTPPW",
+		"type": "speech",
+		"title": "User-Friendliness: the key to promoting a minority language on the Internet",
+		"publisher-place": "Tartu, Estonia",
+		"event": "12th International Conference on Minority Languages",
+		"event-place": "Tartu, Estonia",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			},
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009",
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/Z9NMCNBI",
+		"type": "paper-conference",
+		"title": "Giving them what they want: search strategies for electronic dictionaries",
+		"container-title": "Proceedings of the 13th Euralex International Congress",
+		"publisher": "Universitat Pompeu Fabra",
+		"publisher-place": "Barcelona",
+		"page": "1295–1299",
+		"event-place": "Barcelona",
+		"abstract": "This paper deals with how humans search electronic dictionaries. It raises the point that users often make dictionary searches with misspellings, with inflected words copied and pasted from elsewhere, with complete sentences or fragments thereof, and with other kinds of low-quality input, and suggests methods for dealing with such phenomena in a pre-emptive manner. The issues addressed include searching with inflections, dealing with multi-word items, misspelling detection and text normalization. Additionally, the value of log files is emphasized as a source of information on user behaviour.",
+		"URL": "http://www.lexiconista.com/EuralexBarcelona2008.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"editor": [
+			{
+				"family": "Bernal",
+				"given": "E."
+			},
+			{
+				"family": "DeCesaris",
+				"given": "J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/JM7ZABS4",
+		"type": "speech",
+		"title": "Cá bhfuil mo shínte fada? – ionchódú téacs ar ríomhairí",
+		"publisher-place": "Dublin, Ireland",
+		"event": "Engineers Ireland",
+		"event-place": "Dublin, Ireland",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/9GBW4C8M",
+		"type": "article-magazine",
+		"title": "Ionchódú Téacs ar Ríomhairí",
+		"container-title": "Comhar",
+		"page": "13–16",
+		"volume": "67",
+		"issue": "8",
+		"URL": "http://www.lexiconista.com/IonchoduTeacsArRiomhairi.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/QKP56ND3",
+		"type": "article-magazine",
+		"title": "Localization into Irish",
+		"container-title": "Multilingual Computing and Technology",
+		"page": "53–56",
+		"volume": "18",
+		"issue": "7",
+		"URL": "http://www.lexiconista.com/LocalizationWithIrish.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007",
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/Z2BA4QQD",
+		"type": "paper-conference",
+		"title": "Finding the right structure for lexicographical data: experiences from a terminology project",
+		"container-title": "Proceedings of the 13th Euralex International Congress",
+		"publisher": "Edizioni dell'Orso",
+		"publisher-place": "Turin",
+		"page": "189–198",
+		"event-place": "Turin",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"editor": [
+			{
+				"family": "Corino",
+				"given": "E."
+			},
+			{
+				"family": "Martello",
+				"given": "C."
+			},
+			{
+				"family": "Onesti",
+				"given": "C."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2006",
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/WSZ7SAR2",
+		"type": "manuscript",
+		"title": "Irská národní folklorní sbírka: jak (ne)zdigitalizovat 300 000 rukopisných stránek",
+		"URL": "http://www.lexiconista.com/duchas2016.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/XHFC3A5U",
+		"type": "report",
+		"title": "Bunachar Náisiúnta Moirfeolaíochta agus Gramadán: Doiciméadúchán Teicniúil",
+		"publisher": "Foras na Gaeilge",
+		"URL": "http://www.teanglann.ie/data/gramadan.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/EFB362NS",
+		"type": "report",
+		"title": "Introduction to Gramadán and the Irish National Morphology Database",
+		"publisher": "Foras na Gaeilge",
+		"URL": "http://www.teanglann.ie/data/gramadan-en.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/FNX27DWV",
+		"type": "manuscript",
+		"title": "Building XML Editing Applications with Xonomy",
+		"URL": "http://www.lexiconista.com/Xonomy/xonomy.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			],
+			"season": "2017"
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/ZM3XM6SQ",
+		"type": "report",
+		"title": "Léacslann Tutorial",
+		"publisher": "Dublin City University",
+		"URL": "http://lxln.prettydata.eu/SelfServiceUI/tutorial.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/TIC62MMV",
+		"type": "manuscript",
+		"title": "Uimhreacha na Gaeilge",
+		"abstract": "Sa saothar seo tá cuntasar iomlán na rialacha a bhaineann le húsáid uimhreacha sa Ghaeilge. Mar is eol donléitheoir, tá córas uimhreacha na Gaeilge an-chasta, rud a chuireann fonn ar lucht scríofa leabhar gramadaí a gcuid cuntas ar an chóras a shimpliú agus ceisteanna áirithe a fhágáil gan freagra soiléir mar bheadh an freagra casta agus deacair le tuiscint. Sa saothar seo, tá a mhalairt de chur chuige i gceist. Rinne mé iarracht cur síos a dhéanamh ar chóras na n-uimhreachaar bhealach atá chomh hiomlán agus is féidir, in ainneoin a chastachta. Fónfaidh an saothar seo don té atá ar thóir cruinnis.",
+		"URL": "http://www.lexiconista.com/Uimhreacha.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/42EVCMFD",
+		"type": "manuscript",
+		"title": "A practical guide for functional text analysis: Analyzing English texts for field, mode, tenor and communicative effectiveness",
+		"abstract": "This document provides a scheme for analyzing English texts from a functional perspective. The document contains information adapted from Chapters 8, 10 and 12 – 16 of Books 2 and 3 of the Open University course E303 English Grammar in Context as it was presented in 2005, as well as from the set book Longman Student Grammar of Spoken and Written English and from the course’s associated readings. Skills in functional analysis are developed in the course books; this document re-iterates in concise form the main points to consider when performing the analysis.",
+		"URL": "http://www.lexiconista.com/FunctionalTextAnalysis.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2005"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/VUIQECMA",
+		"type": "manuscript",
+		"title": "Czech–English translation difficulties arising from differences in word order",
+		"abstract": "This work deals with Czech-English translation difficulties that result from differences in word order between the syntax of the two languages. A functional framework is used to interpret the implications of the syntactical differences. Both English and Czech have a tendency to present given information at the beginning of a clause and new information at the end, but the flexibility of Czech word order makes it possible to observe this principle more consistently than English syntax makes possible. Additionally, Czech, unlike English, does not observe the end-weight principle and therefore long stretches of circumstantial information do not prefer to be placed at the end of a clause. Both these differences result in significant mismatches in word order between Czech clauses and their English translation equivalents.",
+		"URL": "http://www.lexiconista.com/EnglishCzechWordOrder.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2004"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/HRWU9TJ4",
+		"type": "thesis",
+		"title": "Selectional Preferences, Corpora and Ontologies",
+		"publisher": "Trinity College, University of Dublin",
+		"abstract": "This work presents a technique for exploring the selectional preferences ofwords in a semi-automatic way. The technique combines corpora with ontologiessuch as WordNet.The term selectional preference denotes a word’s tendency to co-occur withwords that belong to certain lexical sets. For example, the adjective delicious prefers to modify nouns that denote food and the verb marry prefers subjects and objects that denote humans. This work develops techniques for associating corpus-attested selectional preferences with concepts in an ontology. It shows how lexical sets can be derived from ontologies and how corpus-extracted collocates of a word can then be aligned with these lexical sets to reveal any selectional preferences the word has. An additional contribution provided here is an insight into the limitations of this method. The work presents evidence for the conclusion that aligning selectional preferences with an ontology is useful for some purposes, but fundamentally inaccurate because currently existing ontologies do not accurately reflect the mental categories evoked in selectional preferences.",
+		"URL": "http://www.lexiconista.com/diss.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/JJ8GAGZF",
+		"type": "speech",
+		"title": "Do minority languages need the same language technology as majority languages?",
+		"publisher-place": "Dublin Castle, Ireland",
+		"event": "British-Irish Council conference on language technology in indigenous, minority and lesser-used languages",
+		"event-place": "Dublin Castle, Ireland",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					11,
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/48DNB6J4",
+		"type": "paper-conference",
+		"title": "Towards a metadata infrastructure for online dictionaries",
+		"publisher-place": "Budapest",
+		"event": "European Network of e-Lexicography",
+		"event-place": "Budapest",
+		"URL": "http://www.lexiconista.com/towards-infrastructure.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					2,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/XGG6M825",
+		"type": "speech",
+		"title": "Ar thairseach na haoise digití: mionteangacha agus an ríomhaireacht",
+		"publisher-place": "Prague",
+		"event": "‘Ar an Imeall i Lár an Domhain?’: An tairseachúlacht i litríocht agus i gcultúr na hÉireann agus na hEorpa",
+		"event-place": "Prague",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					9,
+					14
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/EP979WSZ",
+		"type": "speech",
+		"title": "How (not) to build a European Dictionary Portal",
+		"publisher-place": "Leiden",
+		"event": "Final Conference of the European Network of e-Lexicography",
+		"event-place": "Leiden",
+		"URL": "http://www.elexicography.eu/events/meetings/final-action-conference/",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					9,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/DPVPSXGM",
+		"type": "paper-conference",
+		"title": "Introducing Lexonomy: an open-source dictionary writing and publishing system",
+		"publisher": "Electronic lexicography in the 21st century: Proceedings of eLex 2017 conference",
+		"publisher-place": "Leiden",
+		"page": "662–679",
+		"event-place": "Leiden",
+		"abstract": "This demo introduces Lexonomy (www.lexonomy.eu), a free, open-source, web-based dictionary writing and publishing system. In Lexonomy, users can take a dictionary project from initial set-up to final online publication in a completely self-service fashion, with no technical skills required and no financial cost.",
+		"URL": "http://www.lexonomy.eu/docs/elex2017.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					9,
+					20
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/RTRLVFVH",
+		"type": "paper-conference",
+		"title": "Shareable Subentries in Lexonomy as a Solution to the Problem of Multiword Item Placement",
+		"container-title": "Proceedings of the XVIII EURALEX International Congress: Lexicography in Global Contexts",
+		"publisher-place": "Ljubljana, Slovenia",
+		"event": "EURALEX 2018",
+		"event-place": "Ljubljana, Slovenia",
+		"abstract": "This paper introduces a new way of dealing with phraseology in dictionaries. A classical question in lexicography is whether multiword items such as third time lucky should be listed under third, time or lucky. The ideal answer is ‘under all of them’ but, until now, the only way to do that in conventional tree-structured dictionaries has been to keep multiple copies (of what conceptually is one and the same item) in several places throughout the dictionary. We present a way to achieve the same goal without copying. The multiword item becomes a semi-independent subentry which exists in only one copy but appears simultaneously in several places in the dictionary. The structure of the dictionary remains a tree but the lexicographer is empowered to occasionally ‘break out’ of the tree in order to avoid duplication. This paper explains the reasoning behind the concept of shareable subentries and shows how this new functionality has been implemented in the dictionary writing system Lexonomy.",
+		"URL": "http://www.lexiconista.com/euralex2018.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/VK8QYWZF",
+		"type": "paper-conference",
+		"title": "Editing with Search and Exploration for Controlled Languages",
+		"container-title": "Proceedings of the Sixth International Workshop on Controlled Natural Language",
+		"collection-title": "Frontiers in Artificial Intelligence and Applications",
+		"publisher": "IOS Press",
+		"publisher-place": "Maynooth, Ireland",
+		"page": "1-10",
+		"volume": "304",
+		"event-place": "Maynooth, Ireland",
+		"abstract": "We present an editor for controlled languages which is a combination of a syntax editor and a predictive editor.",
+		"URL": "http://ebooks.iospress.nl/volumearticle/49764",
+		"DOI": "10.3233/978-1-61499-904-1-1",
+		"author": [
+			{
+				"family": "Angelov",
+				"given": "Krasimir"
+			},
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/4YK9KVJN",
+		"type": "speech",
+		"title": "Practical Post- Editing Lexicography with Lexonomy and Sketch Engine",
+		"event": "XVIII EURALEX International Congress: Lexicography in Global Contexts",
+		"author": [
+			{
+				"family": "Jakubíček",
+				"given": "Miloš"
+			},
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			},
+			{
+				"family": "Kovář",
+				"given": "Vojtěch"
+			},
+			{
+				"family": "Rychlý",
+				"given": "Pavel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/TKIR79R9",
+		"type": "speech",
+		"title": "One-Click Dictionary",
+		"event": "Electronic lexicography in the 21st century (eLex) conference",
+		"author": [
+			{
+				"family": "Jakubíček",
+				"given": "Miloš"
+			},
+			{
+				"family": "Kovář",
+				"given": "Vojtěch"
+			},
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			},
+			{
+				"family": "Rychlý",
+				"given": "Pavel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	}
+]

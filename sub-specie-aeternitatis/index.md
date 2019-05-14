@@ -1,5 +1,5 @@
 ---
-published: 2018-12-30
+published: 2008-12-30
 author: Pavel Eisner
 myrole: Aistrithe ag
 title: Sub Specie Aeternitatis

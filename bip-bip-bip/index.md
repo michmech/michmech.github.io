@@ -3,7 +3,7 @@ published: 2014-08-01
 author: Michal Měchura
 myrole:
 title: Bíp! Bíp! Bíp!
-blurb:
+blurb: Dúnmharfóir ar mire i mo theach! Cad a dhéanfaidh mé?
 ---
 
 # Bíp! Bíp! Bíp!

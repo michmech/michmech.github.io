@@ -3,7 +3,7 @@ published: 2014-01-04
 author: Michal Měchura
 myrole:
 title: Breathing new life into old data: how to retro-digitize a dictionary
-blurb: I have recently worked on a project where we retro-digitized two Irish dictionaries and published them on the web, so I thought it would be a good idea to summarize my experience here.
+blurb: What I learned from a project where we retro-digitized two Irish dictionaries and published them on the web.
 ---
 
 # Breathing new life into old data: how to retro-digitize a dictionary

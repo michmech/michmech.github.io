@@ -3,7 +3,7 @@ published: 2014-04-24
 author: Jacob agus Wilhelm Grimm
 myrole: Aistrithe ag
 title: Mar a d’imir páistí marú na muice
-blurb:
+blurb: Scéal do pháistí cróga ag na deartháireacha Grimm.
 ---
 
 # Mar a d’imir páistí marú na muice

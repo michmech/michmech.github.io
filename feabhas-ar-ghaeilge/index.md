@@ -3,7 +3,7 @@ published: 2014-04-24
 author: Michal Měchura
 myrole:
 title: Caithfidh tú feabhas a chur ar do chuid Gaeilge!
-blurb:
+blurb: Tá compliance sa supply chain ag dul in airde, ach tá fadhbanna i gcónaí le controlling agus outsourcing.
 ---
 
 # Caithfidh tú feabhas a chur ar do chuid Gaeilge!
