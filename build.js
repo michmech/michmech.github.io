@@ -7,21 +7,6 @@ const isDirectory=source => fs.lstatSync(source).isDirectory();
 const getDirectories=source => fs.readdirSync(source).map(name => path.join(source, name)).filter(isDirectory);
 
 buildIndex();
-// buildArticle("sample-article");
-// buildArticle("minority-languages-machine-translation");
-// buildArticle("retrodigitization");
-// buildArticle("sub-specie-aeternitatis");
-// buildArticle("tir-faoi-bhlath");
-// buildArticle("feabhas-ar-ghaeilge");
-// buildArticle("maru-na-muice");
-// buildArticle("support-don-ghaeilge");
-// buildArticle("bip-bip-bip");
-// buildArticle("cogadh-ar-phrinteiri");
-// buildArticle("awesome-irish");
-// buildArticle("up-and-down");
-// buildArticle("diacritic");
-// buildArticle("linguistic-relativity");
-// buildArticle("flags-as-language-symbols");
 
 function buildIndex(){
   var years={};

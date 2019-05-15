@@ -1,5 +1,14 @@
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
 body {margin: 0px; padding: 0px; border-top: 2px solid #209CEE; background-color: #f6f6f6; font-family: Helvetica, sans-serif; font-size: 1.3rem; line-height: 1.5em; text-shadow: 1px 1px 0px #ffffff;}
-div#body {max-width: 1040px; margin: 0px auto; padding: 0px 20px;}
+div#body {max-width: 1040px; margin: 0px auto; padding: 0px 25px;}
 @media print{
 	div#body {max-width: auto; padding: 0px;}
 }
@@ -20,6 +29,20 @@ div#sig > a.backstop {
 }
 div#sig > a.backstop:hover {background-position: center left+6px;}
 
+div#bio {}
+div#bio h1.name {margin-bottom: 0;}
+div#bio h1.name span.lingos {white-space: nowrap; display: inline-block; padding-top: 0.25em;}
+div#bio h1.name span.lingos span.lingo {font-size: 0.4em; font-weight: normal; border: 1px solid #999999; color: #999999; border-radius: 40px; padding: 5px; display: inline-block; line-height: 1em; width: 2.5em; height: 2.5em; box-sizing: border-box; text-align: center; vertical-align: middle; padding-top: 0.6em; margin-left: 0.25em; cursor: pointer; box-shadow: 1px 1px solid #ffffff;}
+div#bio h1.name span.lingos span.lingo:hover {border-color: #209CEE; color: #209CEE; background-color: #ffffff;}
+div#bio h1.name span.lingos span.lingo.current {background-color: #209CEE; border-color: #209CEE; text-shadow: 0px 0px 0px transparent; color: #ffffff;}
+div#bio div.blurb {margin-top: 0.5em; line-height: 2em; color: #333333;}
+div#bio div.blurb span.icon {color: #666666; font-size: 1.5em; position: relative; top: 3px; margin: 0px 0.25em;}
+div#bio div.data {margin-top: 3em; color: #778899; font-size: 0.9em; line-height: 1.5em;}
+div#bio div.data div.group {padding-left: 60px; position: relative; margin-top: 0.5em;}
+div#bio div.data div.group span.icon {position: absolute; left: 10px; top: 7px;}
+div#bio div.data div.group div.item {position: relative; padding-left: 1.5em; margin-bottom: 0.15em;}
+div#bio div.data div.group div.item span.bullet {position: absolute; left: 0;}
+
 div.years {}
 div.years div.year {}
 div.years div.year h2 {margin-bottom: 0.5em; margin-top: 2em;}
@@ -36,10 +59,14 @@ div.years div.year div.item div.data {color: #666666; font-size: 0.9em; line-hei
 div.years div.year div.item div.data span.intro {color: #000000; font-size: 0.8em; margin-right: 0.25em; }
 div.years div.year div.boxtitle {margin-top: 1em;}
 div.years div.year div.boxtitle span {font-size: 0.75em; color: #666666; font-weight: bold; background-color: #ffffff; padding: 5px 10px; margin-left: -10px; border-radius: 8px; box-shadow: 0px 0px 10px #ffffff;}
-div.years div.year div.arts {padding: 0px 1.5em 0.5em 1.5em; margin: 0px -1.5em; background-color: #ffffff; border: 1px solid #999999; border-radius: 8px; margin-top: -0.65em;}
+div.years div.year div.arts {padding: 0px 25px 0.5em 25px; margin: 0px -25px; background-color: #ffffff; border: 1px solid #999999; border-radius: 8px; margin-top: -0.65em;}
 div.years div.year div.arts div.item {margin-top: 1em; padding-top: 1em;}
 div.years div.year div.arts div.item:first-child {border-top: 0px; margin-top: 0.3em;}
 div.years div.year div.arts div.item:last-child {border-bottom: 0px}
+@media(max-width: 1080px) {
+	div.years div.year div.arts {border-radius: 0px; border-left: 0px; border-right: 0px; margin-left: -20px; margin-right: -20px;}
+}
+
 
 h1 {font-size: 2em; line-height: 1.15em;}
 p.subtitle {font-size: 1.15em; line-height: 1.65em; color: #445566; margin-top: -1em; margin-bottom: 1em;}
