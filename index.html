@@ -17,6 +17,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link rel="stylesheet" href="./index.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="container" id="body">
@@ -25,25 +27,55 @@
         <h1 class="name">
           Michal Měchura
           <span class="lingos noselect">
-            <span class="lingo current" title="English">EN</span>
-            <span class="lingo" title="Gaeilge">GA</span>
-            <span class="lingo" title="česky">CS</span>
+            <span class="lingo current" lang="en" title="English">EN</span>
+            <span class="lingo" lang="ga" title="Gaeilge">GA</span>
+            <span class="lingo" lang="cs" title="česky">CS</span>
           </span>
         </h1>
         <div class="blurb">
           <div class="version" lang="en">
             <p class="lead">Language technologist, information architect</p>
             Hello.
-            <span class="icon fas fa-desktop"></span>
+            <span class="icon fas fa-door-open"></span>
             I am the author of the open-source dictionary writing system <a href="https://www.lexonomy.eu/">Lexonomy</a> and the open-source terminology management platform <a href="http://www.terminologue.org/">Terminologue</a>.
             <span class="icon fas fa-book"></span>
             I have written the Irish-language book <a href="/arit/">An Ríomhaire Ilteangach</a>, a guide to language technology for general readers.
             <span class="icon fas fa-drafting-compass"></span>
-            I have built or co-built many Irish-language websites including the <a href="http://www.tearma.ie/">National Terminology Database for Irish</a>, the <a href="https://www.logainm.ie/">Placenames Database of Ireland</a>, the <a href="https://www.duchas.ie/">National Folklore Collection</a> and the <a href="https://www.teanglann.ie/ga/">Dictionary and Language Library</a>.
+            I have built or co-built many Irish-language reference websites including the <a href="http://www.tearma.ie/">National Terminology Database for Irish</a>, the <a href="https://www.logainm.ie/">Placenames Database of Ireland</a>, the <a href="https://www.duchas.ie/">National Folklore Collection</a> and the <a href="https://www.teanglann.ie/">Dictionary and Language Library</a>.
             <span class="icon fas fa-code"></span>
-            I am the author of <a href="https://github.com/michmech/xonomy">Xonomy</a>, an open-source XML editor for the web.
+            I am the author of <a href="https://github.com/michmech/xonomy">Xonomy</a>, an open-source, browser-based XML editor.
             <span class="icon fas fa-cog"></span>
             I have written a computational grammar of Irish called <a href="https://github.com/michmech/Gramadan">Gramadán</a> and I maintain the <a href="https://github.com/michmech/BuNaMo">Irish National Morphology Database</a>.
+          </div>
+          <div class="version" lang="ga" style="display: none">
+            <p class="lead">Teicneolaí teanga, ailtire eolais</p>
+            Fáilte!
+            <span class="icon fas fa-desktop"></span>
+            Innealtóir ríomhaireachta atá ionam.
+            <span class="icon fas fa-utensil-spoon"></span>
+            Is iomaí suiomh idirlín Gaeilge a raibh mo ladar isteach ann, ina measc <a href="http://www.tearma.ie/">téarma.ie</a>, <a href="https://www.logainm.ie/">logainm.ie</a>, <a href="https://www.duchas.ie/">dúchas.ie</a> agus <a href="https://www.teanglann.ie/">teanglann.ie</a>.
+            <span class="icon fas fa-book"></span>
+            Scríobh mé leabhar <a href="/arit/">An Ríomhaire Ilteangach</a> mar threoir don teicneolaíocht teanga don ghnáthléitheoir.
+            <span class="icon fas fa-door-open"></span>
+            Tá neart bogearraí foinse oscailte scríofa agam, go háirithe an córas scríofa foclóirí <a href="https://www.lexonomy.eu/">Lexonomy</a> agus an t-ardán bainistithe téarmaíochta <a href="http://www.terminologue.org/">Terminologue</a>.
+            <span class="icon fas fa-code"></span>
+            Chruthaigh mé <a href="https://github.com/michmech/xonomy">Xonomy</a>, gléas eagarthóireachta XML don Idirlíon.
+            <span class="icon fas fa-cog"></span>
+            Tá ríomhghramadach Gaeilge scríofa agam darb ainm <a href="https://github.com/michmech/Gramadan">Gramadán</a> agus is mise atá i bhfeidhil ar an <a href="https://github.com/michmech/BuNaMo">Bhunachar Náisiúnta Moirfeolaíochta</a>.
+          </div>
+          <div class="version" lang="cs" style="display: none">
+            <p class="lead">Jazykový technolog, informační architekt</p>
+            Ahoj.
+            <span class="icon fas fa-door-open"></span>
+            Jsem autor systému na psaní slovníků <a href="https://www.lexonomy.eu/">Lexonomy</a> a systému na správu terminologických databází <a href="http://www.terminologue.org/">Terminologue</a>.
+            <span class="icon fas fa-book"></span>
+            Napsal jsem v irštině knihu <a href="/arit/">An Ríomhaire Ilteangach</a>, průvoce po jazykových technologiích pro nezasvěcené.
+            <span class="icon fas fa-drafting-compass"></span>
+            Podílel jsem se na tvorbě mnoha internetových stránek o irštině, například <a href="http://www.tearma.ie/">Národní terminologická databáze pro irštinu</a>, <a href="https://www.logainm.ie/">Databáze místopisných názvů Irska</a>, <a href="https://www.duchas.ie/">Irská národní folklórní sbírka</a> a <a href="https://www.teanglann.ie/">Irská jazyková knihovna</a>.
+            <span class="icon fas fa-code"></span>
+            Vytvořil jsem <a href="https://github.com/michmech/xonomy">Xonomy</a>, internetový nástroj na editaci dokumentů XML.
+            <span class="icon fas fa-cog"></span>
+            Napsal jsem komputační gramatiku irštiny jménem <a href="https://github.com/michmech/Gramadan">Gramadán</a> a jsem správce <a href="https://github.com/michmech/BuNaMo">Irské národní morfologické databáze</a>.
           </div>
         </div>
         <div class="data">
