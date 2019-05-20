@@ -17,7 +17,7 @@ function buildIndex(){
   for(var i=yearsOrdered.length-1; i>-1; i--){
     var year=yearsOrdered[i];
     body+=`<div class="year">`;
-    body+=`<h2>${year}</h2>`;
+    body+=`<h3>${year}</h3>`;
     years[year].pubs.map(pub => { body+=pub; });
     if(years[year].arts.length>0){
       body+=`<div class="boxtitle"><span>BLOG</span></div>`;
