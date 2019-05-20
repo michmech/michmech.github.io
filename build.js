@@ -50,6 +50,7 @@ function addPubs(years){
       html+=printCoauthors(pub);
     html+=`</div>`;
     if(pub.URL){
+      pub.URL=pub.URL.replace(/https\:\/\/michmech\.github\.io\//, "");
       html+=`<h3 class="title"><a href="${pub.URL}">${pub.title}</a>&nbsp;<a class="biblink" href="${pub.id}">BIB</a></h3>`;
     } else {
       html+=`<h3 class="title">${pub.title}&nbsp;<a class="biblink" href="${pub.id}">BIB</a></h3>`;

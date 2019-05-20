@@ -30,7 +30,7 @@
 		"title": "Data Structures in Lexicography: from Trees to Graphs",
 		"container-title": "Recent Advances in Slavonic Natural Language Processing",
 		"abstract": "In lexicography, a dictionary entry is typically encoded in XML as a tree: a hierarchical data structure of parent-child relations where every element has at most one parent. This choice of data structure makes some aspects of the lexicographer’s work unnecessarily difficult, from deciding where to place multi-word items to reversing anentire bilingual dictionary. This paper proposes that these and other notorious areas of difficulty can be made easier by remodelling dictionaries as graphs rather than trees. However, unlike other authors who have proposed a radical departure from tree structures and whose proposals have remained largely unimplemented, this paper proposes a conservative compromise in which existing tree structures become augmented with specific types of inter-entry relations designed to solve specific problems.",
-		"URL": "http://www.lexiconista.com/raslan2016.pdf",
+		"URL": "https://michmech.github.io/pdf/raslan2016.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -115,7 +115,7 @@
 		"title": "Irish National Morphology Database: a high-accuracy open-source dataset of Irish words",
 		"container-title": "Proceedings of the First Celtic Language Technology Workshop",
 		"abstract": "The Irish National Morphology Database is a human-verified, Official Standard-compliant dataset containing the inflected forms and other morphosyntactic properties of Irish nouns,adjectives, verbs and prepositions. It is being developed by Foras na Gaeilge as part of the New English-Irish Dictionary project. This paper introduces this dataset and its accompanying software library Gramadán.",
-		"URL": "http://www.lexiconista.com/gramadan-cltw-2014.pdf",
+		"URL": "https://michmech.github.io/pdf/gramadan-cltw-2014.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -215,7 +215,7 @@
 		"page": "855–861",
 		"event-place": "Oslo",
 		"abstract": "The  purpose  of  this  demo  is  to  introduce Léacslann,  a  new  platform  for  building  dictionary  writing  systems (DWS) and terminology management systems (TMS) as well as other lexicographic and reference applications. Léacslann  can  be  used  without  anyknowledge  of  programming  to  create  a  basic  lexical  database  with  an arbitrary structure. This will be demonstrated in the first half of the demo, while the second half will show how a software developer can customize Léacslann for more demanding applications.",
-		"URL": "http://www.lexiconista.com/EuralexOslo2012.pdf",
+		"URL": "https://michmech.github.io/pdf/EuralexOslo2012.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -311,7 +311,7 @@
 		"publisher": "Dublin City University",
 		"page": "81–92",
 		"abstract": "This paper introduces Compositional Term Diagrams (CTDs) as a formalism for analysing the structure of multi-word terms. CTDs have the potential to help terminologists resolve ambiguities related to transitivity (“who does what to whom”), modification (“what modifies what”) and evocation (“which sense is evoked by this word?”).",
-		"URL": "http://www.lexiconista.com/TKE2010definitions.pdf",
+		"URL": "https://michmech.github.io/pdf/TKE2010definitions.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -347,7 +347,7 @@
 		"publisher-place": "Ljouwert/Leeuwarden",
 		"page": "937–948",
 		"event-place": "Ljouwert/Leeuwarden",
-		"URL": "http://www.lexiconista.com/FocalDemoEuralex2010.pdf",
+		"URL": "https://michmech.github.io/pdf/FocalDemoEuralex2010.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -387,7 +387,7 @@
 		"page": "431-436",
 		"event-place": "Ljouwert/Leeuwarden",
 		"abstract": "Selectional preferences are the tendencies of words to co-occur with other words that belong to certain semantictypes. In this paper, I will investigate how closely these corpus-attested preferences correspond to WordNet. For example, for all possible direct objects of cancel, is there a single category (or a union of several categories) in WordNet that subsumes them, and only them? Selectional preferences manifest themselves in authentic texts andcan be revealed through corpus analysis. I will introduce an experimental tool I have built which attempts to do this automatically by aligning corpus-extracted lists of collocates (for example a list of the direct objects of cancel) with WordNet. The strength of this method is that it can discover and name selectional preferences automatically, but its weakness is that it can only do so when WordNet contains a suitable category. We will see that WordNet often lacks a category (or even a union of several categories) that fully corresponds to an attested selectional preference – for example, there is no category in WordNet that includes all the kinds of events that can be direct objects of cancel (meeting, wedding, concert etc.) but excludes those that cannot (accident, sunset, invention etc.).",
-		"URL": "http://www.lexiconista.com/EuralexLeeuwarden2010.pdf",
+		"URL": "https://michmech.github.io/pdf/EuralexLeeuwarden2010.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -472,7 +472,7 @@
 		"page": "1295–1299",
 		"event-place": "Barcelona",
 		"abstract": "This paper deals with how humans search electronic dictionaries. It raises the point that users often make dictionary searches with misspellings, with inflected words copied and pasted from elsewhere, with complete sentences or fragments thereof, and with other kinds of low-quality input, and suggests methods for dealing with such phenomena in a pre-emptive manner. The issues addressed include searching with inflections, dealing with multi-word items, misspelling detection and text normalization. Additionally, the value of log files is emphasized as a source of information on user behaviour.",
-		"URL": "http://www.lexiconista.com/EuralexBarcelona2008.pdf",
+		"URL": "https://michmech.github.io/pdf/EuralexBarcelona2008.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -528,7 +528,7 @@
 		"page": "13–16",
 		"volume": "67",
 		"issue": "8",
-		"URL": "http://www.lexiconista.com/IonchoduTeacsArRiomhairi.pdf",
+		"URL": "https://michmech.github.io/pdf/IonchoduTeacsArRiomhairi.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -552,7 +552,7 @@
 		"page": "53–56",
 		"volume": "18",
 		"issue": "7",
-		"URL": "http://www.lexiconista.com/LocalizationWithIrish.pdf",
+		"URL": "https://michmech.github.io/pdf/LocalizationWithIrish.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -577,6 +577,7 @@
 		"publisher-place": "Turin",
 		"page": "189–198",
 		"event-place": "Turin",
+		"URL": "https://michmech.github.io/pdf/EuralexTorino2006.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -610,7 +611,7 @@
 		"id": "http://zotero.org/users/4089510/items/WSZ7SAR2",
 		"type": "manuscript",
 		"title": "Irská národní folklorní sbírka: jak (ne)zdigitalizovat 300 000 rukopisných stránek",
-		"URL": "http://www.lexiconista.com/duchas2016.pdf",
+		"URL": "https://michmech.github.io/pdf/duchas2016.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -670,7 +671,7 @@
 		"id": "http://zotero.org/users/4089510/items/FNX27DWV",
 		"type": "manuscript",
 		"title": "Building XML Editing Applications with Xonomy",
-		"URL": "http://www.lexiconista.com/Xonomy/xonomy.pdf",
+		"URL": "https://michmech.github.io/pdf/xonomy.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -691,7 +692,7 @@
 		"type": "report",
 		"title": "Léacslann Tutorial",
 		"publisher": "Dublin City University",
-		"URL": "http://lxln.prettydata.eu/SelfServiceUI/tutorial.pdf",
+		"URL": "https://michmech.github.io/pdf/lxln-tutorial.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -711,7 +712,7 @@
 		"type": "manuscript",
 		"title": "Uimhreacha na Gaeilge",
 		"abstract": "Sa saothar seo tá cuntasar iomlán na rialacha a bhaineann le húsáid uimhreacha sa Ghaeilge. Mar is eol donléitheoir, tá córas uimhreacha na Gaeilge an-chasta, rud a chuireann fonn ar lucht scríofa leabhar gramadaí a gcuid cuntas ar an chóras a shimpliú agus ceisteanna áirithe a fhágáil gan freagra soiléir mar bheadh an freagra casta agus deacair le tuiscint. Sa saothar seo, tá a mhalairt de chur chuige i gceist. Rinne mé iarracht cur síos a dhéanamh ar chóras na n-uimhreachaar bhealach atá chomh hiomlán agus is féidir, in ainneoin a chastachta. Fónfaidh an saothar seo don té atá ar thóir cruinnis.",
-		"URL": "http://www.lexiconista.com/Uimhreacha.pdf",
+		"URL": "https://michmech.github.io/pdf/Uimhreacha.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -731,7 +732,7 @@
 		"type": "manuscript",
 		"title": "A practical guide for functional text analysis: Analyzing English texts for field, mode, tenor and communicative effectiveness",
 		"abstract": "This document provides a scheme for analyzing English texts from a functional perspective. The document contains information adapted from Chapters 8, 10 and 12 – 16 of Books 2 and 3 of the Open University course E303 English Grammar in Context as it was presented in 2005, as well as from the set book Longman Student Grammar of Spoken and Written English and from the course’s associated readings. Skills in functional analysis are developed in the course books; this document re-iterates in concise form the main points to consider when performing the analysis.",
-		"URL": "http://www.lexiconista.com/FunctionalTextAnalysis.pdf",
+		"URL": "https://michmech.github.io/pdf/FunctionalTextAnalysis.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -751,7 +752,7 @@
 		"type": "manuscript",
 		"title": "Czech–English translation difficulties arising from differences in word order",
 		"abstract": "This work deals with Czech-English translation difficulties that result from differences in word order between the syntax of the two languages. A functional framework is used to interpret the implications of the syntactical differences. Both English and Czech have a tendency to present given information at the beginning of a clause and new information at the end, but the flexibility of Czech word order makes it possible to observe this principle more consistently than English syntax makes possible. Additionally, Czech, unlike English, does not observe the end-weight principle and therefore long stretches of circumstantial information do not prefer to be placed at the end of a clause. Both these differences result in significant mismatches in word order between Czech clauses and their English translation equivalents.",
-		"URL": "http://www.lexiconista.com/EnglishCzechWordOrder.pdf",
+		"URL": "https://michmech.github.io/pdf/EnglishCzechWordOrder.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -772,7 +773,7 @@
 		"title": "Selectional Preferences, Corpora and Ontologies",
 		"publisher": "Trinity College, University of Dublin",
 		"abstract": "This work presents a technique for exploring the selectional preferences ofwords in a semi-automatic way. The technique combines corpora with ontologiessuch as WordNet.The term selectional preference denotes a word’s tendency to co-occur withwords that belong to certain lexical sets. For example, the adjective delicious prefers to modify nouns that denote food and the verb marry prefers subjects and objects that denote humans. This work develops techniques for associating corpus-attested selectional preferences with concepts in an ontology. It shows how lexical sets can be derived from ontologies and how corpus-extracted collocates of a word can then be aligned with these lexical sets to reveal any selectional preferences the word has. An additional contribution provided here is an insight into the limitations of this method. The work presents evidence for the conclusion that aligning selectional preferences with an ontology is useful for some purposes, but fundamentally inaccurate because currently existing ontologies do not accurately reflect the mental categories evoked in selectional preferences.",
-		"URL": "http://www.lexiconista.com/diss.pdf",
+		"URL": "https://michmech.github.io/pdf/diss.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -817,7 +818,7 @@
 		"publisher-place": "Budapest",
 		"event": "European Network of e-Lexicography",
 		"event-place": "Budapest",
-		"URL": "http://www.lexiconista.com/towards-infrastructure.pdf",
+		"URL": "https://michmech.github.io/pdf/towards-infrastructure.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -890,7 +891,7 @@
 		"page": "662–679",
 		"event-place": "Leiden",
 		"abstract": "This demo introduces Lexonomy (www.lexonomy.eu), a free, open-source, web-based dictionary writing and publishing system. In Lexonomy, users can take a dictionary project from initial set-up to final online publication in a completely self-service fashion, with no technical skills required and no financial cost.",
-		"URL": "http://www.lexonomy.eu/docs/elex2017.pdf",
+		"URL": "https://michmech.github.io/pdf/elex2017.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -916,7 +917,7 @@
 		"event": "EURALEX 2018",
 		"event-place": "Ljubljana, Slovenia",
 		"abstract": "This paper introduces a new way of dealing with phraseology in dictionaries. A classical question in lexicography is whether multiword items such as third time lucky should be listed under third, time or lucky. The ideal answer is ‘under all of them’ but, until now, the only way to do that in conventional tree-structured dictionaries has been to keep multiple copies (of what conceptually is one and the same item) in several places throughout the dictionary. We present a way to achieve the same goal without copying. The multiword item becomes a semi-independent subentry which exists in only one copy but appears simultaneously in several places in the dictionary. The structure of the dictionary remains a tree but the lexicographer is empowered to occasionally ‘break out’ of the tree in order to avoid duplication. This paper explains the reasoning behind the concept of shareable subentries and shows how this new functionality has been implemented in the dictionary writing system Lexonomy.",
-		"URL": "http://www.lexiconista.com/euralex2018.pdf",
+		"URL": "https://michmech.github.io/pdf/euralex2018.pdf",
 		"author": [
 			{
 				"family": "Měchura",
