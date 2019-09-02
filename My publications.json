@@ -1026,5 +1026,28 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/5YRHU57X",
+		"type": "speech",
+		"title": "The future of dictionary editing",
+		"publisher-place": "Mikulov",
+		"event": "Lexicom",
+		"event-place": "Mikulov",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					6,
+					28
+				]
+			]
+		}
 	}
 ]
