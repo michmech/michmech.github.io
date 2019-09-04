@@ -33,8 +33,24 @@ function buildIndex(){
   fs.writeFileSync("./index.html", html, "utf8");
 }
 
+function toDate(dateparts){
+  var s=dateparts[0][0];
+  s+="-";
+  s+=("0"+dateparts[0][1]).slice(-2);
+  s+="-";
+  s+=("0"+dateparts[0][2]).slice(-2);
+  s=s.replace(/ed/g, "00");
+  return s;
+}
 function addPubs(years){
   var pubs=JSON.parse(fs.readFileSync("./My publications.json", "utf8")); //exported from Zotero as "CSL JSON"
+  pubs.sort(function(a,b){
+    var sa=toDate(a.issued["date-parts"]);
+    var sb=toDate(b.issued["date-parts"]);
+    if(sa<sb) return -1;
+    if(sa>sb) return +1;
+    return 0;
+  });
   pubs.map(pub => {
     var year=pub.issued["date-parts"][0][0];
     var html=`<div class="item">`;
@@ -82,7 +98,7 @@ function addPubs(years){
     if(pub.abstract) html+=`<div class="blurb">${pub.abstract}</div>`;
     html+=`</div>`;
     if(!years[year]) years[year]={pubs: [], arts: []};
-    years[year].pubs.push(html);
+    years[year].pubs.unshift(html);
   });
 }
 function printCoauthors(pub){

@@ -927,7 +927,9 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2018"
+					"2018",
+					7,
+					17
 				]
 			]
 		}
@@ -960,7 +962,8 @@
 			"date-parts": [
 				[
 					"2018",
-					8
+					8,
+					1
 				]
 			]
 		}
@@ -991,7 +994,9 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2018"
+					"2018",
+					7,
+					17
 				]
 			]
 		}
@@ -1031,9 +1036,9 @@
 		"id": "http://zotero.org/users/4089510/items/5YRHU57X",
 		"type": "speech",
 		"title": "The future of dictionary editing",
-		"publisher-place": "Mikulov",
+		"publisher-place": "Mikulov, Moravia",
 		"event": "Lexicom",
-		"event-place": "Mikulov",
+		"event-place": "Mikulov, Moravia",
 		"author": [
 			{
 				"family": "Měchura",
@@ -1046,6 +1051,53 @@
 					"2019",
 					6,
 					28
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/2PLADB89",
+		"type": "speech",
+		"title": "Breaking the tyranny of machine translation",
+		"publisher-place": "Stellenbosch, South Africa",
+		"event": "Grammatical Framework Summer School",
+		"event-place": "Stellenbosch, South Africa",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					12,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/MRESTJIG",
+		"type": "manuscript",
+		"title": "Plausibility filtering with Grammatical Framework",
+		"publisher-place": "Stellenbosch, South Africa",
+		"event-place": "Stellenbosch, South Africa",
+		"abstract": "This document describes a technique called plausibility filtering which you can use to prevent a Grammatical Framework (GF) application grammar from generating semantically implausible sentences.",
+		"URL": "https://github.com/michmech/plausibility",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					12,
+					15
 				]
 			]
 		}
