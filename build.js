@@ -28,7 +28,7 @@ function buildIndex(){
     body+=`</div>`;
   }
   body+=`</div>`;
-  var html=fs.readFileSync("./index.html", "utf8");
+  var html=fs.readFileSync("./index.html", "utf8").replace(/\r/g, "");
   html=html.replace(/(<!--begin body-->\n).*(<!--end body-->)/s, function(m, $1, $2){ return $1+body+$2; });
   fs.writeFileSync("./index.html", html, "utf8");
 }
@@ -55,13 +55,24 @@ function addPubs(years){
     var year=pub.issued["date-parts"][0][0];
     var html=`<div class="item">`;
     html+=`<div class="tagline">`;
-      if(pub.type=="book") html+=`<span class="type">BOOK</span>`;
-      else if(pub.type=="paper-conference") html+=`<span class="type">CONFERENCE PAPER</span>`;
+      if(pub.type=="book"){
+        html+=`<span class="icon fas fa-book" aria-hidden="true"></span>`;
+        html+=`<span class="type">BOOK</span>`;
+      }
+      else if(pub.type=="paper-conference"){
+        html+=`<span class="icon fas fa-book-reader" aria-hidden="true"></span>`;
+        html+=`<span class="type">CONFERENCE PAPER</span>`;
+      }
       else if(pub.type=="speech") html+=`<span class="type">TALK</span>`;
       else if(pub.type=="article-magazine") html+=`<span class="type">MAGAZINE ARTICLE</span>`;
       else if(pub.type=="manuscript") html+=`<span class="type">MANUSCRIPT</span>`;
       else if(pub.type=="report") html+=`<span class="type">REPORT</span>`;
-      else if(pub.type=="thesis") html+=`<span class="type">DISSERTATION</span>`;
+      else if(pub.type=="thesis"){
+        html+=`<span class="icon fas fa-graduation-cap" aria-hidden="true"></span>`;
+        if(year=="2019") html+=`<span class="type">PHD THESIS PROPOSAL</span>`;
+        else if(year=="2008") html+=`<span class="type">M.PHIL. DISSERTATION</span>`;
+        else html+=`<span class="type">DISSERTATION</span>`;
+      }
       //else console.log(pub.type);
       html+=printCoauthors(pub);
     html+=`</div>`;
@@ -84,7 +95,8 @@ function addPubs(years){
       data+=`</div>`;
     }
     if(pub["publisher"]){
-      data+=`<div><span class='intro'>PUBLISHER</span> `;
+      var label="PUBLISHER"; if(pub.type=="thesis") label="INSTITUTION";
+      data+=`<div><span class='intro'>${label}</span> `;
       data+=`${pub["publisher"]}`;
       if(pub["publisher-place"]) data+=`, ${pub["publisher-place"]}`;
       data+=`</div>`;
@@ -95,7 +107,7 @@ function addPubs(years){
       data+=`</div>`;
     }
     if(data!="") html+=`<div class="data">${data}</div>`;
-    if(pub.abstract) html+=`<div class="blurb">${pub.abstract}</div>`;
+    if(pub.abstract) html+=`<div class="blurb">${pub.abstract.replace(/\r?\n\r?\n/g, " ● ")}</div>`;
     html+=`</div>`;
     if(!years[year]) years[year]={pubs: [], arts: []};
     years[year].pubs.unshift(html);
