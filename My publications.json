@@ -1,5 +1,132 @@
 [
 	{
+		"id": "http://zotero.org/users/4089510/items/NK9HJHUP",
+		"type": "thesis",
+		"abstract": "This thesis is about the digitization of lexicography, with focus on dictionaries intended for human users.",
+		"event-place": "Brno",
+		"genre": "PhD thesis proposal",
+		"publisher": "Masaryk University",
+		"publisher-place": "Brno",
+		"title": "Contributions to e-lexicography",
+		"URL": "https://michmech.github.io/pdf/teze.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					9,
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/FB4KIXCJ",
+		"type": "speech",
+		"event": "Terminology and Knowledge Engineering (TKE) Conference",
+		"event-place": "Dublin, Ireland",
+		"publisher-place": "Dublin, Ireland",
+		"title": "How to build a termbase for 500,000 users (and live to tell the story)",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			},
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/RBZGXHF5",
+		"type": "speech",
+		"event": "14th Euralex International Congress",
+		"event-place": "Ljouwert/Leeuwarden",
+		"publisher-place": "Ljouwert/Leeuwarden",
+		"title": "The Focal.ie National Terminology Database for Irish",
+		"URL": "https://michmech.github.io/pdf/FocalDemoEuralex2010.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			},
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/DAP36QII",
+		"type": "speech",
+		"event": "Placenames Workshop 2012",
+		"title": "The logainm.ie Placenames Database of Ireland: Software demonstration",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			},
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/48DNB6J4",
+		"type": "speech",
+		"event": "European Network of e-Lexicography",
+		"event-place": "Budapest",
+		"publisher-place": "Budapest",
+		"title": "Towards a metadata infrastructure for online dictionaries",
+		"URL": "https://michmech.github.io/pdf/towards-infrastructure.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					2,
+					25
+				]
+			]
+		}
+	},
+	{
 		"id": "http://zotero.org/users/4089510/items/MRESTJIG",
 		"type": "manuscript",
 		"abstract": "This document describes a technique called plausibility filtering which you can use to prevent a Grammatical Framework (GF) application grammar from generating semantically implausible sentences.",
@@ -438,33 +565,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/4089510/items/RBZGXHF5",
-		"type": "speech",
-		"event": "14th Euralex International Congress",
-		"event-place": "Ljouwert/Leeuwarden",
-		"publisher-place": "Ljouwert/Leeuwarden",
-		"title": "The Focal.ie National Terminology Database for Irish",
-		"URL": "https://michmech.github.io/pdf/FocalDemoEuralex2010.pdf",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
-			},
-			{
-				"family": "Ó Raghallaigh",
-				"given": "Brian"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2010",
-					7
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/4089510/items/ZM3XM6SQ",
 		"type": "report",
 		"publisher": "Dublin City University",
@@ -656,30 +756,6 @@
 					"2017",
 					9,
 					20
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/4089510/items/48DNB6J4",
-		"type": "speech",
-		"event": "European Network of e-Lexicography",
-		"event-place": "Budapest",
-		"publisher-place": "Budapest",
-		"title": "Towards a metadata infrastructure for online dictionaries",
-		"URL": "https://michmech.github.io/pdf/towards-infrastructure.pdf",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2017",
-					2,
-					25
 				]
 			]
 		}
@@ -904,30 +980,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/4089510/items/DAP36QII",
-		"type": "speech",
-		"event": "Placenames Workshop 2012",
-		"title": "The logainm.ie Placenames Database of Ireland: Software demonstration",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
-			},
-			{
-				"family": "Ó Raghallaigh",
-				"given": "Brian"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2012",
-					8
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/4089510/items/CIBAQI9P",
 		"type": "speech",
 		"event": "Daonscoil na Mumhan",
@@ -1041,53 +1093,51 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/4089510/items/FB4KIXCJ",
-		"type": "speech",
-		"event": "Terminology and Knowledge Engineering (TKE) Conference",
-		"event-place": "Dublin, Ireland",
-		"publisher-place": "Dublin, Ireland",
-		"title": "How to build a termbase for 500,000 users (and live to tell the story)",
+		"id": "http://zotero.org/users/4089510/items/XVAXAX3A",
+		"type": "article-journal",
+		"abstract": "In this paper, we are introducing the first-ever open, data-driven linguistic database of Irish-language surnames, along with an algorithm for deriving inflected forms of Irish-language surnames.",
+		"container-title": "Names: A Journal of Onomastics",
+		"DOI": "10.5195/names.2021.2251",
+		"ISSN": "1756-2279, 0027-7738",
+		"issue": "1",
+		"journalAbbreviation": "names",
+		"page": "10-19",
+		"title": "Developing the Gaois Linguistic Database of Irish-language Surnames",
+		"URL": "https://ans-names.pitt.edu/ans/article/view/2251",
+		"volume": "69",
 		"author": [
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			},
 			{
 				"family": "Měchura",
 				"given": "Michal Boleslav"
 			},
 			{
-				"family": "Ó Raghallaigh",
-				"given": "Brian"
+				"family": "Ó Fionnagáin",
+				"given": "Aengus"
+			},
+			{
+				"family": "Osborne",
+				"given": "Sophie"
 			}
 		],
-		"issued": {
+		"accessed": {
 			"date-parts": [
 				[
-					"2010",
-					8
+					"2021",
+					5,
+					22
 				]
 			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/4089510/items/NK9HJHUP",
-		"type": "thesis",
-		"abstract": "This thesis is about the digitization of lexicography, with focus on dictionaries intended for human users.",
-		"event-place": "Brno",
-		"genre": "PhD thesis proposal",
-		"publisher": "Masaryk University",
-		"publisher-place": "Brno",
-		"title": "Contributions to e-lexicography",
-		"URL": "https://michmech.github.io/pdf/teze.pdf",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal"
-			}
-		],
+		},
 		"issued": {
 			"date-parts": [
 				[
-					"2019",
-					9,
-					9
+					"2021",
+					2,
+					15
 				]
 			]
 		}

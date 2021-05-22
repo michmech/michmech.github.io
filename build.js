@@ -63,6 +63,10 @@ function addPubs(years){
         html+=`<span class="icon fas fa-book-reader" aria-hidden="true"></span>`;
         html+=`<span class="type">CONFERENCE PAPER</span>`;
       }
+      else if(pub.type=="article-journal"){
+        html+=`<span class="icon fas fa-book-reader" aria-hidden="true"></span>`;
+        html+=`<span class="type">JOURNAL ARTICLE</span>`;
+      }
       else if(pub.type=="speech") html+=`<span class="type">TALK</span>`;
       else if(pub.type=="article-magazine") html+=`<span class="type">MAGAZINE ARTICLE</span>`;
       else if(pub.type=="manuscript") html+=`<span class="type">MANUSCRIPT</span>`;
