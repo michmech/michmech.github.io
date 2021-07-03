@@ -102,9 +102,15 @@ figure img {max-width: 100%; border-radius: 4px; border: 1px solid #999999;}
 figure figcaption {color: #999999; font-size: 0.9em;}
 figure.floatLeft {float: left; margin-right: 1.75em; margin-top: 0; padding-top: 10px;}
 figure.floatRight {float: right; margin-left: 1.75em; margin-top: 0; padding-top: 10px;}
+figure.shrink {width: 40%;}
+figure.shrink img {width: 100%;}
 figure.center {text-align: center;}
 figure.center > div {background-color: #999999; line-height: 0; border-radius: 4px; border: 1px solid #999999;}
 figure.center > div > img {border: 0; border-radius: 0px;}
 figure.center figcaption {margin-top: 10px;}
 
 .initialism {font-size: 0.9em;}
+
+dl {}
+dl dt {font-weight: bold; float: left; margin-right: 0.5em; clear: left;}
+dl dd {margin-left: 20px; margin-bottom: 0.25em;}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="og:type" content="article"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png"/>
+    <meta property="og:image" content="https://www.lexiconista.com/splash.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="../index.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
+<!--begin metatags-->
+<title>A survey of dictionary APIs</title>
+<meta itemprop="name" content="A survey of dictionary APIs"/>
+<meta name="og:title" content="A survey of dictionary APIs"/>
+<meta name="description" content="A survey of application programming interfaces (APIs) on the Internet which provide access to lexicographic content in machine-readable formats."/>
+<meta itemprop="description" content="A survey of application programming interfaces (APIs) on the Internet which provide access to lexicographic content in machine-readable formats."/>
+<meta name="og:description" content="A survey of application programming interfaces (APIs) on the Internet which provide access to lexicographic content in machine-readable formats."/>
+<meta name="article:author" content="Michal Měchura"/>
+<meta name="article:published_time" content="2021-07-03"/>
+<!--end metatags-->
+  </head>
+  <body>
+    <div class="container" id="body">
+      <div id="homelink"><a href="../"></a></div>
+<!--begin body-->
+<h1>A survey of dictionary APIs</h1>
+<p class="lead">A survey of application programming interfaces (APIs) on the Internet which provide access to lexicographic content in machine-readable formats. This page accompanies my talk <strong>Lexicographic APIs: the state of the art</strong> at the <a href="https://elex.link/elex2021/">eLex 2021 Conference</a>.</p>
+<hr>
+<figure class="shrink floatRight"><div><img src="lexicala.png" alt=""></div><figcaption></figcaption></figure>
+<h2>Lexicala API</h2>
+<p>By K Dictionaries (formerly Kernerman Dictionaries), the publishers of many mostly bilingual dictionaries, including the well-known Password series of &quot;bilingualized monolingual&quot; learners' dictionaries. The API contains many monolingual and bilingual dictionaries in 50+ languages.</p>
+<dl>
+<dt>URL</dt>
+<dd><a href="https://api.lexicala.com/">https://api.lexicala.com/</a></dd>
+<dt>API format</dt>
+<dd>REST + JSON.</dd>
+<dt>Usable free account</dt>
+<dd>Yes.</dd>
+<dt>Publicly available documentation</dt>
+<dd>Yes.</dd>
+<dt>Entry format</dt>
+<dd>JSON.</dd>
+<dt>Entry schema</dt>
+<dd>Their own.</dd>
+</dl>
+<hr>
+<figure class="shrink floatRight"><div><img src="oxford.png" alt=""></div><figcaption></figcaption></figure>
+<h2>Oxford Dictionaries API</h2>
+<p>By Oxford University Press. The API contains several monoligual English dictionaries (intended for for native speakers of English) and bilingual dictionaries in 30+ languages paired with English.</p>
+<dl>
+<dt>URL</dt>
+<dd><a href="https://developer.oxforddictionaries.com/">https://developer.oxforddictionaries.com/</a></dd>
+<dt>API format</dt>
+<dd>REST + JSON.</dd>
+<dt>Usable free account</dt>
+<dd>Yes.</dd>
+<dt>Publicly available documentation</dt>
+<dd>Yes.</dd>
+<dt>Entry format</dt>
+<dd>JSON.</dd>
+<dt>Entry schema</dt>
+<dd>Their own.</dd>
+</dl>
+<hr>
+<figure class="shrink floatRight"><div><img src="oxfordlearners.png" alt=""></div><figcaption></figcaption></figure>
+<h2>Oxford Learner's Dictionaries API</h2>
+<p>Yet another API by Oxford University Press. This one is for their monolingual English dictionaries for learners.</p>
+<dl>
+<dt>URL</dt>
+<dd><a href="https://languages.oup.com/oxford-learners-dictionaries-api/">https://languages.oup.com/oxford-learners-dictionaries-api/</a></dd>
+<dt>API format</dt>
+<dd>REST + JSON or XML.</dd>
+<dt>Usable free account</dt>
+<dd>Yes.</dd>
+<dt>Publicly available documentation</dt>
+<dd>Yes.</dd>
+<dt>Entry format</dt>
+<dd>XML or HTML.</dd>
+<dt>Entry schema</dt>
+<dd>Their own.</dd>
+</dl>
+<hr>
+<figure class="shrink floatRight"><div><img src="macmillan.png" alt=""></div><figcaption></figcaption></figure>
+<h2>Macmillan Dictionary API</h2>
+<p>By Macmillan, the publisher of a monolingual English dictionary for learners. The API gives access to this dictionary.</p>
+<dl>
+<dt>URL</dt>
+<dd><a href="https://www.macmillandictionary.com/tools/aboutapi.html">https://www.macmillandictionary.com/tools/aboutapi.html</a></dd>
+<dt>API format</dt>
+<dd>Unclear, probably REST.</dd>
+<dt>Usable free account</dt>
+<dd>Yes.</dd>
+<dt>Publicly available documentation</dt>
+<dd>No, you need to sign up first.</dd>
+<dt>Entry format</dt>
+<dd>No information available, you need to sign up to find out.</dd>
+<dt>Entry schema</dt>
+<dd>No information available, you need to sign up to find out.</dd>
+</dl>
+<hr>
+<figure class="shrink floatRight"><div><img src="cambridge.png" alt=""></div><figcaption></figcaption></figure>
+<h2>Cambridge Dictionaries API</h2>
+<p>By Cambridge University Press. The API gives access to their monolingual English dictionaries for learners.</p>
+<dl>
+<dt>URL</dt>
+<dd><a href="https://dictionary-api.cambridge.org/">https://dictionary-api.cambridge.org/</a></dd>
+<dt>API format</dt>
+<dd>REST + JSON.</dd>
+<dt>Usable free account</dt>
+<dd>No. Trial account for 30 days.</dd>
+<dt>Publicly available documentation</dt>
+<dd>Yes.</dd>
+<dt>Entry format</dt>
+<dd>XML or HTML.</dd>
+<dt>Entry schema</dt>
+<dd>Their own.</dd>
+</dl>
+<hr>
+<figure class="shrink floatRight"><div><img src="pons.png" alt=""></div><figcaption></figcaption></figure>
+<h2>PONS Dictionary API</h2>
+<p>An API for bilingual dictionaries in 13 languages with German, from the German dictionary publisher PONS.</p>
+<dl>
+<dt>URL</dt>
+<dd><a href="https://de.pons.com/p/online-woerterbuch/fuer-entwickler/api">https://de.pons.com/p/online-woerterbuch/fuer-entwickler/api</a></dd>
+<dt>API format</dt>
+<dd>REST + JSON.</dd>
+<dt>Usable free account</dt>
+<dd>Yes.</dd>
+<dt>Publicly available documentation</dt>
+<dd>Yes.</dd>
+<dt>Entry format</dt>
+<dd>JSON.</dd>
+<dt>Entry schema</dt>
+<dd>Their own.</dd>
+</dl>
+<hr>
+<figure class="shrink floatRight"><div><img src="merriamwebster.png" alt=""></div><figcaption></figcaption></figure>
+<h2>Merriam-Webster Dictionary API</h2>
+<p>An API for a few monolingual English, an bilingual with English, dictionaries by the US dictionary publisher Merriam-Webster.</p>
+<dl>
+<dt>URL</dt>
+<dd><a href="https://dictionaryapi.com/">https://dictionaryapi.com/</a></dd>
+<dt>API format</dt>
+<dd>REST + JSON.</dd>
+<dt>Usable free account</dt>
+<dd>Yes.</dd>
+<dt>Publicly available documentation</dt>
+<dd>Yes.</dd>
+<dt>Entry format</dt>
+<dd>JSON peppered with some home-baked inline makup.</dd>
+<dt>Entry schema</dt>
+<dd>Their own.</dd>
+</dl>
+<hr>
+<figure class="shrink floatRight"><div><img src="collins.png" alt=""></div><figcaption></figcaption></figure>
+<h2>Collins API</h2>
+<p>Collins is the publisher of the legendary Collins COBUILD monolingual dictionary for learners of English. This API provides access to that dictionary, and to a handful of their other bilingual dictionaries with English.</p>
+<dl>
+<dt>URL</dt>
+<dd><a href="https://www.collinslanguage.com/collins-api/">https://www.collinslanguage.com/collins-api/</a></dd>
+<dt>API format</dt>
+<dd>Unclear, probably REST.</dd>
+<dt>Usable free account</dt>
+<dd>Yes.</dd>
+<dt>Publicly available documentation</dt>
+<dd>No, you need to sign up first.</dd>
+<dt>Entry format</dt>
+<dd>No information available, you need to sign up to find out.</dd>
+<dt>Entry schema</dt>
+<dd>No information available, you need to sign up to find out.</dd>
+</dl>
+<hr>
+<figure class="shrink floatRight"><div><img src="abbyy.png" alt=""></div><figcaption></figcaption></figure>
+<h2>ABBYY Lingvo dictionaries API</h2>
+<p>An API for 15 bilingual dictionaries (with Russian) from the Russian dictionary publisher ABBYY.</p>
+<dl>
+<dt>URL</dt>
+<dd><a href="https://developers.lingvolive.com/">https://developers.lingvolive.com/</a></dd>
+<dt>API format</dt>
+<dd>REST + JSON.</dd>
+<dt>Usable free account</dt>
+<dd>Yes.</dd>
+<dt>Publicly available documentation</dt>
+<dd>Yes.</dd>
+<dt>Entry format</dt>
+<dd>JSON (highly complex, with lots of inline markup).</dd>
+<dt>Entry schema</dt>
+<dd>Their own.</dd>
+</dl>
+
+<!--end body-->
+      <div id="sig">
+        <a class="backstop" href="../"></a>
+        <div>
+          <!--begin myrole--><!--end myrole--> <a href="../">Michal Měchura</a>, <!--begin date-->2021-07-03, <!--end date--> <a class="initialism" href="https://creativecommons.org/licenses/by-sa/3.0/ie/deed.en">CC BY-SA</a>
+        </div>
+        <div class="socials">
+          <div><a href="mailto:michmech@lexiconista.com"><i class="fas fa-envelope"></i> michmech@lexiconista.com</a></div>
+          <div><a href="https://github.com/michmech/"><i class="fab fa-github"></i> github.com/michmech</a></div>
+          <div><a href="https://twitter.com/lexiconista"><i class="fab fa-twitter"></i> @lexiconista</a></div>
+          <div><a href="https://www.facebook.com/lexiconista/"><i class="fab fa-facebook-square"></i> fb.com/lexiconista</a></div>
+        </div>
+      </div>
+    </div>
+    <!--Statcounter--><script type="text/javascript">var sc_project=12534442; var sc_invisible=1; var sc_security="7b38d28a";</script><script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script> <noscript><div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/12534442/0/7b38d28a/1/" alt="Web Analytics"></a></div></noscript>
+  </body>
+</html>

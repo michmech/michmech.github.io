@@ -1,5 +1,6 @@
-const md=require('markdown-it')({html: true}); //https://www.npmjs.com/package/markdown-it
-const attrs=require('markdown-it-attrs'); md.use(attrs); //https://www.npmjs.com/package/markdown-it-attrs
+const md=require('markdown-it')({html: true});
+const attrs=require('markdown-it-attrs'); md.use(attrs);
+const deflist=require('markdown-it-deflist'); md.use(deflist);
 const fs=require("fs");
 const path=require("path");
 
