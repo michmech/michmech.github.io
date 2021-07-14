@@ -1141,5 +1141,49 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/6QZWUV3Y",
+		"type": "speech",
+		"event": "eLex 2021 Conference",
+		"title": "What programmers want: avoiding recursion in dictionary schemas",
+		"URL": "https://youtu.be/hHiflt6O8zg",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					7,
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/5A2LWERN",
+		"type": "speech",
+		"event": "eLex 2021 Conference",
+		"title": "Lexicographic APIs: the state of the art",
+		"URL": "https://youtu.be/NVFd-RM1aWo",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					7,
+					7
+				]
+			]
+		}
 	}
 ]
