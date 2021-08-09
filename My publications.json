@@ -1185,5 +1185,29 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/YUTXFEFT",
+		"type": "speech",
+		"abstract": "An introduction to Czechslator and the technology behind it.",
+		"event": "Grammatical Framework Summer School",
+		"event-place": "Singapore and online",
+		"publisher-place": "Singapore and online",
+		"title": "Re‑inventing the phrasebook with rule‑based language technology",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					8,
+					4
+				]
+			]
+		}
 	}
 ]
