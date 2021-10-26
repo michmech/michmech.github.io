@@ -108,7 +108,7 @@
 		"event": "European Network of e-Lexicography",
 		"event-place": "Budapest",
 		"publisher-place": "Budapest",
-		"title": "Towards a metadata infrastructure for online dictionaries",
+		"title": "Towards a Metadata Infrastructure for Online Dictionaries",
 		"URL": "https://michmech.github.io/pdf/towards-infrastructure.pdf",
 		"author": [
 			{
@@ -1194,6 +1194,7 @@
 		"event-place": "Singapore and online",
 		"publisher-place": "Singapore and online",
 		"title": "Re‑inventing the phrasebook with rule‑based language technology",
+		"URL": "https://www.youtube.com/watch?v=9mQSgIGSFus",
 		"author": [
 			{
 				"family": "Měchura",
@@ -1206,6 +1207,55 @@
 					"2021",
 					8,
 					4
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/X8FCSGN4",
+		"type": "speech",
+		"event": "XIX EURALEX International Congress",
+		"event-place": "Online",
+		"publisher-place": "Online",
+		"title": "Help, my XML is too complex! The problem of excessive structural markup in dictionaries",
+		"URL": "http://www.lexiconista.com/pdf/Euralex2021XML.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/AP4K2CQL",
+		"type": "speech",
+		"event": "XIX EURALEX International Congress",
+		"event-place": "Online",
+		"publisher-place": "Online",
+		"title": "Introducing Terminologue: a cloud-based, open-source terminology management tool",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			},
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9
 				]
 			]
 		}
