@@ -8,6 +8,8 @@
 }
 
 body {margin: 0px; padding: 0px; border-top: 2px solid #209CEE; background-color: #f6f6f6; font-family: Helvetica, sans-serif; font-size: 1.05rem; line-height: 1.5em; text-shadow: 1px 1px 0px #ffffff;}
+.cyr {font-family: Arial, sans-serif;}
+
 div#body {max-width: 800px; margin: 0px auto; padding: 0px 25px;}
 @media print{
 	div#body {max-width: auto; padding: 0px;}
@@ -38,6 +40,14 @@ div#sig div.socials div a i {margin-right: 0.25em;}
 }
 
 div#bio {}
+div#bio img.portrait {
+  width: 100px;
+  border-radius: 4px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
 div#bio h1.name {margin-bottom: 0;}
 div#bio h1.name span.name {margin-right: .4em;}
 div#bio h1.name span.lingos {white-space: nowrap; display: inline-block; padding-top: 0em; position: relative; top: -0.15em; margin-top: .2em;}
@@ -95,6 +105,7 @@ hr {border: 0px; border-top: 1px solid #cccccc; margin-bottom: 1em;}
 a {color: #0f6ba8; text-decoration: none;}
 a:hover {color: #209CEE;}
 p.lead {font-size: 1.15em; line-height: 1.65em; color: #445566}
+p.lead.mitAbstand {margin-bottom: 1.25em;}
 p.meta {color: #445566}
 
 figure {margin: 2em 0px;}
@@ -114,3 +125,90 @@ figure.center figcaption {margin-top: 10px;}
 dl {}
 dl dt {font-weight: bold; float: left; margin-right: 0.5em; clear: left;}
 dl dd {margin-left: 20px; margin-bottom: 0.25em;}
+
+div.vanity {
+  margin-top: 70px;
+  margin-left: -300px;
+  margin-right: -300px;
+  overflow-x: auto;
+  text-align: center;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  /* background-color: #eeeeee;
+  min-height: 100px; */
+}
+@media(max-width: 1400px) {
+  div.vanity {
+    margin-left: -200px;
+    margin-right: -200px;
+  }
+}
+@media(max-width: 1200px) {
+  div.vanity {
+    margin-left: -100px;
+    margin-right: -100px;
+  }
+}
+@media(max-width: 1000px) {
+  div.vanity {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media(max-width: 500px) {
+  div.vanity {
+    white-space: nowrap;
+    overflow-x: scroll;
+    padding-bottom: 60px;
+    margin-right: -25px;
+    margin-left: -25px;
+    padding-left: 15px;
+  }
+}
+div.vanity a.box {
+  display: inline-block;
+  text-align: center;
+  padding-top: 1px;
+  margin: 30px 10px 0px 10px;
+  min-width: 150px;
+}
+@media(max-width: 500px) {
+  div.vanity a.box {
+    min-width: auto;
+    border: 1px solid #eeeeee;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  div.vanity a.box:last-child {
+    margin-right: 25px;
+  }
+}
+div.vanity a.box img.icon {
+  width: 40px;
+  height: 40px;
+}
+div.vanity a.box:hover img.icon {
+  position: relative;
+  top: -1px;
+}
+div.vanity a.box span.title {
+  display: block;
+  font-weight: bold;
+}
+div.vanity a.box img.icon.makeSmaller {
+  width: 32px;
+  height: 32px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+div.vanity a.box span.url {
+  display: block;
+  color: #108556;
+}
+div.vanity a.box:hover span.url {
+  color: #1eb87a;
+  text-decoration: underline;
+}
