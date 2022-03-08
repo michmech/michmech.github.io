@@ -170,7 +170,7 @@ div.vanity a.box {
   text-align: center;
   padding-top: 1px;
   margin: 30px 5px 0px 5px;
-  min-width: 150px;
+  min-width: 125px;
 }
 @media(max-width: 500px) {
   div.vanity a.box {
