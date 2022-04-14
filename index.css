@@ -77,7 +77,7 @@ div.years div.year div.item div.tagline > span.icon {font-size: 1.5em; position:
 div.years div.year div.item div.tagline > span.type {font-size: 0.75em; color: #666666; font-weight: bold;}
 div.years div.year div.item div.tagline > span.coauthors {font-style: italic; font-size: 0.9em; color: #999999;}
 div.years div.year div.item h3.title {font-weight: bold; color: #444444; margin: 0px; font-size: 1em;}
-div.years div.year div.item h3.title a.biblink {font-weight: normal; font-size: 0.75em; color: #999999; border: 1px solid #cccccc; padding: 0px 6px; border-radius: 2px; margin-left: 0.25em; position: relative; top: -1px; box-shadow: 1px 1px 0px #ffffff;}
+div.years div.year div.item h3.title a.biblink {display: inline-block; font-weight: normal; font-size: 0.75em; color: #999999; border: 1px solid #cccccc; padding: 6px 6px 2px 6px; line-height: 0.75em; border-radius: 2px; margin-left: 0.25em; position: relative; top: -1px; box-shadow: 1px 1px 0px #ffffff;}
 div.years div.year div.item h3.title a.biblink:hover {color: #666666; border-color: #666666;}
 div.years div.year div.item div.blurb {color: #666666; font-size: 0.9em; line-height: 1.5em; margin-top: 3px;}
 div.years div.year div.item div.data {color: #666666; font-size: 0.9em; line-height: 1.5em; margin-top: 3px;}
@@ -128,26 +128,14 @@ dl dd {margin-left: 20px; margin-bottom: 0.25em;}
 
 div.vanity {
   margin-top: 70px;
-  margin-left: -300px;
-  margin-right: -300px;
+  margin-left: -100px;
+  margin-right: -100px;
   overflow-x: auto;
   text-align: center;
   font-size: 0.9em;
   line-height: 1.5em;
   /* background-color: #eeeeee;
   min-height: 100px; */
-}
-@media(max-width: 1400px) {
-  div.vanity {
-    margin-left: -200px;
-    margin-right: -200px;
-  }
-}
-@media(max-width: 1200px) {
-  div.vanity {
-    margin-left: -100px;
-    margin-right: -100px;
-  }
 }
 @media(max-width: 1000px) {
   div.vanity {
