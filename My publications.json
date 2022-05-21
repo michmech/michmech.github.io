@@ -1,5 +1,442 @@
 [
 	{
+		"id": "mechuraThingsThinkWhen2016",
+		"type": "speech",
+		"event": "European Network of e-Lexicography",
+		"event-place": "Barcelona, Catalonia",
+		"publisher-place": "Barcelona, Catalonia",
+		"title": "Things to think about when building a dictionary website",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					3
+				]
+			]
+		},
+		"citation-key": "mechuraThingsThinkWhen2016"
+	},
+	{
+		"id": "mechuraCaBhfuilMo2008",
+		"type": "speech",
+		"event": "Engineers Ireland",
+		"event-place": "Dublin, Ireland",
+		"publisher-place": "Dublin, Ireland",
+		"title": "Cá bhfuil mo shínte fada? – ionchódú téacs ar ríomhairí",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008",
+					3
+				]
+			]
+		},
+		"citation-key": "mechuraCaBhfuilMo2008"
+	},
+	{
+		"id": "mechuraUserFriendlinessKeyPromoting2009",
+		"type": "speech",
+		"event": "12th International Conference on Minority Languages",
+		"event-place": "Tartu, Estonia",
+		"publisher-place": "Tartu, Estonia",
+		"title": "User-Friendliness: the key to promoting a minority language on the Internet",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			},
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009",
+					5
+				]
+			]
+		},
+		"citation-key": "mechuraUserFriendlinessKeyPromoting2009"
+	},
+	{
+		"id": "mechuraTabhairDomBhfuil2010",
+		"type": "speech",
+		"event": "Imbolc",
+		"event-place": "Baile Bhuirne, Ireland",
+		"publisher-place": "Baile Bhuirne, Ireland",
+		"title": "Tabhair dom a bhfuil uaim: conas inneall cuardaigh a thógáil d'fhoclóir leictreonach",
+		"URL": "http://imbolc.ie/2010/04/michal-mechura/",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					2
+				]
+			]
+		},
+		"citation-key": "mechuraTabhairDomBhfuil2010"
+	},
+	{
+		"id": "mechuraIdirFocloirAgus2012",
+		"type": "speech",
+		"event": "Daonscoil na Mumhan",
+		"event-place": "Waterford, Ireland",
+		"publisher-place": "Waterford, Ireland",
+		"title": "Idir foclóir agus léarscáil: Bunachar Logainmneacha na hÉireann",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					8
+				]
+			]
+		},
+		"citation-key": "mechuraIdirFocloirAgus2012"
+	},
+	{
+		"id": "mechuraLandscapesLanguagesData2012",
+		"type": "speech",
+		"event": "Digital Humanities Conference",
+		"event-place": "Hamburg, Germany",
+		"publisher-place": "Hamburg, Germany",
+		"title": "Landscapes, languages and data structures: Issues in building the Placenames Database of Ireland",
+		"URL": "http://lecture2go.uni-hamburg.de/konferenzen/-/k/13986",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					7
+				]
+			]
+		},
+		"citation-key": "mechuraLandscapesLanguagesData2012"
+	},
+	{
+		"id": "mechuraDatabaseIrishSurnames2016",
+		"type": "speech",
+		"event": "25th Spring Conference of the Society for Name Studies in Britain and Ireland",
+		"title": "Towards a database of Irish surnames",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			},
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			},
+			{
+				"family": "Ní Loingsigh",
+				"given": "Katie"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					4
+				]
+			]
+		},
+		"citation-key": "mechuraDatabaseIrishSurnames2016"
+	},
+	{
+		"id": "mechuraIntroductionGramadanIrish2015",
+		"type": "report",
+		"publisher": "Foras na Gaeilge",
+		"title": "Introduction to Gramadán and the Irish National Morphology Database",
+		"URL": "http://www.teanglann.ie/data/gramadan-en.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		},
+		"citation-key": "mechuraIntroductionGramadanIrish2015"
+	},
+	{
+		"id": "mechuraBunacharNaisiuntaMoirfeolaiochta2015",
+		"type": "report",
+		"publisher": "Foras na Gaeilge",
+		"title": "Bunachar Náisiúnta Moirfeolaíochta agus Gramadán: Doiciméadúchán Teicniúil",
+		"URL": "http://www.teanglann.ie/data/gramadan.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		},
+		"citation-key": "mechuraBunacharNaisiuntaMoirfeolaiochta2015"
+	},
+	{
+		"id": "mechuraWeNeedTalk2022",
+		"type": "report",
+		"abstract": "Machine translation is getting better all the time but the problem of bias still remains. Translations produced by machines are often biased because of ambiguities in gender, in forms of address, and in word meaning. This whitepaper analyzes the problem and proposes a solution based on automated re-inflection with humans in the loop.",
+		"title": "We need to talk about bias in machine translation: the Fairslator whitepaper",
+		"URL": "https://www.fairslator.com/fairslator-whitepaper.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					28
+				]
+			]
+		},
+		"citation-key": "mechuraWeNeedTalk2022"
+	},
+	{
+		"id": "mechuraHelpMyXML2021",
+		"type": "speech",
+		"event": "XIX EURALEX International Congress",
+		"event-place": "Online",
+		"publisher-place": "Online",
+		"title": "Help, my XML is too complex! The problem of excessive structural markup in dictionaries",
+		"URL": "http://www.lexiconista.com/pdf/Euralex2021XML.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9
+				]
+			]
+		},
+		"citation-key": "mechuraHelpMyXML2021"
+	},
+	{
+		"id": "mechuraReInventingPhrasebook2021",
+		"type": "speech",
+		"abstract": "An introduction to Czechslator and the technology behind it.",
+		"event": "Grammatical Framework Summer School",
+		"event-place": "Singapore and online",
+		"publisher-place": "Singapore and online",
+		"title": "Re‑inventing the phrasebook with rule‑based language technology",
+		"URL": "https://www.youtube.com/watch?v=9mQSgIGSFus",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					8,
+					4
+				]
+			]
+		},
+		"citation-key": "mechuraReInventingPhrasebook2021"
+	},
+	{
+		"id": "mechuraIntroducingTerminologueCloudbased2021",
+		"type": "speech",
+		"event": "XIX EURALEX International Congress",
+		"event-place": "Online",
+		"publisher-place": "Online",
+		"title": "Introducing Terminologue: a cloud-based, open-source terminology management tool",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			},
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9
+				]
+			]
+		},
+		"citation-key": "mechuraIntroducingTerminologueCloudbased2021"
+	},
+	{
+		"id": "mechuraMetadataInfrastructureOnline2017",
+		"type": "speech",
+		"event": "European Network of e-Lexicography",
+		"event-place": "Budapest",
+		"publisher-place": "Budapest",
+		"title": "Towards a Metadata Infrastructure for Online Dictionaries",
+		"URL": "https://michmech.github.io/pdf/towards-infrastructure.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					2,
+					25
+				]
+			]
+		},
+		"citation-key": "mechuraMetadataInfrastructureOnline2017"
+	},
+	{
+		"id": "mechuraLexicographicAPIsState2021",
+		"type": "speech",
+		"event": "eLex 2021 Conference",
+		"title": "Lexicographic APIs: the state of the art",
+		"URL": "https://youtu.be/NVFd-RM1aWo",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					7,
+					7
+				]
+			]
+		},
+		"citation-key": "mechuraLexicographicAPIsState2021"
+	},
+	{
+		"id": "mechuraWhatProgrammersWant2021",
+		"type": "speech",
+		"event": "eLex 2021 Conference",
+		"title": "What programmers want: avoiding recursion in dictionary schemas",
+		"URL": "https://youtu.be/hHiflt6O8zg",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					7,
+					7
+				]
+			]
+		},
+		"citation-key": "mechuraWhatProgrammersWant2021"
+	},
+	{
+		"id": "oraghallaighDevelopingGaoisLinguistic2021",
+		"type": "article-journal",
+		"abstract": "In this paper, we are introducing the first-ever open, data-driven linguistic database of Irish-language surnames, along with an algorithm for deriving inflected forms of Irish-language surnames.",
+		"container-title": "Names: A Journal of Onomastics",
+		"DOI": "10.5195/names.2021.2251",
+		"ISSN": "1756-2279, 0027-7738",
+		"issue": "1",
+		"journalAbbreviation": "names",
+		"page": "10-19",
+		"title": "Developing the Gaois Linguistic Database of Irish-language Surnames",
+		"URL": "https://ans-names.pitt.edu/ans/article/view/2251",
+		"volume": "69",
+		"author": [
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			},
+			{
+				"family": "Měchura",
+				"given": "Michal Boleslav"
+			},
+			{
+				"family": "Ó Fionnagáin",
+				"given": "Aengus"
+			},
+			{
+				"family": "Osborne",
+				"given": "Sophie"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					15
+				]
+			]
+		},
+		"citation-key": "oraghallaighDevelopingGaoisLinguistic2021"
+	},
+	{
 		"id": "mechuraContributionsElexicography2019",
 		"type": "thesis",
 		"abstract": "This thesis is about the digitization of lexicography, with focus on dictionaries intended for human users.",
@@ -105,31 +542,6 @@
 			]
 		},
 		"citation-key": "mechuraLogainmIePlacenames2012"
-	},
-	{
-		"id": "mechuraMetadataInfrastructureOnline2017",
-		"type": "speech",
-		"event": "European Network of e-Lexicography",
-		"event-place": "Budapest",
-		"publisher-place": "Budapest",
-		"title": "Towards a Metadata Infrastructure for Online Dictionaries",
-		"URL": "https://michmech.github.io/pdf/towards-infrastructure.pdf",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2017",
-					2,
-					25
-				]
-			]
-		},
-		"citation-key": "mechuraMetadataInfrastructureOnline2017"
 	},
 	{
 		"id": "mechuraPlausibilityFilteringGrammatical2018",
@@ -920,400 +1332,41 @@
 		"citation-key": "mechuraArThairseachNa2017"
 	},
 	{
-		"id": "mechuraThingsThinkWhen2016",
+		"id": "raghallaighTerminologueOpenSource2021",
 		"type": "speech",
-		"event": "European Network of e-Lexicography",
-		"event-place": "Barcelona, Catalonia",
-		"publisher-place": "Barcelona, Catalonia",
-		"title": "Things to think about when building a dictionary website",
+		"event": "European Association for Terminology Summit 2021",
+		"event-place": "Online",
+		"publisher-place": "Online",
+		"title": "Terminologue and open source terminology solutions",
+		"URL": "https://www.youtube.com/watch?v=Tb9fJFF0JL4",
 		"author": [
 			{
+				"family": "Raghallaigh",
+				"given": "Brian Ó"
+			},
+			{
 				"family": "Měchura",
-				"given": "Michal Boleslav"
+				"given": "Michal"
 			}
 		],
 		"issued": {
 			"date-parts": [
 				[
-					"2016",
-					3
+					"2021",
+					12,
+					9
 				]
 			]
 		},
-		"citation-key": "mechuraThingsThinkWhen2016"
+		"citation-key": "raghallaighTerminologueOpenSource2021"
 	},
 	{
-		"id": "mechuraCaBhfuilMo2008",
+		"id": "mechuraCeardlannArTerminologue2022",
 		"type": "speech",
-		"event": "Engineers Ireland",
+		"event": "An Ghaeilge agus an Téarmeolaíocht",
 		"event-place": "Dublin, Ireland",
 		"publisher-place": "Dublin, Ireland",
-		"title": "Cá bhfuil mo shínte fada? – ionchódú téacs ar ríomhairí",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2008",
-					3
-				]
-			]
-		},
-		"citation-key": "mechuraCaBhfuilMo2008"
-	},
-	{
-		"id": "mechuraUserFriendlinessKeyPromoting2009",
-		"type": "speech",
-		"event": "12th International Conference on Minority Languages",
-		"event-place": "Tartu, Estonia",
-		"publisher-place": "Tartu, Estonia",
-		"title": "User-Friendliness: the key to promoting a minority language on the Internet",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
-			},
-			{
-				"family": "Ó Raghallaigh",
-				"given": "Brian"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2009",
-					5
-				]
-			]
-		},
-		"citation-key": "mechuraUserFriendlinessKeyPromoting2009"
-	},
-	{
-		"id": "mechuraTabhairDomBhfuil2010",
-		"type": "speech",
-		"event": "Imbolc",
-		"event-place": "Baile Bhuirne, Ireland",
-		"publisher-place": "Baile Bhuirne, Ireland",
-		"title": "Tabhair dom a bhfuil uaim: conas inneall cuardaigh a thógáil d'fhoclóir leictreonach",
-		"URL": "http://imbolc.ie/2010/04/michal-mechura/",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2010",
-					2
-				]
-			]
-		},
-		"citation-key": "mechuraTabhairDomBhfuil2010"
-	},
-	{
-		"id": "mechuraIdirFocloirAgus2012",
-		"type": "speech",
-		"event": "Daonscoil na Mumhan",
-		"event-place": "Waterford, Ireland",
-		"publisher-place": "Waterford, Ireland",
-		"title": "Idir foclóir agus léarscáil: Bunachar Logainmneacha na hÉireann",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2012",
-					8
-				]
-			]
-		},
-		"citation-key": "mechuraIdirFocloirAgus2012"
-	},
-	{
-		"id": "mechuraLandscapesLanguagesData2012",
-		"type": "speech",
-		"event": "Digital Humanities Conference",
-		"event-place": "Hamburg, Germany",
-		"publisher-place": "Hamburg, Germany",
-		"title": "Landscapes, languages and data structures: Issues in building the Placenames Database of Ireland",
-		"URL": "http://lecture2go.uni-hamburg.de/konferenzen/-/k/13986",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2012",
-					7
-				]
-			]
-		},
-		"citation-key": "mechuraLandscapesLanguagesData2012"
-	},
-	{
-		"id": "mechuraDatabaseIrishSurnames2016",
-		"type": "speech",
-		"event": "25th Spring Conference of the Society for Name Studies in Britain and Ireland",
-		"title": "Towards a database of Irish surnames",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
-			},
-			{
-				"family": "Ó Raghallaigh",
-				"given": "Brian"
-			},
-			{
-				"family": "Ní Loingsigh",
-				"given": "Katie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2016",
-					4
-				]
-			]
-		},
-		"citation-key": "mechuraDatabaseIrishSurnames2016"
-	},
-	{
-		"id": "mechuraIntroductionGramadanIrish2015",
-		"type": "report",
-		"publisher": "Foras na Gaeilge",
-		"title": "Introduction to Gramadán and the Irish National Morphology Database",
-		"URL": "http://www.teanglann.ie/data/gramadan-en.pdf",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2015"
-				]
-			]
-		},
-		"citation-key": "mechuraIntroductionGramadanIrish2015"
-	},
-	{
-		"id": "mechuraBunacharNaisiuntaMoirfeolaiochta2015",
-		"type": "report",
-		"publisher": "Foras na Gaeilge",
-		"title": "Bunachar Náisiúnta Moirfeolaíochta agus Gramadán: Doiciméadúchán Teicniúil",
-		"URL": "http://www.teanglann.ie/data/gramadan.pdf",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2015"
-				]
-			]
-		},
-		"citation-key": "mechuraBunacharNaisiuntaMoirfeolaiochta2015"
-	},
-	{
-		"id": "oraghallaighDevelopingGaoisLinguistic2021",
-		"type": "article-journal",
-		"abstract": "In this paper, we are introducing the first-ever open, data-driven linguistic database of Irish-language surnames, along with an algorithm for deriving inflected forms of Irish-language surnames.",
-		"container-title": "Names: A Journal of Onomastics",
-		"DOI": "10.5195/names.2021.2251",
-		"ISSN": "1756-2279, 0027-7738",
-		"issue": "1",
-		"journalAbbreviation": "names",
-		"page": "10-19",
-		"title": "Developing the Gaois Linguistic Database of Irish-language Surnames",
-		"URL": "https://ans-names.pitt.edu/ans/article/view/2251",
-		"volume": "69",
-		"author": [
-			{
-				"family": "Ó Raghallaigh",
-				"given": "Brian"
-			},
-			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
-			},
-			{
-				"family": "Ó Fionnagáin",
-				"given": "Aengus"
-			},
-			{
-				"family": "Osborne",
-				"given": "Sophie"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					5,
-					22
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2021",
-					2,
-					15
-				]
-			]
-		},
-		"citation-key": "oraghallaighDevelopingGaoisLinguistic2021"
-	},
-	{
-		"id": "mechuraWhatProgrammersWant2021",
-		"type": "speech",
-		"event": "eLex 2021 Conference",
-		"title": "What programmers want: avoiding recursion in dictionary schemas",
-		"URL": "https://youtu.be/hHiflt6O8zg",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021",
-					7,
-					7
-				]
-			]
-		},
-		"citation-key": "mechuraWhatProgrammersWant2021"
-	},
-	{
-		"id": "mechuraLexicographicAPIsState2021",
-		"type": "speech",
-		"event": "eLex 2021 Conference",
-		"title": "Lexicographic APIs: the state of the art",
-		"URL": "https://youtu.be/NVFd-RM1aWo",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021",
-					7,
-					7
-				]
-			]
-		},
-		"citation-key": "mechuraLexicographicAPIsState2021"
-	},
-	{
-		"id": "mechuraReInventingPhrasebook2021",
-		"type": "speech",
-		"abstract": "An introduction to Czechslator and the technology behind it.",
-		"event": "Grammatical Framework Summer School",
-		"event-place": "Singapore and online",
-		"publisher-place": "Singapore and online",
-		"title": "Re‑inventing the phrasebook with rule‑based language technology",
-		"URL": "https://www.youtube.com/watch?v=9mQSgIGSFus",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021",
-					8,
-					4
-				]
-			]
-		},
-		"citation-key": "mechuraReInventingPhrasebook2021"
-	},
-	{
-		"id": "mechuraHelpMyXML2021",
-		"type": "speech",
-		"event": "XIX EURALEX International Congress",
-		"event-place": "Online",
-		"publisher-place": "Online",
-		"title": "Help, my XML is too complex! The problem of excessive structural markup in dictionaries",
-		"URL": "http://www.lexiconista.com/pdf/Euralex2021XML.pdf",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021",
-					9
-				]
-			]
-		},
-		"citation-key": "mechuraHelpMyXML2021"
-	},
-	{
-		"id": "mechuraIntroducingTerminologueCloudbased2021",
-		"type": "speech",
-		"event": "XIX EURALEX International Congress",
-		"event-place": "Online",
-		"publisher-place": "Online",
-		"title": "Introducing Terminologue: a cloud-based, open-source terminology management tool",
-		"author": [
-			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
-			},
-			{
-				"family": "Ó Raghallaigh",
-				"given": "Brian"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021",
-					9
-				]
-			]
-		},
-		"citation-key": "mechuraIntroducingTerminologueCloudbased2021"
-	},
-	{
-		"id": "mechuraWeNeedTalk2022",
-		"type": "report",
-		"abstract": "Machine translation is getting better all the time but the problem of bias still remains. Translations produced by machines are often biased because of ambiguities in gender, in forms of address, and in word meaning. This whitepaper analyzes the problem and proposes a solution based on automated re-inflection with humans in the loop.",
-		"title": "We need to talk about bias in machine translation: the Fairslator whitepaper",
-		"URL": "https://www.fairslator.com/fairslator-whitepaper.pdf",
+		"title": "Ceardlann ar Terminologue",
 		"author": [
 			{
 				"family": "Měchura",
@@ -1324,11 +1377,35 @@
 			"date-parts": [
 				[
 					"2022",
-					2,
-					28
+					4,
+					6
 				]
 			]
 		},
-		"citation-key": "mechuraWeNeedTalk2022"
+		"citation-key": "mechuraCeardlannArTerminologue2022"
+	},
+	{
+		"id": "mechuraYouWantBuild2022",
+		"type": "speech",
+		"event": "Placenames in Bilingual Areas Workshop",
+		"event-place": "Dublin, Ireland",
+		"publisher-place": "Dublin, Ireland",
+		"title": "So you want to build a placenames database: an introduction to toponymic data modelling",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					5,
+					13
+				]
+			]
+		},
+		"citation-key": "mechuraYouWantBuild2022"
 	}
 ]
