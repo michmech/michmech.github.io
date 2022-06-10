@@ -1407,5 +1407,54 @@
 			]
 		},
 		"citation-key": "mechuraYouWantBuild2022"
+	},
+	{
+		"id": "mechuraDMLexDataModel2022",
+		"type": "speech",
+		"event": "ELEXIS Showcase Event",
+		"event-place": "Florence, Italy",
+		"publisher-place": "Florence, Italy",
+		"title": "DMLex, a data model for lexicography: an example-by-example introduction",
+		"URL": "https://elex.is/elexis-showcase-event-florence/",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					6,
+					8
+				]
+			]
+		},
+		"citation-key": "mechuraDMLexDataModel2022"
+	},
+	{
+		"id": "mechuraWhatYouNeed2022",
+		"type": "article-magazine",
+		"abstract": "As machine translation gets better, the problem of bias — especially gender bias — remains a source of embarrassment for the industry. Why MT bias matters and how major players are trying to fix it.",
+		"container-title": "Slator.com",
+		"title": "What You Need to Know About Bias in Machine Translation",
+		"URL": "https://slator.com/what-you-need-to-know-about-bias-in-machine-translation/",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					5,
+					27
+				]
+			]
+		},
+		"citation-key": "mechuraWhatYouNeed2022"
 	}
 ]
