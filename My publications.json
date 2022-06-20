@@ -1456,5 +1456,66 @@
 			]
 		},
 		"citation-key": "mechuraWhatYouNeed2022"
+	},
+	{
+		"id": "mechuraIntroductionLexicographicData2022",
+		"type": "speech",
+		"event": "Lexicom",
+		"event-place": "Telč, Czech Republic",
+		"publisher-place": "Telč, Czech Republic",
+		"title": "An introduction to lexicographic data modelling",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					6,
+					14
+				]
+			]
+		},
+		"citation-key": "mechuraIntroductionLexicographicData2022"
+	},
+	{
+		"id": "mechuraDareBeDifferent2022",
+		"type": "paper-conference",
+		"event": "Multilingual Digital Terminology Today: Design, representation formats and management systems",
+		"event-place": "Padova, Italy",
+		"publisher-place": "Padova, Italy",
+		"title": "Dare to be different: how user needs determine termbase design",
+		"URL": "https://michmech.github.io/pdf/dare-to-be-different.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			},
+			{
+				"family": "Ó Raghallaigh",
+				"given": "Brian"
+			},
+			{
+				"family": "Bhreathnach",
+				"given": "Úna"
+			},
+			{
+				"family": "Ó Cleircín",
+				"given": "Gearóid"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					6,
+					16
+				]
+			]
+		},
+		"citation-key": "mechuraDareBeDifferent2022"
 	}
 ]
