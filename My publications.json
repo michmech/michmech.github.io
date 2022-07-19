@@ -1415,7 +1415,7 @@
 		"event-place": "Florence, Italy",
 		"publisher-place": "Florence, Italy",
 		"title": "DMLex, a data model for lexicography: an example-by-example introduction",
-		"URL": "https://elex.is/elexis-showcase-event-florence/",
+		"URL": "http://videolectures.net/elexisevent2020_krek_dmlex_oasis/",
 		"author": [
 			{
 				"family": "Měchura",
@@ -1517,5 +1517,56 @@
 			]
 		},
 		"citation-key": "mechuraDareBeDifferent2022"
+	},
+	{
+		"id": "mechura-2022-taxonomy",
+		"type": "paper-conference",
+		"abstract": "This paper introduces a taxonomy of phenomena which cause bias in machine translation, covering gender bias (people being male and/or female), number bias (singular you versus plural you) and formality bias (informal you versus formal you). Our taxonomy is a formalism for describing situations in machine translation when the source text leaves some of these properties unspecified (eg. does not say whether doctor is male or female) but the target language requires the property to be specified (eg. because it does not have a gender-neutral word for doctor). The formalism described here is used internally by a web-based tool we have built for detecting and correcting bias in the output of any machine translator.",
+		"container-title": "Proceedings of the 4th workshop on gender bias in natural language processing (GeBNLP)",
+		"event-place": "Seattle, Washington",
+		"page": "168–173",
+		"publisher": "Association for Computational Linguistics",
+		"publisher-place": "Seattle, Washington",
+		"title": "A taxonomy of bias-causing ambiguities in machine translation",
+		"URL": "https://aclanthology.org/2022.gebnlp-1.18",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					7
+				]
+			]
+		},
+		"citation-key": "mechura-2022-taxonomy"
+	},
+	{
+		"id": "mechuraDocumentDatabaseSearch2022",
+		"type": "paper-conference",
+		"event": "Euralex 2022 Conference",
+		"event-place": "Mannheim, Germany",
+		"publisher-place": "Mannheim, Germany",
+		"title": "Document or database? The search for the perfect storage paradigm for lexical data.",
+		"URL": "https://michmech.github.io/pdf/euralex2022.pdf",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					7
+				]
+			]
+		},
+		"citation-key": "mechuraDocumentDatabaseSearch2022"
 	}
 ]
