@@ -88,9 +88,9 @@ function addPubs(years){
       html+=`<h3 class="title">${pub.title}&nbsp;<a class="biblink" href="${pub.id}">BIB</a></h3>`;
     }
     var data=``;
-    if(pub["event"]){
+    if(pub["event"] || pub["event-title"]){
       data+=`<div><span class='intro'>EVENT</span> `;
-      data+=`${pub["event"]}`;
+      data+=`${pub["event"] || pub["event-title"]}`;
       if(pub["event-place"]) data+=`, ${pub["event-place"]}`;
       data+=`</div>`;
     }
