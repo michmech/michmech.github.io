@@ -46,7 +46,7 @@
 		}
 	},
 	{
-		"id": "mechuraUserFriendlinessKeyPromoting2009",
+		"id": "userFriendlinessTartu",
 		"type": "speech",
 		"event-place": "Tartu, Estonia",
 		"event-title": "12th International Conference on Minority Languages",
@@ -1620,6 +1620,31 @@
 				[
 					"2022",
 					9
+				]
+			]
+		}
+	},
+	{
+		"id": "mechuraZaNamiMnoho2022",
+		"type": "speech",
+		"event-place": "Praha",
+		"event-title": "Seminář Ústavu Českého národního korpusu",
+		"license": "All rights reserved",
+		"publisher-place": "Praha",
+		"title": "Za námi mnoho, před námi ještě víc: digitalizace lexikografie včera, dnes a zítra",
+		"URL": "https://www.korpus.cz/seminar/329",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					11,
+					1
 				]
 			]
 		}
