@@ -16,7 +16,7 @@ A survey of application programming interfaces (APIs) on the Internet which prov
 
 ## Lexicala API
 
-By K Dictionaries (formerly Kernerman Dictionaries), the publishers of many mostly bilingual dictionaries, including the well-known Password series of "bilingualized monolingual" learners' dictionaries. The API contains many monolingual and bilingual dictionaries in 50+ languages.
+By K Dictionaries, the developer of many mostly bilingual dictionaries, including the well-known Password series of "bilingualized monolingual" learners' dictionaries. The API contains many monolingual and bilingual dictionaries in 50+ languages.
 
 URL
 : [https://api.lexicala.com/](https://api.lexicala.com/)
