@@ -1648,5 +1648,30 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "mechuraIntroducingFairslatorMachine2022",
+		"type": "speech",
+		"event-place": "Luxembourg",
+		"event-title": "TC44: Translating and the Computer",
+		"license": "All rights reserved",
+		"publisher-place": "Luxembourg",
+		"title": "Introducing Fairslator: a machine translation bias removal tool",
+		"URL": "https://asling.org/tc44/confirmed-presentations/#Mechura",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					11,
+					24
+				]
+			]
+		}
 	}
 ]
