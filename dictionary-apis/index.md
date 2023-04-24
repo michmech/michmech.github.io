@@ -8,7 +8,7 @@ blurb: A survey of application programming interfaces (APIs) on the Internet whi
 
 # A survey of dictionary APIs
 
-A survey of application programming interfaces (APIs) on the Internet which provide access to lexicographic content in machine-readable formats. This page accompanies my talk **Lexicographic APIs: the state of the art** at the [eLex 2021 Conference](https://elex.link/elex2021/). {.lead}
+A survey of application programming interfaces (APIs) on the Internet which provide access to lexicographic content in machine-readable formats. This page accompanies my talk **[Lexicographic APIs: the state of the art](https://www.youtube.com/watch?v=NVFd-RM1aWo)** at the [eLex 2021 Conference](https://elex.link/elex2021/). {.lead}
 
 ---
 
@@ -243,3 +243,14 @@ Entry format
 
 Entry schema
 : Their own.
+
+---
+
+## Honorable mentions
+
+- The Europe-wide [ELEXIS](https://elex.is/) project has published a specification for dictionary APIs called [ELEXIS Protocol for accessing dictionaries](https://elexis-eu.github.io/elexis-rest/). It is not clear whether any publicly available dictionaries implement it.
+
+- The website [najdislovo.cz](https://www.najdislovo.cz/), which hosts two Czech retrodigitized onomasiological dictionaries, has an API: [documentation here](https://silencesys.notion.site/Popis-API-rozhran-2d4eeb675d934645b97dc24145ef9883).
+
+- The [Electronic Lexical Database of Indo-Iranian Languages](https://eldi.soc.cas.cz/), currently under construction at the Czech Academy of Sciences, will have an API: [documentation here](https://eldi.soc.cas.cz/api.html).
+
