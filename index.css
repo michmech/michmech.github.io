@@ -81,7 +81,7 @@ div#bio h1.name span.lingos span.lingo {
 }
 div#bio h1.name span.lingos span.lingo:hover {border-color: #209CEE; color: #209CEE; background-color: #ffffff;}
 div#bio h1.name span.lingos span.lingo.current {background-color: #209CEE; border-color: #209CEE; text-shadow: 0px 0px 0px transparent; color: #ffffff;}
-div#bio div.blurb {margin-top: 0.25em; line-height: 2em; color: #333333; box-sizing: border-box;}
+div#bio div.blurb {margin-top: 2em; line-height: 2em; color: #333333; box-sizing: border-box;}
 div#bio div.blurb div.version {box-sizing: border-box;}
 div#bio div.blurb span.icon {color: #666666; font-size: 1.5em; position: relative; top: 3px; margin: 0px 0.25em;}
 div#bio div.data {margin-top: 2em; color: #778899; font-size: 0.9em; line-height: 1.5em;}
@@ -154,7 +154,7 @@ dl dt {font-weight: bold; float: left; margin-right: 0.5em; clear: left;}
 dl dd {margin-left: 20px; margin-bottom: 0.25em;}
 
 div.vanity {
-  margin-top: 70px;
+  margin-top: 30px;
   margin-left: -100px;
   margin-right: -100px;
   overflow-x: auto;
@@ -172,12 +172,12 @@ div.vanity {
 }
 @media(max-width: 500px) {
   div.vanity {
-    white-space: nowrap;
-    overflow-x: scroll;
-    padding-bottom: 60px;
-    margin-right: -25px;
+    /* white-space: nowrap;
+    overflow-x: scroll; */
+    padding-bottom: 20px;
+    /* margin-right: -25px;
     margin-left: -25px;
-    padding-left: 15px;
+    padding-left: 15px; */
   }
 }
 div.vanity a.box {
@@ -187,7 +187,7 @@ div.vanity a.box {
   margin: 30px 5px 0px 5px;
   min-width: 125px;
 }
-@media(max-width: 500px) {
+/* @media(max-width: 500px) {
   div.vanity a.box {
     min-width: auto;
     border: 1px solid #eeeeee;
@@ -200,7 +200,7 @@ div.vanity a.box {
   div.vanity a.box:last-child {
     margin-right: 25px;
   }
-}
+} */
 div.vanity a.box img.icon {
   width: 40px;
   height: 40px;
@@ -208,6 +208,8 @@ div.vanity a.box img.icon {
 div.vanity a.box:hover img.icon {
   position: relative;
   top: -1px;
+}
+@media(max-width: 500px) {
 }
 div.vanity a.box span.title {
   display: block;
@@ -226,4 +228,58 @@ div.vanity a.box span.url {
 div.vanity a.box:hover span.url {
   color: #1eb87a;
   text-decoration: underline;
+}
+
+a.book {
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  position: relative;
+  padding-left: 100px;
+  min-height: 100px;
+  margin: 50px auto 0px auto;
+  max-width: 500px;
+  display: block;
+  text-decoration: none;
+  line-height: 1.35em;
+}
+@media(max-width: 500px) {
+  a.book {
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
+a.book i.icon {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+@media(max-width: 500px) {
+  a.book i.icon {
+    display: none;
+  }
+  }
+a.book img.bookcover {
+  height: 100px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+a.book span.title {
+  display: block;
+  margin-top: 1.2em;
+  font-weight: bold;
+}
+a.book span.author {
+  display: block;
+  font-size: 0.9em;
+  color: #666666;
+  margin-top: 0.05em;
+}
+a.book span.biblio {
+  display: block;
+  font-size: 0.9em;
+  color: #999999;
 }
