@@ -97,8 +97,9 @@ h2.overYears::after {content: "•"; margin-left: 1em;}
 div.years {}
 div.years div.year {}
 div.years div.year h3 {margin-bottom: 0.5em; margin-top: 2em; font-size: 1.25em; font-weight: normal;}
-div.years div.year div.item {border-top: 1px solid #cccccc; padding-top: 0.75em; margin-bottom: 0.75em; position: relative;}
-div.years div.year div.item:last-child {border-bottom: 1px solid #cccccc; padding-bottom: 0.5em;}
+div.years div.year > h3 {border-bottom: 1px solid #cccccc;}
+div.years div.year div.item {padding-top: 0.75em; margin-bottom: 0.75em; position: relative;}
+div.years div.year div.item:last-child {x-border-bottom: 1px solid #cccccc; padding-bottom: 0.5em;}
 div.years div.year div.item div.tagline {line-height: 1.25em; margin-bottom: 0.25em;}
 div.years div.year div.item div.tagline > span.icon {font-size: 1.5em; position: absolute; left: -2em; top: 1.55em; color: #666666; text-shadow: none; display: block; width: 1.25em; text-align: center;}
 div.years div.year div.item div.tagline > span.type {font-size: 0.75em; color: #666666; font-weight: bold;}
@@ -109,11 +110,11 @@ div.years div.year div.item h3.title a.biblink:hover {color: #666666; border-col
 div.years div.year div.item div.blurb {color: #666666; font-size: 0.9em; line-height: 1.5em; margin-top: 3px;}
 div.years div.year div.item div.data {color: #666666; font-size: 0.9em; line-height: 1.5em; margin-top: 3px;}
 div.years div.year div.item div.data span.intro {color: #000000; font-size: 0.8em; margin-right: 0.25em; }
-div.years div.year div.boxtitle {margin-top: 1em;}
+div.years div.year div.boxtitle {margin-top: 1.75em;}
 div.years div.year div.boxtitle span {font-size: 0.75em; color: #666666; font-weight: bold; background-color: #ffffff; padding: 5px 10px; margin-left: -10px; border-radius: 8px; box-shadow: 0px 0px 10px #ffffff;}
-div.years div.year div.arts {padding: 0px 25px 0.5em 25px; margin: 0px -25px; background-color: #ffffff; border: 1px solid #999999; border-radius: 8px; margin-top: -0.65em;}
-div.years div.year div.arts div.item {margin-top: 1em; padding-top: 1em;}
-div.years div.year div.arts div.item:first-child {border-top: 0px; margin-top: 0.3em;}
+div.years div.year div.arts {padding: 0px 25px 0.5em 25px; margin: 0px -25px; background-color: #ffffff; border: 1px solid #999999; border-radius: 8px; margin-top: -1em;}
+div.years div.year div.arts div.item {margin-top: 0.5em;}
+div.years div.year div.arts div.item:first-child {border-top: 0px; margin-top: 1.25em;}
 div.years div.year div.arts div.item:last-child {border-bottom: 0px}
 @media(max-width: 1080px) {
 	div.years div.year div.arts {border-radius: 0px; border-left: 0px; border-right: 0px; margin-left: -20px; margin-right: -20px;}

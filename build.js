@@ -81,11 +81,12 @@ function addPubs(years){
       //else console.log(pub.type);
       html+=printCoauthors(pub);
     html+=`</div>`;
+    const bibUrl=`https://www.zotero.org/michmech/search/${encodeURIComponent(pub.title)}/titleCreatorYear/`;
     if(pub.URL){
       pub.URL=pub.URL.replace(/https\:\/\/michmech\.github\.io\//, "");
-      html+=`<h3 class="title"><a href="${pub.URL}">${pub.title}</a>&nbsp;<a class="biblink" href="${pub.id}">BIB</a></h3>`;
+      html+=`<h3 class="title"><a target="_blank" href="${pub.URL}">${pub.title}</a>&nbsp;<a class="biblink" target="_blank" href="${bibUrl}">BIB</a></h3>`;
     } else {
-      html+=`<h3 class="title">${pub.title}&nbsp;<a class="biblink" href="${pub.id}">BIB</a></h3>`;
+      html+=`<h3 class="title">${pub.title}&nbsp;<a class="biblink" target="_blank" href="${bibUrl}">BIB</a></h3>`;
     }
     var data=``;
     if(pub["event"] || pub["event-title"]){
@@ -109,6 +110,11 @@ function addPubs(years){
     if(pub["ISBN"]){
       data+=`<div><span class='intro'>ISBN</span> `;
       data+=`${pub["ISBN"]}`;
+      data+=`</div>`;
+    }
+    if(pub["DOI"]){
+      data+=`<div>`;
+      data+=`<a target="_blank" href="https://doi.org/${pub["DOI"]}">https://doi.org/${pub["DOI"]}</a>`;
       data+=`</div>`;
     }
     if(data!="") html+=`<div class="data">${data}</div>`;
