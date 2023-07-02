@@ -1710,5 +1710,42 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/7ST2IND6",
+		"type": "article-journal",
+		"container-title": "International Journal Of Lexicography",
+		"DOI": "10.1093/ijl/ecad012",
+		"ISSN": "0950-3846, 1477-4577",
+		"language": "en",
+		"license": "All rights reserved",
+		"page": "ecad012",
+		"source": "DOI.org (Crossref)",
+		"title": "Avoiding Recursion in the Representation of Subsenses and Subentries in Dictionaries",
+		"URL": "https://academic.oup.com/ijl/advance-article/doi/10.1093/ijl/ecad012/7193796",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					7,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					6,
+					10
+				]
+			]
+		}
 	}
 ]
