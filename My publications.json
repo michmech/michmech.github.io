@@ -1652,9 +1652,10 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/NVRHPDXL",
 		"type": "speech",
-		"event-place": "TC44: Translating and the Computer, Luxembourg",
+		"event-place": "Luxembourg",
+		"event-title": "TC44: Translating and the Computer",
 		"license": "All rights reserved",
-		"publisher-place": "TC44: Translating and the Computer, Luxembourg",
+		"publisher-place": "Luxembourg",
 		"title": "Introducing Fairslator: a machine translation bias removal tool",
 		"URL": "https://asling.org/tc44/confirmed-presentations/#Mechura",
 		"author": [
@@ -1744,6 +1745,60 @@
 					"2023",
 					6,
 					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/VYMJAMZ4",
+		"type": "interview",
+		"abstract": "Das Goethe-Institut hatte ein paar Fragen zu meinem Projekt Fairslator.",
+		"license": "All rights reserved",
+		"medium": "Goethe-Institut: Artificially Correct",
+		"title": "Wenn die Maschine den Menschen fragt: im Gespräch mit Michal Měchura",
+		"URL": "https://www.goethe.de/ins/gb/de/kul/lue/art/art/23121288.html",
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					7,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/73TKG97S",
+		"type": "interview",
+		"abstract": "Germany's Goethe-Institut had a few questions to ask me about my Fairslator project.",
+		"license": "All rights reserved",
+		"medium": "Goethe-Institut: Artificially Correct",
+		"title": "When the machine asks the human: in conversation with Michal Měchura",
+		"URL": "https://www.goethe.de/ins/gb/en/kul/lue/art/art/23121288.html",
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					7,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/99A5ZJ3K",
+		"type": "interview",
+		"abstract": "I spoke to machinetranslation.com about bias in machine translation, about Fairslator, and about my vision for “human-assisted machine translation”.",
+		"license": "All rights reserved",
+		"medium": "machinetranslation.com",
+		"title": "Creating an Inclusive AI Future: The Importance of Non-Binary Representation",
+		"URL": "https://www.machinetranslation.com/blog/creating-an-inclusive-ai-future-the-importance-of-non-binary-representation",
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					8
 				]
 			]
 		}

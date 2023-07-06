@@ -68,6 +68,10 @@ function addPubs(years){
         html+=`<span class="icon fas fa-book-reader" aria-hidden="true"></span>`;
         html+=`<span class="type">JOURNAL ARTICLE</span>`;
       }
+      else if(pub.type=="interview"){
+        html+=`<span class="icon fas fa-comments" aria-hidden="true"></span>`;
+        html+=`<span class="type">INTERVIEW</span>`;
+      }
       else if(pub.type=="speech") html+=`<span class="type">TALK</span>`;
       else if(pub.type=="article-magazine") html+=`<span class="type">MAGAZINE ARTICLE</span>`;
       else if(pub.type=="manuscript") html+=`<span class="type">MANUSCRIPT</span>`;
@@ -117,6 +121,11 @@ function addPubs(years){
       data+=`<a target="_blank" href="https://doi.org/${pub["DOI"]}">https://doi.org/${pub["DOI"]}</a>`;
       data+=`</div>`;
     }
+    if(pub["medium"]){
+      data+=`<div><span class='intro'>WHERE</span> `;
+      data+=`${pub["medium"]}`;
+      data+=`</div>`;
+    }
     if(data!="") html+=`<div class="data">${data}</div>`;
     if(pub.abstract) html+=`<div class="blurb">${pub.abstract.replace(/\r?\n\r?\n/g, " ● ")}</div>`;
     html+=`</div>`;
@@ -126,7 +135,7 @@ function addPubs(years){
 }
 function printCoauthors(pub){
   var names=[];
-  pub.author.map(auth => {
+  if(pub.author) pub.author.map(auth => {
     if(auth.family && auth.given){
       if(auth.family!="Měchura") names.push(auth.given+" "+auth.family);
     }
