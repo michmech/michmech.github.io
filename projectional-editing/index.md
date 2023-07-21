@@ -2,12 +2,12 @@
 published: 2023-07-21
 author: Michal Měchura
 myrole:
-title: How I reinveted the wheel and discovered projectional editing
+title: How I reinvented the wheel and discovered projectional editing
 blurb: Trust me, you want a code editor that doesn’t let you change the code.
 ---
 
 
-# How I reinveted the wheel and discovered projectional editing
+# How I reinvented the wheel and discovered projectional editing
 
 Trust me, you want a code editor that doesn’t let you change the code. {.lead}
 
