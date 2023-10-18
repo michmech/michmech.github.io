@@ -1602,7 +1602,6 @@
 	{
 		"id": "mechuraFairslatorDemo2022",
 		"type": "speech",
-		"abstract": "This demo introduced Fairslator, an experimental application for removing bias from machine translation. Translations produced by machines – especially when the source language is English – are often biased because of ambiguities in gender, number and forms of address. Fairslator resolves these by examining the output of machine translation, detecting the presence of any bias-triggering ambiguities, and asking the human user how they wish to resolve them: for example, whether gender-ambiguous English words such as ‘student’ and ‘doctor’ should be translated as male or female, or whether the English pronoun ‘you’ should be translated as singular or plural, as formal or informal.",
 		"event-place": "Brno",
 		"event-title": "Text, Speech and Dialogue Conference",
 		"license": "All rights reserved",
@@ -1651,13 +1650,17 @@
 	},
 	{
 		"id": "mechuraIntroducingFairslatorMachine2022",
-		"type": "speech",
+		"type": "paper-conference",
+		"container-title": "Translating and the Computer 44 Proceedings",
 		"event-place": "Luxembourg",
-		"event-title": "TC44: Translating and the Computer",
+		"event-title": "Translating and the Computer 44",
+		"ISBN": "978-2-9701733-0-4",
 		"license": "All rights reserved",
+		"page": "90-95",
+		"publisher": "Editions Tradulex",
 		"publisher-place": "Luxembourg",
 		"title": "Introducing Fairslator: a machine translation bias removal tool",
-		"URL": "https://asling.org/tc44/confirmed-presentations/#Mechura",
+		"URL": "http://www.tradulex.com/varia/TC44-luxembourg2022.pdf",
 		"author": [
 			{
 				"family": "Měchura",

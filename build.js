@@ -108,7 +108,7 @@ function addPubs(years){
       var label="PUBLISHER"; if(pub.type=="thesis") label="INSTITUTION";
       data+=`<div><span class='intro'>${label}</span> `;
       data+=`${pub["publisher"]}`;
-      if(pub["publisher-place"]) data+=`, ${pub["publisher-place"]}`;
+      // if(pub["publisher-place"]) data+=`, ${pub["publisher-place"]}`;
       data+=`</div>`;
     }
     if(pub["ISBN"]){
