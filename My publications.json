@@ -1841,5 +1841,77 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "mechuraGenderBiasMachine2023",
+		"type": "speech",
+		"event-place": "Barcelona",
+		"event-title": "EAFT Summit",
+		"license": "All rights reserved",
+		"publisher-place": "Barcelona",
+		"title": "Gender bias in machine translation and what terminologists can do about it",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					17
+				]
+			]
+		}
+	},
+	{
+		"id": "mechuraCorrectingBiasedTranslations2023",
+		"type": "speech",
+		"event-place": "Luxembourg",
+		"event-title": "Translating and the Computer 45",
+		"license": "All rights reserved",
+		"publisher-place": "Luxembourg",
+		"title": "Correcting biased translations with the Fairslator API",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					21
+				]
+			]
+		}
+	},
+	{
+		"id": "mechuraLexicographyXML2023",
+		"type": "speech",
+		"event-place": "Amsterdam",
+		"event-title": "Declarative Amsterdam",
+		"license": "All rights reserved",
+		"publisher-place": "Amsterdam",
+		"title": "Lexicography versus XML",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					3
+				]
+			]
+		}
 	}
 ]
