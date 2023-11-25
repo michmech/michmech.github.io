@@ -21,33 +21,33 @@ div#homelink {
 }
 div#homelink > a.L {
   display: inline-block; height: 100px; width: 40px; background-color: #209CEE; border-radius: 0px 0px 2px 2px;
-  background-image: url(favicon-32x32.png); background-position: center bottom+5px; background-repeat: no-repeat;
+  background-image: url(../favicon-32x32.png); background-position: center bottom+5px; background-repeat: no-repeat;
 }
 div#homelink > a.L:hover {background-position: center bottom+4px;}
 
 div#homelink > a.offtopic {
   display: inline-block;
   font-size: 0.8em;
-  color: #999999;
-  padding: 5px;
+  line-height: 1em;
+  padding: 8px 15px;
   position: absolute;
-  top: 10px;
-  right: 0px;
+  bottom: 10px;
+  left: 60px;
   white-space: nowrap;
+  color: #209CEE;
+  border-bottom: 2px solid #209CEE;
+  text-shadow: none;
+  font-weight: bold;
 }
 div#homelink > a.offtopic:hover {
-  color: #209CEE;
-}
-div#homelink > a.offtopic > i {
-  margin-left: 0.25em;
 }
 
-div#sig {color: #445566; margin: 0 0 100px 0; border-top: 1px solid #cccccc; padding-top: 1em;}
+div#sig {color: #445566; margin: 100px 0 50px 0; border-top: 1px solid #cccccc; padding-top: 1em;}
 div#sig.homepage {border-top: 0px solid #cccccc; margin: 100px 0;}
 div#sig > a.backstop {
   float: right; margin-top: 2px;
   display: inline-block; height: 25px; width: 100px; background-color: #209CEE; border-radius: 2px;
-  background-image: url(favicon-16x16.png); background-position: center left+5px; background-repeat: no-repeat;
+  background-image: url(../favicon-16x16.png); background-position: center left+5px; background-repeat: no-repeat;
 }
 div#sig > a.backstop:hover {background-position: center left+4px;}
 div#sig div.socials {font-size: 0.85em; margin-top: 0.25em;}
@@ -132,10 +132,18 @@ div.years div.year div.item div.data {color: #666666; font-size: 0.9em; line-hei
 div.years div.year div.item div.data span.intro {color: #000000; font-size: 0.8em; margin-right: 0.25em; }
 div.years div.year div.boxtitle {margin-top: 1.75em;}
 div.years div.year div.boxtitle span {font-size: 0.75em; color: #666666; font-weight: bold; background-color: #ffffff; padding: 5px 10px; margin-left: -10px; border-radius: 8px; box-shadow: 0px 0px 10px #ffffff;}
-div.years div.year div.arts {padding: 0px 25px 0.5em 25px; margin: 0px -25px; background-color: #ffffff; border: 1px solid #999999; border-radius: 8px; margin-top: -1em;}
-div.years div.year div.arts div.item {margin-top: 0.5em;}
-div.years div.year div.arts div.item:first-child {border-top: 0px; margin-top: 1.25em;}
-div.years div.year div.arts div.item:last-child {border-bottom: 0px}
+
+div.years div.year div.arts {
+  margin-top: 25px;
+}
+div.years div.year div.arts div.item {
+  padding: 25px 25px 25px 25px;
+  margin: 0px -25px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
 @media(max-width: 1080px) {
 	div.years div.year div.arts {border-radius: 0px; border-left: 0px; border-right: 0px; margin-left: -20px; margin-right: -20px;}
 }
@@ -147,7 +155,7 @@ div.years div.year div.arts div.item:last-child {border-bottom: 0px}
 h1 {font-size: 2em; line-height: 1.15em;}
 p.subtitle {font-size: 1.15em; line-height: 1.65em; color: #445566; margin-top: -1em; margin-bottom: 1em;}
 h2 {font-size: 1.5em; line-height: 1.15em; margin: 1.25em 0 0.75em 0;}
-p {margin: 0 0 1em 0px;}
+p {margin: 0 0 1em 0px; line-height: 1.5em}
 hr {border: 0px; border-top: 1px solid #cccccc; margin-bottom: 1em;}
 
 a {color: #0f6ba8; text-decoration: none;}
@@ -303,4 +311,11 @@ a.book span.biblio {
   display: block;
   font-size: 0.9em;
   color: #999999;
+}
+
+div.markdown {
+  margin-top: 75px;
+}
+div.markdown * {
+  line-height: 1.75em !important;
 }

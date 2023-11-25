@@ -154,7 +154,7 @@ function printCoauthors(pub){
 
 function addArts(years){
   getDirectories("./").map(dir => {
-    if(dir!="zzz" && fs.existsSync("./"+dir+"/index.md")){
+    if(dir!="zzz" && dir!="offtopic" && fs.existsSync("./"+dir+"/index.md")){
       var metadata=buildArticle(dir);
       if(metadata.published){
         var year=metadata.published.substring(0, 4);
