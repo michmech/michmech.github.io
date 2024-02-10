@@ -198,6 +198,11 @@ function buildArticle(dir){
   if(metadata.published){
     metatags+=`<meta name="article:published_time" content="${metadata.published}"/>\n`;
   }
+  if(metadata.preview){
+    metatags+=`<meta property="og:image" content="http://www.lexiconista.com/${dir}/${metadata.preview}" />\n`;
+  } else {
+    metatags+=`<meta property="og:image" content="http://www.lexiconista.com/splash.png" />\n`;
+  }
   var html=fs.readFileSync("./zzz/index.html", "utf8").replace(/\r/g, "");
   html=html.replace(/(<!--begin metatags-->\n).*(<!--end metatags-->)/s, function(m, $1, $2){ return $1+metatags+$2; });
   html=html.replace(/(<!--begin body-->\n).*(<!--end body-->)/s, function(m, $1, $2){ return $1+body+$2; });

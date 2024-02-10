@@ -7,7 +7,7 @@
             user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
 
-body {margin: 0px; padding: 0px; border-top: 2px solid #209CEE; background-color: #f6f6f6; font-family: Helvetica, sans-serif; font-size: 1.05rem; line-height: 1.5em; text-shadow: 1px 1px 0px #ffffff;}
+body {margin: 0px; padding: 0px; border-top: 2px solid #209CEE; background-color: #f6f6f6; font-family: Helvetica, sans-serif; font-size: 1.05rem; line-height: 1.5em; text-shadow: 1px 1px 0px #ffffff; line-height: 2em;}
 .cyr {font-family: Arial, sans-serif;}
 
 div#body {max-width: 800px; margin: 0px auto; padding: 0px 25px;}
@@ -303,4 +303,14 @@ a.book span.biblio {
   display: block;
   font-size: 0.9em;
   color: #999999;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  /* letter-spacing: -0.05em; */
+  font-size: 0.95em;
+  color: #001122;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 4px 4px 2px 4px;
 }
