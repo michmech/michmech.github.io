@@ -78,7 +78,7 @@ function addPubs(years){
       else if(pub.type=="report") html+=`<span class="type">REPORT</span>`;
       else if(pub.type=="thesis"){
         html+=`<span class="icon fas fa-graduation-cap" aria-hidden="true"></span>`;
-        if(year=="2019") html+=`<span class="type">PHD THESIS PROPOSAL</span>`;
+        if(year=="2024") html+=`<span class="type">PH.D. THESIS</span>`;
         else if(year=="2008") html+=`<span class="type">M.PHIL. DISSERTATION</span>`;
         else html+=`<span class="type">DISSERTATION</span>`;
       }
@@ -159,7 +159,7 @@ function addArts(years){
       if(metadata.published){
         var year=metadata.published.substring(0, 4);
         var html=`<div class="item article">`;
-        html+=`<h3 class="title"><a href="./${dir}/">${metadata.title}&nbsp;»</a></h3>`;
+        html+=`<h3 class="title"><a href="./${dir}/">${metadata.title}</a></h3>`;
         if(metadata.blurb) html+=`<div class="blurb">${metadata.blurb}</div>`;
         html+=`</div>`;
         if(!years[year]) years[year]={pubs: [], arts: []};

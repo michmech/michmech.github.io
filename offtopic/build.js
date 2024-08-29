@@ -39,7 +39,7 @@ function addArts(years){
             if(metadata.published){
                 var year=metadata.published.substring(0, 4);
                 var html=`<div class="item article">`;
-                html+=`<h3 class="title"><a href="./${dir}/">${metadata.title}&nbsp;»</a></h3>`;
+                html+=`<h3 class="title"><a href="./${dir}/">${metadata.title}</a></h3>`;
                 if(metadata.blurb) html+=`<div class="blurb">${metadata.blurb}</div>`;
                 html+=`</div>`;
                 if(!years[year]) years[year]={pubs: [], arts: []};

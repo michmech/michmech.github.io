@@ -3,7 +3,7 @@ lang: cs
 published: 2023-01-24
 originalAuthor: 
 title: Proslov na třídním srazu po dvaceti letech
-myrole: Aistrithe go Gaeilge ag
+myrole: 
 author: Michal Měchura
 blurb: Vlastně jsem ani nechtěl přijet, já jsem věděl, že se to zvrhne.
 image: preview.jpg

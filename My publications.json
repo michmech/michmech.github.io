@@ -437,16 +437,15 @@
 		}
 	},
 	{
-		"id": "mechuraContributionsElexicography2019",
+		"id": "mechuraDataStructuresLexicography2024",
 		"type": "thesis",
-		"abstract": "This thesis is about the digitization of lexicography, with focus on dictionaries intended for human users.",
 		"event-place": "Brno",
-		"genre": "PhD thesis proposal",
+		"genre": "PhD thesis",
 		"license": "All rights reserved",
 		"publisher": "Masaryk University",
 		"publisher-place": "Brno",
-		"title": "Contributions to e-lexicography",
-		"URL": "https://michmech.github.io/pdf/teze.pdf",
+		"title": "Data Structures in Lexicography",
+		"URL": "https://michmech.github.io/pdf/thes.pdf",
 		"author": [
 			{
 				"family": "Měchura",
@@ -456,9 +455,9 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2019",
-					9,
-					9
+					"2024",
+					8,
+					29
 				]
 			]
 		}
@@ -1911,6 +1910,31 @@
 					"2023",
 					11,
 					3
+				]
+			]
+		}
+	},
+	{
+		"id": "mechuraCriticalLookData2024",
+		"type": "speech",
+		"event-place": "Dublin",
+		"event-title": "Thirtieth Spring Conference of Society for Name Studies in Britain and Ireland",
+		"license": "All rights reserved",
+		"publisher-place": "Dublin",
+		"title": "A critical look at the data structure behind Logainm.ie",
+		"URL": "https://www.snsbi.org.uk/2024_Dublin.html",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					5,
+					11
 				]
 			]
 		}

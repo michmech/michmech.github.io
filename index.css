@@ -314,3 +314,10 @@ code {
   border-radius: 4px;
   padding: 4px 4px 2px 4px;
 }
+
+div.quals {
+  margin-top: 2em;
+  color: #667788;
+  font-size: 0.85em;
+  line-height: 2em;
+}
