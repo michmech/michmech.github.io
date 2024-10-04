@@ -1938,5 +1938,52 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "mechuraBiasMachineTranslation2024",
+		"type": "speech",
+		"event-title": "AMTA (Association for Machine Translation in the Americas) Conference 2024: Tutorials Day",
+		"license": "All rights reserved",
+		"title": "Bias in machine translation: challenges, techniques, perspectives",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "mechuraZaujatostVeStrojovem2024",
+		"type": "speech",
+		"event-place": "Praha",
+		"event-title": "Jeronýmovy dny 2024",
+		"license": "All rights reserved",
+		"publisher-place": "Praha",
+		"title": "Zaujatost ve strojovém překladu a co s ní",
+		"URL": "https://www.jtpunion.org/akce/jeronymovy-dny-2024/",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					10,
+					18
+				]
+			]
+		}
 	}
 ]
