@@ -1,6 +1,6 @@
 [
 	{
-		"id": "mechuraThingsThinkWhen2016",
+		"id": "http://zotero.org/users/4089510/items/Z9CSQIW4",
 		"type": "speech",
 		"event-place": "Barcelona, Catalonia",
 		"event-title": "European Network of e-Lexicography",
@@ -23,7 +23,7 @@
 		}
 	},
 	{
-		"id": "mechuraCaBhfuilMo2008",
+		"id": "http://zotero.org/users/4089510/items/JM7ZABS4",
 		"type": "speech",
 		"event-place": "Dublin, Ireland",
 		"event-title": "Engineers Ireland",
@@ -73,7 +73,7 @@
 		}
 	},
 	{
-		"id": "mechuraTabhairDomBhfuil2010",
+		"id": "http://zotero.org/users/4089510/items/ZA7FEVEC",
 		"type": "speech",
 		"event-place": "Baile Bhuirne, Ireland",
 		"event-title": "Imbolc",
@@ -97,7 +97,7 @@
 		}
 	},
 	{
-		"id": "mechuraIdirFocloirAgus2012",
+		"id": "http://zotero.org/users/4089510/items/CIBAQI9P",
 		"type": "speech",
 		"event-place": "Waterford, Ireland",
 		"event-title": "Daonscoil na Mumhan",
@@ -120,7 +120,7 @@
 		}
 	},
 	{
-		"id": "mechuraLandscapesLanguagesData2012",
+		"id": "http://zotero.org/users/4089510/items/UEF6JJAP",
 		"type": "speech",
 		"event-place": "Hamburg, Germany",
 		"event-title": "Digital Humanities Conference",
@@ -144,7 +144,7 @@
 		}
 	},
 	{
-		"id": "mechuraDatabaseIrishSurnames2016",
+		"id": "http://zotero.org/users/4089510/items/WRN42C8H",
 		"type": "speech",
 		"event-title": "25th Spring Conference of the Society for Name Studies in Britain and Ireland",
 		"license": "All rights reserved",
@@ -173,7 +173,7 @@
 		}
 	},
 	{
-		"id": "mechuraIntroductionGramadanIrish2015",
+		"id": "http://zotero.org/users/4089510/items/EFB362NS",
 		"type": "report",
 		"license": "All rights reserved",
 		"publisher": "Foras na Gaeilge",
@@ -194,7 +194,7 @@
 		}
 	},
 	{
-		"id": "mechuraBunacharNaisiuntaMoirfeolaiochta2015",
+		"id": "http://zotero.org/users/4089510/items/XHFC3A5U",
 		"type": "report",
 		"license": "All rights reserved",
 		"publisher": "Foras na Gaeilge",
@@ -215,7 +215,7 @@
 		}
 	},
 	{
-		"id": "mechuraWeNeedTalk2022",
+		"id": "http://zotero.org/users/4089510/items/XPHX29UG",
 		"type": "report",
 		"abstract": "Machine translation is getting better all the time but the problem of bias still remains. Translations produced by machines are often biased because of ambiguities in gender, in forms of address, and in word meaning. This whitepaper analyzes the problem and proposes a solution based on automated re-inflection with humans in the loop.",
 		"license": "All rights reserved",
@@ -238,7 +238,7 @@
 		}
 	},
 	{
-		"id": "mechuraHelpMyXML2021",
+		"id": "http://zotero.org/users/4089510/items/X8FCSGN4",
 		"type": "speech",
 		"event-place": "Online",
 		"event-title": "XIX EURALEX International Congress",
@@ -262,7 +262,7 @@
 		}
 	},
 	{
-		"id": "mechuraReInventingPhrasebook2021",
+		"id": "http://zotero.org/users/4089510/items/YUTXFEFT",
 		"type": "speech",
 		"abstract": "An introduction to Czechslator and the technology behind it.",
 		"event-place": "Singapore and online",
@@ -288,7 +288,7 @@
 		}
 	},
 	{
-		"id": "mechuraIntroducingTerminologueCloudbased2021",
+		"id": "http://zotero.org/users/4089510/items/AP4K2CQL",
 		"type": "speech",
 		"event-place": "Online",
 		"event-title": "XIX EURALEX International Congress",
@@ -315,7 +315,7 @@
 		}
 	},
 	{
-		"id": "mechuraMetadataInfrastructureOnline2017",
+		"id": "http://zotero.org/users/4089510/items/48DNB6J4",
 		"type": "speech",
 		"event-place": "Budapest",
 		"event-title": "European Network of e-Lexicography",
@@ -340,7 +340,7 @@
 		}
 	},
 	{
-		"id": "mechuraLexicographicAPIsState2021",
+		"id": "http://zotero.org/users/4089510/items/5A2LWERN",
 		"type": "speech",
 		"event-title": "eLex 2021 Conference",
 		"license": "All rights reserved",
@@ -363,7 +363,7 @@
 		}
 	},
 	{
-		"id": "mechuraWhatProgrammersWant2021",
+		"id": "http://zotero.org/users/4089510/items/6QZWUV3Y",
 		"type": "speech",
 		"event-title": "eLex 2021 Conference",
 		"license": "All rights reserved",
@@ -386,7 +386,7 @@
 		}
 	},
 	{
-		"id": "oraghallaighDevelopingGaoisLinguistic2021",
+		"id": "http://zotero.org/users/4089510/items/XVAXAX3A",
 		"type": "article-journal",
 		"abstract": "In this paper, we are introducing the first-ever open, data-driven linguistic database of Irish-language surnames, along with an algorithm for deriving inflected forms of Irish-language surnames.",
 		"container-title": "Names: A Journal of Onomastics",
@@ -401,20 +401,16 @@
 		"volume": "69",
 		"author": [
 			{
-				"family": "Ó Raghallaigh",
-				"given": "Brian"
+				"literal": "Brian Ó Raghallaigh"
 			},
 			{
-				"family": "Měchura",
-				"given": "Michal Boleslav"
+				"literal": "Michal Boleslav Měchura"
 			},
 			{
-				"family": "Ó Fionnagáin",
-				"given": "Aengus"
+				"literal": "Aengus Ó Fionnagáin"
 			},
 			{
-				"family": "Osborne",
-				"given": "Sophie"
+				"literal": "Sophie Osborne"
 			}
 		],
 		"accessed": {
@@ -437,7 +433,7 @@
 		}
 	},
 	{
-		"id": "mechuraDataStructuresLexicography2024",
+		"id": "http://zotero.org/users/4089510/items/NK9HJHUP",
 		"type": "thesis",
 		"event-place": "Brno",
 		"genre": "PhD thesis",
@@ -463,7 +459,7 @@
 		}
 	},
 	{
-		"id": "mechuraHowBuildTermbase2010",
+		"id": "http://zotero.org/users/4089510/items/FB4KIXCJ",
 		"type": "speech",
 		"event-place": "Dublin, Ireland",
 		"event-title": "Terminology and Knowledge Engineering (TKE) Conference",
@@ -501,7 +497,7 @@
 		}
 	},
 	{
-		"id": "mechuraFocalIeNational2010",
+		"id": "http://zotero.org/users/4089510/items/RBZGXHF5",
 		"type": "speech",
 		"event-place": "Ljouwert/Leeuwarden",
 		"event-title": "14th Euralex International Congress",
@@ -539,7 +535,7 @@
 		}
 	},
 	{
-		"id": "mechuraLogainmIePlacenames2012",
+		"id": "http://zotero.org/users/4089510/items/DAP36QII",
 		"type": "speech",
 		"event-title": "Placenames Workshop 2012",
 		"license": "All rights reserved",
@@ -573,7 +569,7 @@
 		}
 	},
 	{
-		"id": "mechuraPlausibilityFilteringGrammatical2018",
+		"id": "http://zotero.org/users/4089510/items/MRESTJIG",
 		"type": "manuscript",
 		"abstract": "This document describes a technique called plausibility filtering which you can use to prevent a Grammatical Framework (GF) application grammar from generating semantically implausible sentences.",
 		"event-place": "Stellenbosch, South Africa",
@@ -598,7 +594,7 @@
 		}
 	},
 	{
-		"id": "angelovEditingSearchExploration2018",
+		"id": "http://zotero.org/users/4089510/items/VK8QYWZF",
 		"type": "paper-conference",
 		"abstract": "We present an editor for controlled languages which is a combination of a syntax editor and a predictive editor.",
 		"collection-title": "Frontiers in Artificial Intelligence and Applications",
@@ -633,7 +629,7 @@
 		}
 	},
 	{
-		"id": "jakubicekPracticalPostEditing2018",
+		"id": "http://zotero.org/users/4089510/items/4YK9KVJN",
 		"type": "speech",
 		"event-title": "XVIII EURALEX International Congress: Lexicography in Global Contexts",
 		"license": "All rights reserved",
@@ -667,7 +663,7 @@
 		}
 	},
 	{
-		"id": "mechuraShareableSubentriesLexonomy2018",
+		"id": "http://zotero.org/users/4089510/items/RTRLVFVH",
 		"type": "paper-conference",
 		"abstract": "This paper introduces a new way of dealing with phraseology in dictionaries. A classical question in lexicography is whether multiword items such as third time lucky should be listed under third, time or lucky. The ideal answer is ‘under all of them’ but, until now, the only way to do that in conventional tree-structured dictionaries has been to keep multiple copies (of what conceptually is one and the same item) in several places throughout the dictionary. We present a way to achieve the same goal without copying. The multiword item becomes a semi-independent subentry which exists in only one copy but appears simultaneously in several places in the dictionary. The structure of the dictionary remains a tree but the lexicographer is empowered to occasionally ‘break out’ of the tree in order to avoid duplication. This paper explains the reasoning behind the concept of shareable subentries and shows how this new functionality has been implemented in the dictionary writing system Lexonomy.",
 		"container-title": "Proceedings of the XVIII EURALEX International Congress: Lexicography in Global Contexts",
@@ -694,7 +690,7 @@
 		}
 	},
 	{
-		"id": "mechuraBreakingTyrannyMachine2018",
+		"id": "http://zotero.org/users/4089510/items/2PLADB89",
 		"type": "speech",
 		"event-place": "Stellenbosch, South Africa",
 		"event-title": "Grammatical Framework Summer School",
@@ -718,7 +714,7 @@
 		}
 	},
 	{
-		"id": "mechuraFutureDictionaryEditing2019",
+		"id": "http://zotero.org/users/4089510/items/5YRHU57X",
 		"type": "speech",
 		"event-place": "Mikulov, Moravia",
 		"event-title": "Lexicom",
@@ -742,7 +738,7 @@
 		}
 	},
 	{
-		"id": "mechuraCzechEnglishTranslation2004",
+		"id": "http://zotero.org/users/4089510/items/VUIQECMA",
 		"type": "manuscript",
 		"abstract": "This work deals with Czech-English translation difficulties that result from differences in word order between the syntax of the two languages. A functional framework is used to interpret the implications of the syntactical differences. Both English and Czech have a tendency to present given information at the beginning of a clause and new information at the end, but the flexibility of Czech word order makes it possible to observe this principle more consistently than English syntax makes possible. Additionally, Czech, unlike English, does not observe the end-weight principle and therefore long stretches of circumstantial information do not prefer to be placed at the end of a clause. Both these differences result in significant mismatches in word order between Czech clauses and their English translation equivalents.",
 		"license": "All rights reserved",
@@ -763,7 +759,7 @@
 		}
 	},
 	{
-		"id": "mechuraPracticalGuideFunctional2005",
+		"id": "http://zotero.org/users/4089510/items/42EVCMFD",
 		"type": "manuscript",
 		"abstract": "This document provides a scheme for analyzing English texts from a functional perspective. The document contains information adapted from Chapters 8, 10 and 12 – 16 of Books 2 and 3 of the Open University course E303 English Grammar in Context as it was presented in 2005, as well as from the set book Longman Student Grammar of Spoken and Written English and from the course’s associated readings. Skills in functional analysis are developed in the course books; this document re-iterates in concise form the main points to consider when performing the analysis.",
 		"license": "All rights reserved",
@@ -784,7 +780,7 @@
 		}
 	},
 	{
-		"id": "mechuraFindingRightStructure2006",
+		"id": "http://zotero.org/users/4089510/items/Z2BA4QQD",
 		"type": "paper-conference",
 		"container-title": "Proceedings of the 13th Euralex International Congress",
 		"event-place": "Turin",
@@ -824,7 +820,7 @@
 		}
 	},
 	{
-		"id": "mechuraUimhreachaNaGaeilge2006",
+		"id": "http://zotero.org/users/4089510/items/TIC62MMV",
 		"type": "manuscript",
 		"abstract": "Sa saothar seo tá cuntasar iomlán na rialacha a bhaineann le húsáid uimhreacha sa Ghaeilge. Mar is eol donléitheoir, tá córas uimhreacha na Gaeilge an-chasta, rud a chuireann fonn ar lucht scríofa leabhar gramadaí a gcuid cuntas ar an chóras a shimpliú agus ceisteanna áirithe a fhágáil gan freagra soiléir mar bheadh an freagra casta agus deacair le tuiscint. Sa saothar seo, tá a mhalairt de chur chuige i gceist. Rinne mé iarracht cur síos a dhéanamh ar chóras na n-uimhreachaar bhealach atá chomh hiomlán agus is féidir, in ainneoin a chastachta. Fónfaidh an saothar seo don té atá ar thóir cruinnis.",
 		"license": "All rights reserved",
@@ -845,7 +841,7 @@
 		}
 	},
 	{
-		"id": "mechuraIonchoduTeacsAr2007",
+		"id": "http://zotero.org/users/4089510/items/9GBW4C8M",
 		"type": "article-magazine",
 		"container-title": "Comhar",
 		"issue": "8",
@@ -870,7 +866,7 @@
 		}
 	},
 	{
-		"id": "mechuraLocalizationIrish2007",
+		"id": "http://zotero.org/users/4089510/items/QKP56ND3",
 		"type": "article-magazine",
 		"container-title": "Multilingual Computing and Technology",
 		"issue": "7",
@@ -895,7 +891,7 @@
 		}
 	},
 	{
-		"id": "mechuraGivingThemWhat2008",
+		"id": "http://zotero.org/users/4089510/items/Z9NMCNBI",
 		"type": "paper-conference",
 		"abstract": "This paper deals with how humans search electronic dictionaries. It raises the point that users often make dictionary searches with misspellings, with inflected words copied and pasted from elsewhere, with complete sentences or fragments thereof, and with other kinds of low-quality input, and suggests methods for dealing with such phenomena in a pre-emptive manner. The issues addressed include searching with inflections, dealing with multi-word items, misspelling detection and text normalization. Additionally, the value of log files is emphasized as a source of information on user behaviour.",
 		"container-title": "Proceedings of the 13th Euralex International Congress",
@@ -932,7 +928,7 @@
 		}
 	},
 	{
-		"id": "mechuraSelectionalPreferencesCorpora2008",
+		"id": "http://zotero.org/users/4089510/items/HRWU9TJ4",
 		"type": "thesis",
 		"abstract": "This work presents a technique for exploring the selectional preferences ofwords in a semi-automatic way. The technique combines corpora with ontologiessuch as WordNet.The term selectional preference denotes a word’s tendency to co-occur withwords that belong to certain lexical sets. For example, the adjective delicious prefers to modify nouns that denote food and the verb marry prefers subjects and objects that denote humans. This work develops techniques for associating corpus-attested selectional preferences with concepts in an ontology. It shows how lexical sets can be derived from ontologies and how corpus-extracted collocates of a word can then be aligned with these lexical sets to reveal any selectional preferences the word has. An additional contribution provided here is an insight into the limitations of this method. The work presents evidence for the conclusion that aligning selectional preferences with an ontology is useful for some purposes, but fundamentally inaccurate because currently existing ontologies do not accurately reflect the mental categories evoked in selectional preferences.",
 		"license": "All rights reserved",
@@ -954,7 +950,7 @@
 		}
 	},
 	{
-		"id": "mechuraWhatWordNetDoes2010",
+		"id": "http://zotero.org/users/4089510/items/IBESPPGN",
 		"type": "paper-conference",
 		"abstract": "Selectional preferences are the tendencies of words to co-occur with other words that belong to certain semantictypes. In this paper, I will investigate how closely these corpus-attested preferences correspond to WordNet. For example, for all possible direct objects of cancel, is there a single category (or a union of several categories) in WordNet that subsumes them, and only them? Selectional preferences manifest themselves in authentic texts andcan be revealed through corpus analysis. I will introduce an experimental tool I have built which attempts to do this automatically by aligning corpus-extracted lists of collocates (for example a list of the direct objects of cancel) with WordNet. The strength of this method is that it can discover and name selectional preferences automatically, but its weakness is that it can only do so when WordNet contains a suitable category. We will see that WordNet often lacks a category (or even a union of several categories) that fully corresponds to an attested selectional preference – for example, there is no category in WordNet that includes all the kinds of events that can be direct objects of cancel (meeting, wedding, concert etc.) but excludes those that cannot (accident, sunset, invention etc.).",
 		"container-title": "Proceedings of the 14th Euralex International Congress",
@@ -991,7 +987,7 @@
 		}
 	},
 	{
-		"id": "mechuraWhenDefinitionsAre2010",
+		"id": "http://zotero.org/users/4089510/items/FCWSPINK",
 		"type": "paper-conference",
 		"abstract": "This paper introduces Compositional Term Diagrams (CTDs) as a formalism for analysing the structure of multi-word terms. CTDs have the potential to help terminologists resolve ambiguities related to transitivity (“who does what to whom”), modification (“what modifies what”) and evocation (“which sense is evoked by this word?”).",
 		"container-title": "Proceedings of Terminology and Knowledge Engineering (TKE) Conference",
@@ -1027,7 +1023,7 @@
 		}
 	},
 	{
-		"id": "mechuraLeacslannTutorial2012",
+		"id": "http://zotero.org/users/4089510/items/ZM3XM6SQ",
 		"type": "report",
 		"license": "All rights reserved",
 		"publisher": "Dublin City University",
@@ -1048,7 +1044,7 @@
 		}
 	},
 	{
-		"id": "mechuraLeacslannPlatformBuilding2012",
+		"id": "http://zotero.org/users/4089510/items/2XTGI88X",
 		"type": "paper-conference",
 		"abstract": "The  purpose  of  this  demo  is  to  introduce Léacslann,  a  new  platform  for  building  dictionary  writing  systems (DWS) and terminology management systems (TMS) as well as other lexicographic and reference applications. Léacslann  can  be  used  without  anyknowledge  of  programming  to  create  a  basic  lexical  database  with  an arbitrary structure. This will be demonstrated in the first half of the demo, while the second half will show how a software developer can customize Léacslann for more demanding applications.",
 		"container-title": "Proceedings of the 15th Euralex International Congress",
@@ -1085,7 +1081,7 @@
 		}
 	},
 	{
-		"id": "mechuraBuildingXMLEditing2014",
+		"id": "http://zotero.org/users/4089510/items/FNX27DWV",
 		"type": "manuscript",
 		"license": "All rights reserved",
 		"title": "Building XML Editing Applications with Xonomy",
@@ -1106,7 +1102,7 @@
 		}
 	},
 	{
-		"id": "mechuraIrishNationalMorphology2014",
+		"id": "http://zotero.org/users/4089510/items/4BI4RP7M",
 		"type": "paper-conference",
 		"abstract": "The Irish National Morphology Database is a human-verified, Official Standard-compliant dataset containing the inflected forms and other morphosyntactic properties of Irish nouns,adjectives, verbs and prepositions. It is being developed by Foras na Gaeilge as part of the New English-Irish Dictionary project. This paper introduces this dataset and its accompanying software library Gramadán.",
 		"container-title": "Proceedings of the First Celtic Language Technology Workshop",
@@ -1146,7 +1142,7 @@
 		}
 	},
 	{
-		"id": "mechuraIrskaNarodniFolklorni2016",
+		"id": "http://zotero.org/users/4089510/items/WSZ7SAR2",
 		"type": "manuscript",
 		"license": "All rights reserved",
 		"title": "Irská národní folklorní sbírka: jak (ne)zdigitalizovat 300 000 rukopisných stránek",
@@ -1167,7 +1163,7 @@
 		}
 	},
 	{
-		"id": "mechuraDataStructuresLexicography2016",
+		"id": "http://zotero.org/users/4089510/items/QP9U6FF3",
 		"type": "paper-conference",
 		"abstract": "In lexicography, a dictionary entry is typically encoded in XML as a tree: a hierarchical data structure of parent-child relations where every element has at most one parent. This choice of data structure makes some aspects of the lexicographer’s work unnecessarily difficult, from deciding where to place multi-word items to reversing anentire bilingual dictionary. This paper proposes that these and other notorious areas of difficulty can be made easier by remodelling dictionaries as graphs rather than trees. However, unlike other authors who have proposed a radical departure from tree structures and whose proposals have remained largely unimplemented, this paper proposes a conservative compromise in which existing tree structures become augmented with specific types of inter-entry relations designed to solve specific problems.",
 		"container-title": "Recent Advances in Slavonic Natural Language Processing",
@@ -1203,7 +1199,7 @@
 		}
 	},
 	{
-		"id": "mechuraIntroducingLexonomyOpensource2017",
+		"id": "http://zotero.org/users/4089510/items/DPVPSXGM",
 		"type": "paper-conference",
 		"abstract": "This demo introduces Lexonomy (www.lexonomy.eu), a free, open-source, web-based dictionary writing and publishing system. In Lexonomy, users can take a dictionary project from initial set-up to final online publication in a completely self-service fashion, with no technical skills required and no financial cost.",
 		"event-place": "Leiden",
@@ -1230,7 +1226,7 @@
 		}
 	},
 	{
-		"id": "mechuraMinorityLanguagesNeed2015",
+		"id": "http://zotero.org/users/4089510/items/JJ8GAGZF",
 		"type": "speech",
 		"event-place": "Dublin Castle, Ireland",
 		"event-title": "British-Irish Council conference on language technology in indigenous, minority and lesser-used languages",
@@ -1254,7 +1250,7 @@
 		}
 	},
 	{
-		"id": "mechuraRiomhaireIlteangach2017",
+		"id": "http://zotero.org/users/4089510/items/PE7N65KK",
 		"type": "book",
 		"abstract": "Treoirleabhar don teicneolaíocht teanga atá dírithe ar an léitheoir ginearálta. Léitheoireacht riachtanach é seo do gach duine a láimhseálann breis is teanga amháin ar an ríomhaire. |  A guide to language technology for general readers. This book is required reading for everybody who uses more than one language on their computer.",
 		"event-place": "Dublin",
@@ -1280,7 +1276,7 @@
 		}
 	},
 	{
-		"id": "jakubicekOneClickDictionary2017",
+		"id": "http://zotero.org/users/4089510/items/TKIR79R9",
 		"type": "speech",
 		"event-title": "Electronic lexicography in the 21st century (eLex) conference",
 		"license": "All rights reserved",
@@ -1312,7 +1308,7 @@
 		}
 	},
 	{
-		"id": "mechuraHowNotBuild2017",
+		"id": "http://zotero.org/users/4089510/items/EP979WSZ",
 		"type": "speech",
 		"event-place": "Leiden",
 		"event-title": "Final Conference of the European Network of e-Lexicography",
@@ -1337,7 +1333,7 @@
 		}
 	},
 	{
-		"id": "mechuraArThairseachNa2017",
+		"id": "http://zotero.org/users/4089510/items/XGG6M825",
 		"type": "speech",
 		"event-place": "Prague",
 		"event-title": "‘Ar an Imeall i Lár an Domhain?’: An tairseachúlacht i litríocht agus i gcultúr na hÉireann agus na hEorpa",
@@ -1361,7 +1357,7 @@
 		}
 	},
 	{
-		"id": "raghallaighTerminologueOpenSource2021",
+		"id": "http://zotero.org/users/4089510/items/JSQ3YG8N",
 		"type": "speech",
 		"event-place": "Online",
 		"event-title": "European Association for Terminology Summit 2021",
@@ -1390,7 +1386,7 @@
 		}
 	},
 	{
-		"id": "mechuraCeardlannArTerminologue2022",
+		"id": "http://zotero.org/users/4089510/items/HEN73ZP9",
 		"type": "speech",
 		"event-place": "Dublin, Ireland",
 		"event-title": "An Ghaeilge agus an Téarmeolaíocht",
@@ -1414,7 +1410,7 @@
 		}
 	},
 	{
-		"id": "mechuraYouWantBuild2022",
+		"id": "http://zotero.org/users/4089510/items/PM47IEGJ",
 		"type": "speech",
 		"event-place": "Dublin, Ireland",
 		"event-title": "Placenames in Bilingual Areas Workshop",
@@ -1438,7 +1434,7 @@
 		}
 	},
 	{
-		"id": "mechuraDMLexDataModel2022",
+		"id": "http://zotero.org/users/4089510/items/IP2WSM5K",
 		"type": "speech",
 		"event-place": "Florence, Italy",
 		"event-title": "ELEXIS Showcase Event",
@@ -1487,7 +1483,7 @@
 		}
 	},
 	{
-		"id": "mechuraIntroductionLexicographicData2022",
+		"id": "http://zotero.org/users/4089510/items/UWHCRZ7V",
 		"type": "speech",
 		"event-place": "Telč, Czech Republic",
 		"event-title": "Lexicom",
@@ -1511,7 +1507,7 @@
 		}
 	},
 	{
-		"id": "mechuraDareBeDifferent2022",
+		"id": "http://zotero.org/users/4089510/items/92U4Z3KX",
 		"type": "paper-conference",
 		"event-place": "Padova, Italy",
 		"event-title": "Multilingual Digital Terminology Today: Design, representation formats and management systems",
@@ -1575,7 +1571,7 @@
 		}
 	},
 	{
-		"id": "mechuraDocumentDatabaseSearch2022",
+		"id": "http://zotero.org/users/4089510/items/GB9SNXZD",
 		"type": "paper-conference",
 		"event-place": "Mannheim, Germany",
 		"event-title": "Euralex 2022 Conference",
@@ -1599,7 +1595,7 @@
 		}
 	},
 	{
-		"id": "mechuraFairslatorDemo2022",
+		"id": "http://zotero.org/users/4089510/items/9PJYA5KK",
 		"type": "speech",
 		"event-place": "Brno",
 		"event-title": "Text, Speech and Dialogue Conference",
@@ -1623,7 +1619,7 @@
 		}
 	},
 	{
-		"id": "mechuraZaNamiMnoho2022",
+		"id": "http://zotero.org/users/4089510/items/KVHWTY4E",
 		"type": "speech",
 		"event-place": "Praha",
 		"event-title": "Seminář Ústavu Českého národního korpusu",
@@ -1648,7 +1644,7 @@
 		}
 	},
 	{
-		"id": "mechuraIntroducingFairslatorMachine2022",
+		"id": "http://zotero.org/users/4089510/items/NVRHPDXL",
 		"type": "paper-conference",
 		"container-title": "Translating and the Computer 44 Proceedings",
 		"event-place": "Luxembourg",
@@ -1715,7 +1711,7 @@
 		}
 	},
 	{
-		"id": "mechuraAvoidingRecursionRepresentation2023",
+		"id": "http://zotero.org/users/4089510/items/7ST2IND6",
 		"type": "article-journal",
 		"container-title": "International Journal Of Lexicography",
 		"DOI": "10.1093/ijl/ecad012",
@@ -1752,7 +1748,7 @@
 		}
 	},
 	{
-		"id": "WennMaschineMenschen2022",
+		"id": "http://zotero.org/users/4089510/items/VYMJAMZ4",
 		"type": "interview",
 		"abstract": "Das Goethe-Institut hatte ein paar Fragen zu meinem Projekt Fairslator.",
 		"license": "All rights reserved",
@@ -1770,7 +1766,7 @@
 		}
 	},
 	{
-		"id": "WhenMachineAsks2022",
+		"id": "http://zotero.org/users/4089510/items/73TKG97S",
 		"type": "interview",
 		"abstract": "Germany's Goethe-Institut had a few questions to ask me about my Fairslator project.",
 		"license": "All rights reserved",
@@ -1788,7 +1784,7 @@
 		}
 	},
 	{
-		"id": "CreatingInclusiveAI2023",
+		"id": "http://zotero.org/users/4089510/items/99A5ZJ3K",
 		"type": "interview",
 		"abstract": "I spoke to machinetranslation.com about bias in machine translation, about Fairslator, and about my vision for “human-assisted machine translation”.",
 		"license": "All rights reserved",
@@ -1842,7 +1838,7 @@
 		}
 	},
 	{
-		"id": "mechuraGenderBiasMachine2023",
+		"id": "http://zotero.org/users/4089510/items/SP5KXB5P",
 		"type": "speech",
 		"event-place": "Barcelona",
 		"event-title": "EAFT Summit",
@@ -1866,13 +1862,14 @@
 		}
 	},
 	{
-		"id": "mechuraCorrectingBiasedTranslations2023",
+		"id": "http://zotero.org/users/4089510/items/KQBRKUBU",
 		"type": "speech",
 		"event-place": "Luxembourg",
 		"event-title": "Translating and the Computer 45",
 		"license": "All rights reserved",
 		"publisher-place": "Luxembourg",
 		"title": "Correcting biased translations with the Fairslator API",
+		"URL": "https://tradulex.com/varia/TC45-luxembourg2023.pdf#page=98",
 		"author": [
 			{
 				"family": "Měchura",
@@ -1890,7 +1887,7 @@
 		}
 	},
 	{
-		"id": "mechuraLexicographyXML2023",
+		"id": "http://zotero.org/users/4089510/items/QB7BBRVW",
 		"type": "speech",
 		"event-place": "Amsterdam",
 		"event-title": "Declarative Amsterdam",
@@ -1915,7 +1912,7 @@
 		}
 	},
 	{
-		"id": "mechuraCriticalLookData2024",
+		"id": "http://zotero.org/users/4089510/items/6YPWJAXN",
 		"type": "speech",
 		"event-place": "Dublin",
 		"event-title": "Thirtieth Spring Conference of Society for Name Studies in Britain and Ireland",
@@ -1940,7 +1937,7 @@
 		}
 	},
 	{
-		"id": "mechuraBiasMachineTranslation2024",
+		"id": "http://zotero.org/users/4089510/items/HSMF3CHL",
 		"type": "speech",
 		"event-title": "AMTA (Association for Machine Translation in the Americas) Conference 2024: Tutorials Day",
 		"license": "All rights reserved",
@@ -1962,7 +1959,7 @@
 		}
 	},
 	{
-		"id": "mechuraZaujatostVeStrojovem2024",
+		"id": "http://zotero.org/users/4089510/items/AZCI99UY",
 		"type": "speech",
 		"event-place": "Praha",
 		"event-title": "Jeronýmovy dny 2024",
