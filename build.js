@@ -60,6 +60,9 @@ function addPubs(years){
         html+=`<span class="icon fas fa-book" aria-hidden="true"></span>`;
         html+=`<span class="type">BOOK</span>`;
       }
+      else if(pub.type=="post-weblog"){
+        html+=`<span class="type">GUEST BLOG POST</span>`;
+      }
       else if(pub.type=="paper-conference"){
         html+=`<span class="icon fas fa-book-reader" aria-hidden="true"></span>`;
         html+=`<span class="type">CONFERENCE PAPER</span>`;
