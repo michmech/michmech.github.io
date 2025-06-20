@@ -63,6 +63,10 @@ function addPubs(years){
       else if(pub.type=="post-weblog"){
         html+=`<span class="type">GUEST ARTICLE</span>`;
       }
+      else if(pub.type=="standard"){
+        html+=`<span class="icon fas fa-clipboard-check" aria-hidden="true"></span>`;
+        html+=`<span class="type">STANDARD</span>`;
+      }
       else if(pub.type=="paper-conference"){
         html+=`<span class="icon fas fa-book-reader" aria-hidden="true"></span>`;
         html+=`<span class="type">CONFERENCE PAPER</span>`;
@@ -105,6 +109,11 @@ function addPubs(years){
     if(pub["container-title"]){
       data+=`<div><span class='intro'>PUBLISHED IN</span> `;
       data+=`${pub["container-title"]}`;
+      data+=`</div>`;
+    }
+    if(pub["authority"]){
+      data+=`<div><span class='intro'>APPROVED BY</span> `;
+      data+=`${pub["authority"]}`;
       data+=`</div>`;
     }
     if(pub["publisher"]){
