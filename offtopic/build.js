@@ -39,7 +39,13 @@ function addArts(years){
             if(metadata.published){
                 var year=metadata.published.substring(0, 4);
                 var html=`<div class="item article">`;
-                html+=`<h3 class="title"><a href="./${dir}/">${metadata.title}</a></h3>`;
+                html+=`<a href="./${dir}/" class="image" style="background-image: url(${dir}/${metadata.image})"></a>`;
+                if(metadata.rubric) html+=`<div class="rubric"><span>${metadata.rubric}</span></div>`;
+                if(metadata.originalAuthor) {
+                  html+=`<h3 class="title"><a href="./${dir}/"><span class="inside">${metadata.title}</span> <span class="originalAuthor">${metadata.originalAuthor}</span></a></h3>`;
+                } else {
+                  html+=`<h3 class="title"><a href="./${dir}/">${metadata.title}</a></h3>`;
+                }
                 if(metadata.blurb) html+=`<div class="blurb">${metadata.blurb}</div>`;
                 html+=`</div>`;
                 if(!years[year]) years[year]={pubs: [], arts: []};
@@ -61,6 +67,9 @@ function buildArticle(dir){
         return "";
     });
     var body=`<div class="markdown" lang="${metadata.lang}">`+doMarkdown(raw)+"</div>\n";
+    if(metadata.rubric){
+      body = `<div class="rubric"><span>${metadata.rubric}</span></div>\n`+body;
+    }
     var metatags="";
     if(metadata.title){
         metatags+=`<title>${metadata.title}</title>\n`;
@@ -82,7 +91,7 @@ function buildArticle(dir){
     html=html.replace(/(<!--begin metatags-->\n).*(<!--end metatags-->)/s, function(m, $1, $2){ return $1+metatags+$2; });
     html=html.replace(/(<!--begin body-->\n).*(<!--end body-->)/s, function(m, $1, $2){ return $1+body+$2; });
     if(metadata.published){
-        html=html.replace(/(<!--begin date-->).*(<!--end date-->)/, function(m, $1, $2){ return $1+metadata.published+", "+$2; });
+        html=html.replace(/(<!--begin date-->).*(<!--end date-->)/, function(m, $1, $2){ return $1+metadata.published+$2; });
     }
     if(metadata.myrole){
         html=html.replace(/(<!--begin myrole-->).*(<!--end myrole-->)/, function(m, $1, $2){ return $1+metadata.myrole+$2; });

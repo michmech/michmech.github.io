@@ -1,6 +1,7 @@
 ---
 lang: cs
 published: 2023-01-24
+rubric: 
 originalAuthor: 
 title: Proslov na třídním srazu po dvaceti letech
 myrole: 

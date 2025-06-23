@@ -1,6 +1,7 @@
 ---
 lang: cs
 published: 2023-01-31
+rubric: 
 originalAuthor: 
 title: Čím se athénská demokracie lišila od té naší?
 myrole: 
@@ -13,7 +14,7 @@ image: preview.jpg
 
 Starověké Řecko byl zlatý věk demokracie, říká se. Jak to ale bylo s athénskou demokracií doopravdy? A máme to dneska lepší, nebo horší? {.lead}
 
-![Jacques-Louis David: The Death of Socrates](preview.jpg)
+![Jacques-Louis David: La Mort de Socrate](preview.jpg)
 
 Pojďme se podívat do Řecka, do doby někdy mezi 6. a 3. stoletím před Kristem. Athény i druhá města v Řecku se řídí systémem, kterému říkají demokracie, doslova lidovláda. To je systém založený na myšlence, že o veřejných věcech se rozhoduje ne podle toho, co si přeje nebo co považuje za dobré nějaký jednotlivec nebo skupina jednotlivců, nýbrž podle toho, co si přejí všichni, celý lid. Od té doby bude tahle myšlenka v evropské historii několikrát zapomenuta a několikrát se zase vrátí. Dneska už zase žijeme v době, kdy myšlenka demokracie udává prim. Jenže je naše demokracie to samé, co byla ta athénská? No, posuďte sami.
 
