@@ -87,6 +87,10 @@ function buildArticle(dir){
     if(metadata.published){
         metatags+=`<meta name="article:published_time" content="${metadata.published}"/>\n`;
     }
+    if(metadata.image){
+        metatags+=`<meta property="og:image" content="http://www.lexiconista.com/offtopic/${dir}/${metadata.image}" />\n`;
+    }
+    body = body.replace(/<a href="http/g, "<a target=\"_blank\" href=\"http");
     var html=fs.readFileSync("./zzz/index.html", "utf8").replace(/\r/g, "");
     html=html.replace(/(<!--begin metatags-->\n).*(<!--end metatags-->)/s, function(m, $1, $2){ return $1+metatags+$2; });
     html=html.replace(/(<!--begin body-->\n).*(<!--end body-->)/s, function(m, $1, $2){ return $1+body+$2; });
