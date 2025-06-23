@@ -10,7 +10,7 @@ blurb: “Ná téigh thar trí nóiméad, nó brisfidh ar an fhoighne air.”
 image: preview.jpg
 ---
 
-Aistriúchán ón Ghearmáinis ar an chaibidil ‘Der Mann ohne Zeit’ ón leabhar ‘[Business Class: Geschichten aus der Welt des Managements](https://www.diogenes.ch/leser/titel/martin-suter/business-class-gesprochen-von-martin-suter-9783257800593.html)’ leis an scríbhneoir Eilbhéiseach [Martin Suter](https://de.wikipedia.org/wiki/Martin_Suter). {.preintro}
+Aistriúchán ón Ghearmáinis ar an chaibidil ‘Der Mann ohne Zeit’ ón leabhar ‘[Business Class: Geschichten aus der Welt des Managements](https://www.diogenes.ch/leser/titel/martin-suter/business-class-gesprochen-von-martin-suter-9783257800593.html)’ leis an scríbhneoir Eilvéiseach [Martin Suter](https://de.wikipedia.org/wiki/Martin_Suter). {.preintro}
 
 # An fear gnóthach
 
