@@ -204,12 +204,12 @@ a:hover {color: #209CEE;}
 p.lead {font-size: 1.15em; line-height: 1.65em; color: #445566}
 p.lead.mitAbstand {margin-bottom: 1.25em;}
 p.meta {color: #445566}
-p.author {font-style: italic; margin-top: -1.5em; font-size: 1.25em;}
+p.author {font-style: italic; margin-top: -1.25em; font-size: 1.25em;}
 p.preintro {font-style: italic; margin-bottom: 2em; font-size: 1.05em; color: #333333;}
 
 figure {margin: 2em 0px;}
 figure img {max-width: 100%; border-radius: 4px; border: 1px solid #999999;}
-figure figcaption {color: #666666; font-size: 1em;}
+figure figcaption {color: #666666; font-size: 0.95em;}
 figure.floatLeft {float: left; margin-right: 1.75em; margin-top: 0; padding-top: 10px;}
 figure.floatRight {float: right; margin-left: 1.75em; margin-top: 0; padding-top: 10px;}
 figure.shrink {width: 40%;}
