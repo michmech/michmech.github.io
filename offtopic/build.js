@@ -72,9 +72,15 @@ function buildArticle(dir){
     }
     var metatags="";
     if(metadata.title){
+      if(metadata.originalAuthor){
+        metatags+=`<title>${metadata.title} – ${metadata.originalAuthor}</title>\n`;
+        metatags+=`<meta itemprop="name" content="${metadata.title} – ${metadata.originalAuthor}"/>\n`;
+        metatags+=`<meta name="og:title" content="${metadata.title} – ${metadata.originalAuthor}"/>\n`;
+      } else {
         metatags+=`<title>${metadata.title}</title>\n`;
         metatags+=`<meta itemprop="name" content="${metadata.title}"/>\n`;
         metatags+=`<meta name="og:title" content="${metadata.title}"/>\n`;
+      }
     }
     if(metadata.blurb){
         metatags+=`<meta name="description" content="${metadata.blurb}"/>\n`;
