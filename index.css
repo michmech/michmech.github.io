@@ -147,6 +147,7 @@ div.years div.year div.arts div.item:last-child {border-bottom: 0px}
 h1 {font-size: 2em; line-height: 1.15em;}
 p.subtitle {font-size: 1.15em; line-height: 1.65em; color: #445566; margin-top: -1em; margin-bottom: 1em;}
 h2 {font-size: 1.5em; line-height: 1.15em; margin: 1.25em 0 0.75em 0;}
+h3 {font-size: 1.15em; line-height: 1.15em; margin: 1.75em 0 1em 0; font-weight: normal;}
 p {margin: 0 0 1em 0px;}
 hr {border: 0px; border-top: 1px solid #cccccc; margin-bottom: 1em;}
 

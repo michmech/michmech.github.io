@@ -1,4 +1,4 @@
-const md=require('markdown-it')({html: true});
+const md=require('markdown-it')({html: true, linkify: false});
 const attrs=require('markdown-it-attrs'); md.use(attrs);
 const deflist=require('markdown-it-deflist'); md.use(deflist);
 const fs=require("fs");
@@ -234,6 +234,9 @@ function doMarkdown(str){
   });
   //markdown to HTML:
   str=md.render(str);
+  //markup external links:
+  str=str.replace(/<a href="http/g, `<a target="_blank" href="http`);
+  //done:
   return str;
 }
 function htmlEncode(s){
