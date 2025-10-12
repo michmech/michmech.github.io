@@ -342,3 +342,36 @@ ul li::before {
 ul li p {
   margin: 0.5em 0;
 }
+
+details {
+  font-size: 0.95em;
+  line-height: 1.75em;
+  color: #112233;
+  margin-top: -15px;
+  margin-left: -15px;
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+details:open {
+  margin-bottom: 2em;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  padding-bottom: 1px;
+  margin-top: 0px;
+}
+details summary {
+  cursor: pointer;
+  color: #336699;
+  display: inline-block;
+}
+details summary:hover {
+  color: #209CEE;
+}
+details:open summary {
+  margin-bottom: -0.75em !important;
+  font-weight: bold;
+}
+details p, details ul {
+  margin: 0.75em 0 !important; 
+}

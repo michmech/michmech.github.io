@@ -34,54 +34,176 @@
 <ul>
 <li>
 <p>Sentences in all languages can be templated as easily as in English: <code>{user} is in {location}</code> etc.</p>
+<details>
+  <summary>Explain...</summary>
+<p>In some languages, the form of the preposition ‘in’ may depend on the word that follows it.</p>
+<ul>
+<li>Czech: <code>v koupelně</code> ‘in the bathroom’ but <code>ve sklepě</code> ‘in the basement’.</li>
+<li>Irish: <code>in áit nua</code> ‘in a new place’ but <code>i láthair nua</code> ‘in a new location’.</li>
+</ul>
+<p>If the location is a placename, then the ‘in’ may be either ‘in’ or ‘on’ in some languages, depending on the placename.</p>
+<ul>
+<li>Czech: <code>v Čechách</code> ‘in Bohemia’ but <code>na Moravě</code> ‘in Moravia’, literally ‘on’.</li>
+</ul>
+<p>If the location begins with the definite article ‘the’ or something like that, then the article may merge with the prepostion into a single word.</p>
+<ul>
+<li>Irish: <code>an Vatacáin</code> ‘the Vatican’ → <code>sa Vatacáin</code> ‘in the Vatican’.</li>
+<li>German: <code>der Vatikan</code> ‘the Vatican’ → <code>im Vatikan</code> ‘in the Vatican’ (<code>in dem Vatikan</code> is also possible but less common).</li>
+</ul>
+<p>If the location is a string you are getting from a database or something like that, then the form in which it needs to appear in your template may be different from the form your database gives you, for example becase it needs to be inflected for some grammatical case (like in Slavic languages) or its initial consonant needs to be mutated (like in Celtic languages).</p>
+<ul>
+<li>Czech: <code>Praha</code> ‘Prague’ → <code>v Praze</code> ’in Prague’</li>
+<li>Irish <code>fillteán</code> ‘folder’ → <code>i bhfillteán</code> ‘in a folder’</li>
+</ul>
+</details>
 </li>
 <li>
 <p>Words that are short in English are short in other languages too.</p>
+<details>
+  <summary>Explain...</summary>
+<p>One valid translation for ‘food’ in German is <code>Lebensmittel</code>: almost three times as long. The Irish for ‘please’ is <code>le do thoil</code>, three words instead of one. In Czech, ‘bus stop’ is <code>zastávka autobusu</code>, the same number of words but over twice as many characters.</p>
+<p>Differences like these can break horizontally arranged UIs like menus and tables.</p>
+</details>
 </li>
 <li>
 <p>For any text in any language, its translation into any other language is approximately as long as the original.</p>
+<details>
+  <summary>Explain...</summary>
+<p>It is a well-known fact that no matter which language you are translating from and into, the translation often ends up being longer than the original. Even experts disagree on why this is but it’s probably related to how <strong>language production</strong> works in the human brain: when you’re writing an original text from scratch in some language, your decisions about <em>what</em> to say are partially influenced by what happens to be <em>easy</em> to say in that language; but when translating into another language you don’t have the same amount of freedom anymore, you are constrained by what the original author has decided.</p>
+<p>This is the same reason why, in spite of the translator’s best efforts, translated texts sometimes feel less “natural” than original texts, but that is a different matter...</p>
+</details>
 </li>
 <li>
 <p>For every lower-case character, there is exactly one (language-independent) upper-case character, and vice versa.</p>
+<details>
+  <summary>Explain...</summary>
+<p>In most languages, the lower-case <code>i</code> (with a dot) upper-cases into <code>I</code> (without a dot). In Turkish, however:</p>
+<ul>
+<li><code>i</code> (with a dot) upper-cases into <code>İ</code> (also with a dot)</li>
+<li><code>ı</code> (without a dot) upper-cases into <code>I</code> (also without a dot)</li>
+</ul>
+</details>
 </li>
 <li>
 <p>The lower-case/upper-case distinction exists in all languages.</p>
+ <details>
+  <summary>Explain...</summary>
+<p>This distinction exists only in some writing systems, notably the Latin alphabet (used in English and many other European languages), the Cyrillic alphabet (Russian etc.) and the Greek alphabet. It doesn't exist in the alphabets used for writing Arabic, Hebrew, Chinese, Korean etc.</p>
+</details>
 </li>
 <li>
 <p>All languages have words for exactly the same things as English.</p>
+<details>
+  <summary>Explain...</summary>
+<p>Languages generally don't have words for exactly the same things. Languages are not just different <em>codes</em> for the same stuff, they are different ways of <em>understanding</em> stuff. That's why Russian has two words for different kinds of the colour ‘blue’ and Czech has one word for both ‘security’ and ‘safety’.</p>
+</details>
 </li>
 <li>
 <p>Every expression in English, however vague and out-of-context, always has exactly one translation in every other language.</p>
+<details>
+  <summary>Explain...</summary>
+<p>Is ‘file’ a noun (a file somewhere on your computer) or a verb (to file something somewhere)? Is ‘open’ a verb (to open something) or an adjective (something is open)? Most languages would have different translations for these. Your localizers will hate you if you give them such isolated words to translate.</p>
+<p>Multi-word expressions can have the same problem. What's a ‘conditional jump instruction’? Is it an instruction to do a conditional jump, or a conditional instruction to do a jump? Those two readings would have different translations in many languages, even if that may seem like hair-splitting to you.</p>
+<p>And even if the intended meaning is clear, there may still be two or more valid ways to translate it – just like in English where you often have more than one way to say something too.</p>
+</details>
 </li>
 <li>
 <p>All languages follow the subject-verb-object word order.</p>
+<details>
+  <summary>Explain...</summary>
+<p>Celtic languages such as Irish and Welsh don't: most sentences in these languages verb-first, so the order is verb-subject-object.</p>
+<p>Some languages, notably Czech but to some extent also German, have more or less <em>free word order</em> and sentences can come in many different arrangements including verb-first and object-first.</p>
+<p>This matters in concatenated UI strings such as <code>device + &quot;is connected&quot;</code>. You can never translate something like <code>is connected</code> into a language like Irish because, in Irish, the <code>device</code> needs to come between the <code>is</code> and the <code>connected</code>. If you are going to localize this string into other languages, you need to do your globalization homework first and refactor it into a more language-neutral template like <code>&quot;{device} is connected&quot;</code> where your localizers will have the freedom to move <code>{device}</code> around in the sentence.</p>
+</details>
 </li>
 <li>
 <p>When words are to be converted into <em>Title Case</em>, it is always the first character of the word that needs to be capitalized, in all languages.</p>
+<details>
+  <summary>Explain...</summary>
+<p>In Irish, the first one or two characters at the beginning of a word are sometimes the result of something called <em>initial mutation</em> and these characters must remain uncapitalized. What gets capitalized is the first character <em>after</em> that. Examples: <code>Bóthar na bhFál</code> (the Irish name for Falls Road in Belfast), <code>An tAonas Eorpach</code> ‘The European Union’.</p>
+<p>In Dutch, the two characters <code>ij</code> are treated as if they were a single letter and, when they are at the beginning of a word you are going to capitalize, they both need to be capitalized: <code>IJsselmeer</code> and <code>IJmuiden</code> are placenames in the Netherlands.</p>
+<p>So, when capitalizing a string, you need to know what language it is in.</p>
+</details>
 </li>
 <li>
-<p>Every language has words for <em>yes</em> and <em>no</em>.</p>
+<p>When a placename, the name of an institutions or any other name contains more than one word, it is written in <em>Title Case</em> such that each word begins with an upper-case character.</p>
+<details>
+  <summary>Explain...</summary>
+<p>In many European languages, only the first word is title-cased.</p>
+<ul>
+<li>Czech: <code>Evropská unie</code> ‘European Union’</li>
+<li>French: <code>Union européenne</code> ‘European Union’</li>
+</ul>
+<p>Even in English, not every single word is always title-cased. Function words like ‘of’ and ‘the‘ often remain lower-case: <code>Office of the Ombudsman</code> and so on.</p>
+</details>
 </li>
 <li>
-<p>In each language, the words for <em>yes</em> and <em>no</em> never change, regardless of which question they are answering.</p>
+<p>Every language has words for <em>yes</em> and <em>no</em>. These words never change, regardless of which question they are answering.</p>
+<details>
+  <summary>Explain...</summary>
+<p>Celtic languages such as Irish and Scottish Gaelic don't. In these languages, questions are answered by recycling the verb from the question. Examples:</p>
+<ul>
+<li><code>ar shiúil tú?</code> ‘did you walk?’
+<ul>
+<li><code>shiúil</code> ‘yes’, literally ‘walked’</li>
+<li><code>níor shiúil</code> no’, literally ‘didn’t walk’</li>
+</ul>
+</li>
+<li><code>ar thiomáin tú?</code> ‘did you drive?’
+<ul>
+<li><code>thiomáin</code> ‘yes’, literally ‘drove’</li>
+<li><code>níor thiomáin</code> no’, literally ‘didn’t drive’</li>
+</ul>
+</li>
+</ul>
+<p>This is a well-known complication when localizing dialog boxes with pre-baked ‘yes’ and ‘no’ buttons.</p>
+</details>
 </li>
 <li>
 <p>There is always only one correct way to spell anything.</p>
+<details>
+  <summary>Explain...</summary>
+<p>Would be nice but, sadly no. There are regional differences (<code>colour</code> and <code>color</code>), stylistical preferences (<code>café</code> and <code>cafe</code>), differing points of view (<code>log int something</code> versus <code>log in to something</code>) and what not. By all means, be strict and consistent in your own writing if you want but be tolerant in what you accept.</p>
+</details>
 </li>
 <li>
 <p>Each language is written in exactly one alphabet.</p>
+<details>
+  <summary>Explain...</summary>
+<p>Notoriously, Serbian can be and is written in either the Latin aphabet or the Cyrillic alphabet.</p>
+</details>
 </li>
 <li>
 <p>All languages (that use the Latin alphabet) have the same alphabetical sorting order.</p>
+<details>
+  <summary>Explain...</summary>
+<p>Although the basic A-to-Z order is the same for all languages that use the Latin script, different languages follow different strategies as to where they place extended characters (= characters with accents). Some mix them in while others put them at the end:</p>
+<ul>
+<li>In German, <code>ä</code> comes right after <code>a</code> and before <code>b</code>.</li>
+<li>In Swedish, <code>ä</code> comes at the end of the alphabet, after <code>z</code>.</li>
+</ul>
+</details>
 </li>
 <li>
 <p>All languages are written from left to right.</p>
+<details>
+  <summary>Explain...</summary>
+<p>Arabic, Hebrew etc, are written from right to left.</p>
+</details>
 </li>
 <li>
 <p>Even in languages written from right to left, the user interface still “flows” from left to right.</p>
+<details>
+  <summary>Explain...</summary>
+<p>No. In a well-designed Arabic UI, <em>everything</em> will flow from right to left. If your UI has a navigation menu on the left-hand side for English and other European languages, your Arabic version should have it on the right-hand side. You often see Arabic UIs which don't (because it's &quot;difficult&quot;) but that's disappointing. Do it and your users will be delighted!</p>
+</details>
 </li>
 <li>
 <p>Every language puts spaces between words.</p>
+<details>
+  <summary>Explain...</summary>
+<p>Chinese and Japanese don't, for one.</p>
+</details>
 </li>
 <li>
 <p>Segmenting a sentence into words is as easy as splitting on whitespace (and maybe punctuation).</p>
