@@ -12,7 +12,7 @@ preview: illustration.jpg
 
 This is what we have to put up with in the software localisation industry. {.lead}
 
-![](illustration.jpg)
+![Illustration by “b b” on Unsplash](illustration.jpg)
 
 I can’t believe nobody has done this list yet. I mean, there is one about [names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), one about [time](https://gist.github.com/timvisee/fcda9bbdff88d45cc9061606b4b923ca) and many others on [other topics](https://github.com/kdeldycke/awesome-falsehood?tab=readme-ov-file), but not one about languages yet (except one [honorable mention](http://garbled.benhamill.com/2017/04/18/falsehoods-programmers-believe-about-language) that comes close). So, here’s my attempt to list all the misconceptions and prejudices I’ve come across in the course of my long and illustrious career in software localisation and language technology. Enjoy – and [send me](mailto:michmech@lexiconista.com) your own ones! {.meta}
 
@@ -29,7 +29,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
     If the location is a placename, then the ‘in’ may be either ‘in’ or ‘on’ in some languages, depending on the placename.
     - Czech: `v Čechách` ‘in Bohemia’ but `na Moravě` ‘in Moravia’, literally ‘on’.
 
-    If the location begins with the definite article ‘the’ or something like that, then the article may merge with the prepostion into a single word.
+    If the location begins with the definite article ‘the’ or something like that, then the article may merge with the preposition into a single word.
     - Irish: `an Vatacáin` ‘the Vatican’ → `sa Vatacáin` ‘in the Vatican’.
     - German: `der Vatikan` ‘the Vatican’ → `im Vatikan` ‘in the Vatican’ (`in dem Vatikan` is also possible but less common).
 
@@ -65,6 +65,12 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
     - `i` (with a dot) upper-cases into `İ` (also with a dot)
     - `ı` (without a dot) upper-cases into `I` (also without a dot)
 
+    More on the [Dotless I...](https://en.wikipedia.org/wiki/Dotless_I)
+
+    In German, the character `ß` has traditionally only existed in lower-case and, to upper-case it, you had to turn into two capital S: `Viel Spaß` becomes `VIEL SPASS`. That's how it has worked for centuries. Recently a capitalised version of `ß` has been brought into the world and even accepted into Unicode, but far from everybody likes it.
+    
+    More on the [German Capital Letter Eszett...](https://medium.com/@typefacts/the-german-capital-letter-eszett-e0936c1388f8)
+
   </details>
 
 - The lower-case/upper-case distinction exists in all languages.
@@ -79,7 +85,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Languages generally don't have words for exactly the same things. Languages are not just different *codes* for the same stuff, they are different ways of *understanding* stuff. That's why Russian has two words for different kinds of the colour ‘blue’ and Czech has one word for both ‘security’ and ‘safety’.
+    Languages generally don't have words for exactly the same things. Languages are not just different *codes* for the same stuff, they are different ways of *understanding* stuff. That's why Russian has two words for different kinds of ‘blue’ and Czech has one word for both ‘security’ and ‘safety’.
   </details>
 
 - Every expression in English, however vague and out-of-context, always has exactly one translation in every other language. 
@@ -90,16 +96,16 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
 
     Multi-word expressions can have the same problem. What's a ‘conditional jump instruction’? Is it an instruction to do a conditional jump, or a conditional instruction to do a jump? Those two readings would have different translations in many languages, even if that may seem like hair-splitting to you.
 
-    And even if the intended meaning is clear, there may still be two or more valid ways to translate it – just like in English where you often have more than one way to say something too. 
+    And even if the intended meaning is clear, there may still be two or more valid ways to translate it – just like in English where you often have more than one way to say something. 
   </details>
 
 - All languages follow the subject-verb-object word order.
   <details>
     <summary>Explain...</summary>
 
-    Celtic languages such as Irish and Welsh don't: most sentences in these languages verb-first, so the order is verb-subject-object.
+    Celtic languages such as Irish and Welsh don't: most sentences in these languages are verb-first, so the order is verb-subject-object.
 
-    Some languages, notably Czech but to some extent also German, have more or less *free word order* and sentences can come in many different arrangements including verb-first and object-first.
+    Some languages, notably Czech and to some extent also German, have a more or less *free word order* and sentences can come in many different arrangements including verb-first and object-first.
 
     This matters in concatenated UI strings such as `device + "is connected"`. You can never translate something like `is connected` into a language like Irish because, in Irish, the `device` needs to come between the `is` and the `connected`. If you are going to localize this string into other languages, you need to do your globalization homework first and refactor it into a more language-neutral template like `"{device} is connected"` where your localizers will have the freedom to move `{device}` around in the sentence.
 
@@ -131,13 +137,13 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Celtic languages such as Irish and Scottish Gaelic don't. In these languages, questions are answered by recycling the verb from the question. Examples:
+    Celtic languages such as Irish and Scottish Gaelic don't have words for *yes* and *no*. In these languages, questions are answered by recycling the verb from the question. Examples:
     - `ar shiúil tú?` ‘did you walk?’
       - `shiúil` ‘yes’, literally ‘walked’ 
-      - `níor shiúil` no’, literally ‘didn’t walk’ 
+      - `níor shiúil` ‘no’, literally ‘didn’t walk’ 
     - `ar thiomáin tú?` ‘did you drive?’
       - `thiomáin` ‘yes’, literally ‘drove’ 
-      - `níor thiomáin` no’, literally ‘didn’t drive’ 
+      - `níor thiomáin` ‘no’, literally ‘didn’t drive’ 
 
     This is a well-known complication when localizing dialog boxes with pre-baked ‘yes’ and ‘no’ buttons.
   </details>
@@ -146,7 +152,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Would be nice but, sadly no. There are regional differences (`colour` and `color`), stylistical preferences (`café` and `cafe`), differing points of view (`log int something` versus `log in to something`) and what not. By all means, be strict and consistent in your own writing if you want but be tolerant in what you accept.
+    Would be nice but no. There are regional differences (`colour` and `color`), stylistical preferences (`café` and `cafe`), different points of view (`log into something` versus `log in to something`) and what not. By all means, be strict and consistent in your own writing if you want but be tolerant in what you accept.
 
   </details>
 
@@ -154,7 +160,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Notoriously, Serbian can be and is written in either the Latin aphabet or the Cyrillic alphabet.
+    Notoriously, Serbian [can be and is](https://en.wikipedia.org/wiki/Serbian_language#Writing_system) written in either the Latin aphabet or the Cyrillic alphabet.
 
   </details>
 
@@ -163,8 +169,10 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
     <summary>Explain...</summary>
 
     Although the basic A-to-Z order is the same for all languages that use the Latin script, different languages follow different strategies as to where they place extended characters (= characters with accents). Some mix them in while others put them at the end:
-    - In German, `ä` comes right after `a` and before `b`.
-    - In Swedish, `ä` comes at the end of the alphabet, after `z`.
+    - In German, `Ä` comes right after `A` and before `B`.
+    - In Swedish, `Ä` comes at the end of the alphabet, after `Z`.
+
+    Shameless plug: I have a whole [chapter about alphabetical sorting](http://arit.lexiconista.com/arit/chap06/) in my book *An Ríomhaire Ilteangach*.
 
   </details>
 
@@ -172,7 +180,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Arabic, Hebrew etc, are written from right to left.
+    Arabic, Hebrew etc, are written from right to left. And don't even get me started on [bidirectional text...](https://en.wikipedia.org/wiki/Bidirectional_text)
 
   </details>
 
@@ -181,6 +189,10 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
     <summary>Explain...</summary>
 
     No. In a well-designed Arabic UI, *everything* will flow from right to left. If your UI has a navigation menu on the left-hand side for English and other European languages, your Arabic version should have it on the right-hand side. You often see Arabic UIs which don't (because it's "difficult") but that's disappointing. Do it and your users will be delighted!
+
+    I don't speak Arabic and so I am not basing this on personal experience, but years ago when we were localizing [Terminologue](https://www.terminologue.org/) into Arabic we did this and it was really well received by users.
+
+    Ahmad Shadeed’s [RTL Styling 101](https://rtlstyling.com/) has a lot of useful guidance on this.
 
   </details>
 
@@ -196,31 +208,145 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Word-splitting natural-language text is never this easy, there are always lots of annoying exceptions, in any language.
+    That gets you far but not the whole way. Word-splitting natural-language text is never easy, there are always lots of annoying exceptions, in any language. It's a “difficult task” and you're better off using an NLP library for that. See [how spaCy does it](https://spacy.io/usage/linguistic-features#tokenization), for example.
+
+  </details>
+
+- Segmenting a text into sentences is as easy as splitting on end-of-sentence punctuation.
+  <details>
+    <summary>Explain...</summary>
+
+    End-of-sentence punctuation symbols such as `.!?` are used for other things too. The period in particular is heavily overloaded with other functions such as abbreviations (`in the U.K.`) and number formatting (`30,000.00`). Sentence segmentation is a “difficult task” and you're better off using an NLP library for that. See [how spaCy does it](https://spacy.io/usage/linguistic-features#sbd), for example.
+
+  </details>
+
+- No language puts spaces before question marks and exclamation marks at the end of a sentence.
+  <details>
+    <summary>Explain...</summary>
+
+    French does. Really, [look it up](https://en.wikipedia.org/wiki/French_orthography#Punctuation).
+
+  </details>
+
+- Questions marks and exclamation marks always appear at the end of the sentence.
+  <details>
+    <summary>Explain...</summary>
+
+    Really? Let me introduce you to the wonders of Spanish punctuation:
+    - `¿Dónde está tu chaqueta?`
+    - `¡Qué buena idea!`
+
+    Yes, in Spanish these things are actually pairs of two symbols where one goes at the start of the sentence and the other goes at the end. [More on Spanish punctuation...](https://www.babbel.com/en/magazine/spanish-punctuation-guide)
+
+  </details>
+
+- No language puts spaces after opening quotes and before closing quotes.
+  <details>
+    <summary>Explain...</summary>
+
+    French does. Really, [look it up](https://en.wikipedia.org/wiki/French_orthography#Punctuation).
+
+  </details>
+
+- All languages use the same characters for opening quotes and closing quotes.
+  <details>
+    <summary>Explain...</summary>
+
+    In English:
+    - the opening quotes are shaped like `66`
+    - the closing quotes are shaped like `99`
+
+    and they are both located at the top of the line (superscript level). Example: `“blabla”`
+
+    In many continental European languages, basically everywhere east of Germany including Germany itself:
+    - the opening quotes are shaped like `99` and are located at the base of the line (subscript level) 
+    - the closing quotes are shaped like `66` and are located at the top of the line (superscript level)
+    
+    Example: `„blabla“`
+
+    These are the two main schemes that exist in Europe, but individual languages, countries and locales often have their highly specific styles which differ from these in details. One honorable mention is the French-speaking world where the quotes are usually `«` and `»`. This style is sometimes seen in German too, especially in Switzerland.
+
+  </details>
+
+- Numbers, when written out in digits, are formatted and punctuated the same way in all languages.
+  <details>
+    <summary>Explain...</summary>
+
+    No they aren't. The same number looks different in different languages – or more accurately, in different locales.
+    - English: `80,763.00`
+      - the thousands separator is a comma
+      - the decimal separator is a period
+    - German, Czech etc.: `80.763,00`, sometimes also `80 763,00`
+      - the thousands separator is a period or a (non-breaking) space
+      - the decimal separator is a comma
+    - In Switzerland (regardless of which language): `80'763.00`
+      - the thousands separator is an apostrophe
+      - the decimal separator is a period
+
+    Shameless plug: the website for my book *An Ríomhaire Ilteangach* comes with a [Multicultural data formatter](http://arit.lexiconista.com/arit/multicultural-data-formatter/?m) which shows you how the same number is formatted in different locales.
+
+  </details>
+
+- No two languages are so similar that it would ever be difficult to tell them apart.
+  <details>
+    <summary>Explain...</summary>
+    
+    It's common in the Slavic language family to have pairs of languages which are so similar that, for short titles or slogans in particular, it can genuinely be both. Czech and Slovak, for example.
 
   </details>
 
 
-- Segmenting a text into sentences is as easy as splitting on end-of-sentence punctuation.
-
-- No language puts spaces before question marks and exclamation marks at the end of a sentence.
-
-- No language puts spaces after opening quotes and before closing quotes.
-
-- All languages use the same characters for opening quotes and closing quotes.
-
-- Numbers, when written out in digits, are formatted and punctuated the same way in all languages.
-
-- No two languages are so similar that it would ever be difficult to tell them apart.
-
 - Languages that have similar names are similar.
 
-- Icons that are based on English puns and wordplay are easily understood by speakers of other languages.
+  <details>
+    <summary>Explain...</summary>
+
+    Slovak and Slovene have similar names and, even though they belong to the same language family (Slavic), they aren't really all that similar, they're not even mutually understandable (not “out of the box” anyway) and the populations that speak them aren't geographical neighbours.
+
+    Same for Serbian (the language Serbia) and Sorbian (a minority language in east Germany).
+
+  </details>
+
+- Icons and emojis that are based on English puns and wordplay are easily understood by speakers of other languages.
+  <details>
+    <summary>Explain...</summary>
+
+    The key-shaped emoticon 🔑 only means ‘key’ as an in ‘of key importance’ to those who speak English. For nearly everyone else it just means ‘key’ as the thing you lock doors with.
+
+    Send me your favourite pun icons and emoji wordplays that don't translate!
+
+</details>
 
 - Geolocation is an accurate way to predict the user’s language.
+  <details>
+    <summary>Explain...</summary>
+
+    As a first guess, maybe. But you do need to ask the user eventually which language they prefer. What if I'm on holiday in Portugal and don't speak a word of Portuguese?
+  
+  </details>
 
 - Country flags are accurate and appropriate symbols for languages.
+  <details>
+    <summary>Explain...</summary>
+
+    Of course not but it's complicated: I have a whole separate [blog post about flags as language symbols](/flags-as-language-symbols/). 
+
+  </details>
 
 - Every country has exactly one “national” language.
+  <details>
+    <summary>Explain...</summary>
+
+    Switzerland has four. Canada has two (at least). Belgium has two (or three if you're including German). Luxembourg has three.
+
+    And what does it mean to be some country's “national” language anyway? It's such vague concept.
+
+  </details>
 
 - Every language is the “national” language of exactly one country.
+  <details>
+    <summary>Explain...</summary>
+
+    German is the “national” language of Germany, Austria, Switzerland (along with three others), Luxembourg (along with two others) and God knows where else. French has this status in more countries that I care to enumerate. So does English, in fact.
+
+  </details>

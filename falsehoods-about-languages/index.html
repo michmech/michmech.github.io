@@ -28,7 +28,7 @@
 <!--begin body-->
 <h1>Falsehoods programmers believe about languages</h1>
 <p class="lead">This is what we have to put up with in the software localisation industry.</p>
-<figure class="undefined"><div><img src="illustration.jpg" alt=""></div><figcaption></figcaption></figure>
+<figure class="undefined"><div><img src="illustration.jpg" alt=""></div><figcaption>Illustration by “b b” on Unsplash</figcaption></figure>
 <p class="meta">I can’t believe nobody has done this list yet. I mean, there is one about <a target="_blank" href="https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/">names</a>, one about <a target="_blank" href="https://gist.github.com/timvisee/fcda9bbdff88d45cc9061606b4b923ca">time</a> and many others on <a target="_blank" href="https://github.com/kdeldycke/awesome-falsehood?tab=readme-ov-file">other topics</a>, but not one about languages yet (except one <a target="_blank" href="http://garbled.benhamill.com/2017/04/18/falsehoods-programmers-believe-about-language">honorable mention</a> that comes close). So, here’s my attempt to list all the misconceptions and prejudices I’ve come across in the course of my long and illustrious career in software localisation and language technology. Enjoy – and <a href="mailto:michmech@lexiconista.com">send me</a> your own ones!</p>
 <hr>
 <ul>
@@ -45,7 +45,7 @@
 <ul>
 <li>Czech: <code>v Čechách</code> ‘in Bohemia’ but <code>na Moravě</code> ‘in Moravia’, literally ‘on’.</li>
 </ul>
-<p>If the location begins with the definite article ‘the’ or something like that, then the article may merge with the prepostion into a single word.</p>
+<p>If the location begins with the definite article ‘the’ or something like that, then the article may merge with the preposition into a single word.</p>
 <ul>
 <li>Irish: <code>an Vatacáin</code> ‘the Vatican’ → <code>sa Vatacáin</code> ‘in the Vatican’.</li>
 <li>German: <code>der Vatikan</code> ‘the Vatican’ → <code>im Vatikan</code> ‘in the Vatican’ (<code>in dem Vatikan</code> is also possible but less common).</li>
@@ -82,6 +82,9 @@
 <li><code>i</code> (with a dot) upper-cases into <code>İ</code> (also with a dot)</li>
 <li><code>ı</code> (without a dot) upper-cases into <code>I</code> (also without a dot)</li>
 </ul>
+<p>More on the <a target="_blank" href="https://en.wikipedia.org/wiki/Dotless_I">Dotless I...</a></p>
+<p>In German, the character <code>ß</code> has traditionally only existed in lower-case and, to upper-case it, you had to turn into two capital S: <code>Viel Spaß</code> becomes <code>VIEL SPASS</code>. That's how it has worked for centuries. Recently a capitalised version of <code>ß</code> has been brought into the world and even accepted into Unicode, but far from everybody likes it.</p>
+<p>More on the <a target="_blank" href="https://medium.com/@typefacts/the-german-capital-letter-eszett-e0936c1388f8">German Capital Letter Eszett...</a></p>
 </details>
 </li>
 <li>
@@ -95,7 +98,7 @@
 <p>All languages have words for exactly the same things as English.</p>
 <details>
   <summary>Explain...</summary>
-<p>Languages generally don't have words for exactly the same things. Languages are not just different <em>codes</em> for the same stuff, they are different ways of <em>understanding</em> stuff. That's why Russian has two words for different kinds of the colour ‘blue’ and Czech has one word for both ‘security’ and ‘safety’.</p>
+<p>Languages generally don't have words for exactly the same things. Languages are not just different <em>codes</em> for the same stuff, they are different ways of <em>understanding</em> stuff. That's why Russian has two words for different kinds of ‘blue’ and Czech has one word for both ‘security’ and ‘safety’.</p>
 </details>
 </li>
 <li>
@@ -104,15 +107,15 @@
   <summary>Explain...</summary>
 <p>Is ‘file’ a noun (a file somewhere on your computer) or a verb (to file something somewhere)? Is ‘open’ a verb (to open something) or an adjective (something is open)? Most languages would have different translations for these. Your localizers will hate you if you give them such isolated words to translate.</p>
 <p>Multi-word expressions can have the same problem. What's a ‘conditional jump instruction’? Is it an instruction to do a conditional jump, or a conditional instruction to do a jump? Those two readings would have different translations in many languages, even if that may seem like hair-splitting to you.</p>
-<p>And even if the intended meaning is clear, there may still be two or more valid ways to translate it – just like in English where you often have more than one way to say something too.</p>
+<p>And even if the intended meaning is clear, there may still be two or more valid ways to translate it – just like in English where you often have more than one way to say something.</p>
 </details>
 </li>
 <li>
 <p>All languages follow the subject-verb-object word order.</p>
 <details>
   <summary>Explain...</summary>
-<p>Celtic languages such as Irish and Welsh don't: most sentences in these languages verb-first, so the order is verb-subject-object.</p>
-<p>Some languages, notably Czech but to some extent also German, have more or less <em>free word order</em> and sentences can come in many different arrangements including verb-first and object-first.</p>
+<p>Celtic languages such as Irish and Welsh don't: most sentences in these languages are verb-first, so the order is verb-subject-object.</p>
+<p>Some languages, notably Czech and to some extent also German, have a more or less <em>free word order</em> and sentences can come in many different arrangements including verb-first and object-first.</p>
 <p>This matters in concatenated UI strings such as <code>device + &quot;is connected&quot;</code>. You can never translate something like <code>is connected</code> into a language like Irish because, in Irish, the <code>device</code> needs to come between the <code>is</code> and the <code>connected</code>. If you are going to localize this string into other languages, you need to do your globalization homework first and refactor it into a more language-neutral template like <code>&quot;{device} is connected&quot;</code> where your localizers will have the freedom to move <code>{device}</code> around in the sentence.</p>
 </details>
 </li>
@@ -141,18 +144,18 @@
 <p>Every language has words for <em>yes</em> and <em>no</em>. These words never change, regardless of which question they are answering.</p>
 <details>
   <summary>Explain...</summary>
-<p>Celtic languages such as Irish and Scottish Gaelic don't. In these languages, questions are answered by recycling the verb from the question. Examples:</p>
+<p>Celtic languages such as Irish and Scottish Gaelic don't have words for <em>yes</em> and <em>no</em>. In these languages, questions are answered by recycling the verb from the question. Examples:</p>
 <ul>
 <li><code>ar shiúil tú?</code> ‘did you walk?’
 <ul>
 <li><code>shiúil</code> ‘yes’, literally ‘walked’</li>
-<li><code>níor shiúil</code> no’, literally ‘didn’t walk’</li>
+<li><code>níor shiúil</code> ‘no’, literally ‘didn’t walk’</li>
 </ul>
 </li>
 <li><code>ar thiomáin tú?</code> ‘did you drive?’
 <ul>
 <li><code>thiomáin</code> ‘yes’, literally ‘drove’</li>
-<li><code>níor thiomáin</code> no’, literally ‘didn’t drive’</li>
+<li><code>níor thiomáin</code> ‘no’, literally ‘didn’t drive’</li>
 </ul>
 </li>
 </ul>
@@ -163,14 +166,14 @@
 <p>There is always only one correct way to spell anything.</p>
 <details>
   <summary>Explain...</summary>
-<p>Would be nice but, sadly no. There are regional differences (<code>colour</code> and <code>color</code>), stylistical preferences (<code>café</code> and <code>cafe</code>), differing points of view (<code>log int something</code> versus <code>log in to something</code>) and what not. By all means, be strict and consistent in your own writing if you want but be tolerant in what you accept.</p>
+<p>Would be nice but no. There are regional differences (<code>colour</code> and <code>color</code>), stylistical preferences (<code>café</code> and <code>cafe</code>), different points of view (<code>log into something</code> versus <code>log in to something</code>) and what not. By all means, be strict and consistent in your own writing if you want but be tolerant in what you accept.</p>
 </details>
 </li>
 <li>
 <p>Each language is written in exactly one alphabet.</p>
 <details>
   <summary>Explain...</summary>
-<p>Notoriously, Serbian can be and is written in either the Latin aphabet or the Cyrillic alphabet.</p>
+<p>Notoriously, Serbian <a target="_blank" href="https://en.wikipedia.org/wiki/Serbian_language#Writing_system">can be and is</a> written in either the Latin aphabet or the Cyrillic alphabet.</p>
 </details>
 </li>
 <li>
@@ -179,16 +182,17 @@
   <summary>Explain...</summary>
 <p>Although the basic A-to-Z order is the same for all languages that use the Latin script, different languages follow different strategies as to where they place extended characters (= characters with accents). Some mix them in while others put them at the end:</p>
 <ul>
-<li>In German, <code>ä</code> comes right after <code>a</code> and before <code>b</code>.</li>
-<li>In Swedish, <code>ä</code> comes at the end of the alphabet, after <code>z</code>.</li>
+<li>In German, <code>Ä</code> comes right after <code>A</code> and before <code>B</code>.</li>
+<li>In Swedish, <code>Ä</code> comes at the end of the alphabet, after <code>Z</code>.</li>
 </ul>
+<p>Shameless plug: I have a whole <a target="_blank" href="http://arit.lexiconista.com/arit/chap06/">chapter about alphabetical sorting</a> in my book <em>An Ríomhaire Ilteangach</em>.</p>
 </details>
 </li>
 <li>
 <p>All languages are written from left to right.</p>
 <details>
   <summary>Explain...</summary>
-<p>Arabic, Hebrew etc, are written from right to left.</p>
+<p>Arabic, Hebrew etc, are written from right to left. And don't even get me started on <a target="_blank" href="https://en.wikipedia.org/wiki/Bidirectional_text">bidirectional text...</a></p>
 </details>
 </li>
 <li>
@@ -196,6 +200,8 @@
 <details>
   <summary>Explain...</summary>
 <p>No. In a well-designed Arabic UI, <em>everything</em> will flow from right to left. If your UI has a navigation menu on the left-hand side for English and other European languages, your Arabic version should have it on the right-hand side. You often see Arabic UIs which don't (because it's &quot;difficult&quot;) but that's disappointing. Do it and your users will be delighted!</p>
+<p>I don't speak Arabic and so I am not basing this on personal experience, but years ago when we were localizing <a target="_blank" href="https://www.terminologue.org/">Terminologue</a> into Arabic we did this and it was really well received by users.</p>
+<p>Ahmad Shadeed’s <a target="_blank" href="https://rtlstyling.com/">RTL Styling 101</a> has a lot of useful guidance on this.</p>
 </details>
 </li>
 <li>
@@ -207,42 +213,144 @@
 </li>
 <li>
 <p>Segmenting a sentence into words is as easy as splitting on whitespace (and maybe punctuation).</p>
+<details>
+  <summary>Explain...</summary>
+<p>That gets you far but not the whole way. Word-splitting natural-language text is never easy, there are always lots of annoying exceptions, in any language. It's a “difficult task” and you're better off using an NLP library for that. See <a target="_blank" href="https://spacy.io/usage/linguistic-features#tokenization">how spaCy does it</a>, for example.</p>
+</details>
 </li>
 <li>
 <p>Segmenting a text into sentences is as easy as splitting on end-of-sentence punctuation.</p>
+<details>
+  <summary>Explain...</summary>
+<p>End-of-sentence punctuation symbols such as <code>.!?</code> are used for other things too. The period in particular is heavily overloaded with other functions such as abbreviations (<code>in the U.K.</code>) and number formatting (<code>30,000.00</code>). Sentence segmentation is a “difficult task” and you're better off using an NLP library for that. See <a target="_blank" href="https://spacy.io/usage/linguistic-features#sbd">how spaCy does it</a>, for example.</p>
+</details>
 </li>
 <li>
 <p>No language puts spaces before question marks and exclamation marks at the end of a sentence.</p>
+<details>
+  <summary>Explain...</summary>
+<p>French does. Really, <a target="_blank" href="https://en.wikipedia.org/wiki/French_orthography#Punctuation">look it up</a>.</p>
+</details>
+</li>
+<li>
+<p>Questions marks and exclamation marks always appear at the end of the sentence.</p>
+<details>
+  <summary>Explain...</summary>
+<p>Really? Let me introduce you to the wonders of Spanish punctuation:</p>
+<ul>
+<li><code>¿Dónde está tu chaqueta?</code></li>
+<li><code>¡Qué buena idea!</code></li>
+</ul>
+<p>Yes, in Spanish these things are actually pairs of two symbols where one goes at the start of the sentence and the other goes at the end. <a target="_blank" href="https://www.babbel.com/en/magazine/spanish-punctuation-guide">More on Spanish punctuation...</a></p>
+</details>
 </li>
 <li>
 <p>No language puts spaces after opening quotes and before closing quotes.</p>
+<details>
+  <summary>Explain...</summary>
+<p>French does. Really, <a target="_blank" href="https://en.wikipedia.org/wiki/French_orthography#Punctuation">look it up</a>.</p>
+</details>
 </li>
 <li>
 <p>All languages use the same characters for opening quotes and closing quotes.</p>
+<details>
+  <summary>Explain...</summary>
+<p>In English:</p>
+<ul>
+<li>the opening quotes are shaped like <code>66</code></li>
+<li>the closing quotes are shaped like <code>99</code></li>
+</ul>
+<p>and they are both located at the top of the line (superscript level). Example: <code>“blabla”</code></p>
+<p>In many continental European languages, basically everywhere east of Germany including Germany itself:</p>
+<ul>
+<li>the opening quotes are shaped like <code>99</code> and are located at the base of the line (subscript level)</li>
+<li>the closing quotes are shaped like <code>66</code> and are located at the top of the line (superscript level)</li>
+</ul>
+<p>Example: <code>„blabla“</code></p>
+<p>These are the two main schemes that exist in Europe, but individual languages, countries and locales often have their highly specific styles which differ from these in details. One honorable mention is the French-speaking world where the quotes are usually <code>«</code> and <code>»</code>. This style is sometimes seen in German too, especially in Switzerland.</p>
+</details>
 </li>
 <li>
 <p>Numbers, when written out in digits, are formatted and punctuated the same way in all languages.</p>
+<details>
+  <summary>Explain...</summary>
+<p>No they aren't. The same number looks different in different languages – or more accurately, in different locales.</p>
+<ul>
+<li>English: <code>80,763.00</code>
+<ul>
+<li>the thousands separator is a comma</li>
+<li>the decimal separator is a period</li>
+</ul>
+</li>
+<li>German, Czech etc.: <code>80.763,00</code>, sometimes also <code>80 763,00</code>
+<ul>
+<li>the thousands separator is a period or a (non-breaking) space</li>
+<li>the decimal separator is a comma</li>
+</ul>
+</li>
+<li>In Switzerland (regardless of which language): <code>80'763.00</code>
+<ul>
+<li>the thousands separator is an apostrophe</li>
+<li>the decimal separator is a period</li>
+</ul>
+</li>
+</ul>
+<p>Shameless plug: the website for my book <em>An Ríomhaire Ilteangach</em> comes with a <a target="_blank" href="http://arit.lexiconista.com/arit/multicultural-data-formatter/?m">Multicultural data formatter</a> which shows you how the same number is formatted in different locales.</p>
+</details>
 </li>
 <li>
 <p>No two languages are so similar that it would ever be difficult to tell them apart.</p>
+<details>
+  <summary>Explain...</summary>
+<p>It's common in the Slavic language family to have pairs of languages which are so similar that, for short titles or slogans in particular, it can genuinely be both. Czech and Slovak, for example.</p>
+</details>
 </li>
 <li>
 <p>Languages that have similar names are similar.</p>
+<details>
+  <summary>Explain...</summary>
+<p>Slovak and Slovene have similar names and, even though they belong to the same language family (Slavic), they aren't really all that similar, they're not even mutually understandable (not “out of the box” anyway) and the populations that speak them aren't geographical neighbours.</p>
+<p>Same for Serbian (the language Serbia) and Sorbian (a minority language in east Germany).</p>
+</details>
 </li>
 <li>
-<p>Icons that are based on English puns and wordplay are easily understood by speakers of other languages.</p>
+<p>Icons and emojis that are based on English puns and wordplay are easily understood by speakers of other languages.</p>
+<details>
+  <summary>Explain...</summary>
+<p>The key-shaped emoticon 🔑 only means ‘key’ as an in ‘of key importance’ to those who speak English. For nearly everyone else it just means ‘key’ as the thing you lock doors with.</p>
+<p>Send me your favourite pun icons and emoji wordplays that don't translate!</p>
 </li>
+</ul>
+</details>
+<ul>
 <li>
 <p>Geolocation is an accurate way to predict the user’s language.</p>
+<details>
+  <summary>Explain...</summary>
+<p>As a first guess, maybe. But you do need to ask the user eventually which language they prefer. What if I'm on holiday in Portugal and don't speak a word of Portuguese?</p>
+</details>
 </li>
 <li>
 <p>Country flags are accurate and appropriate symbols for languages.</p>
+<details>
+  <summary>Explain...</summary>
+<p>Of course not but it's complicated: I have a whole separate <a href="/flags-as-language-symbols/">blog post about flags as language symbols</a>.</p>
+</details>
 </li>
 <li>
 <p>Every country has exactly one “national” language.</p>
+<details>
+  <summary>Explain...</summary>
+<p>Switzerland has four. Canada has two (at least). Belgium has two (or three if you're including German). Luxembourg has three.</p>
+<p>And what does it mean to be some country's “national” language anyway? It's such vague concept.</p>
+</details>
 </li>
 <li>
 <p>Every language is the “national” language of exactly one country.</p>
+<details>
+  <summary>Explain...</summary>
+<p>German is the “national” language of Germany, Austria, Switzerland (along with three others), Luxembourg (along with two others) and God knows where else. French has this status in more countries that I care to enumerate. So does English, in fact.</p>
+</details>
 </li>
 </ul>
 
