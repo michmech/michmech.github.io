@@ -3,18 +3,18 @@ published: 2025-03-01
 author: Michal Měchura
 myrole:
 title: Falsehoods programmers believe about languages
-blurb: This is what we have to put up with in the software localisation industry.
+blurb: This is what we have to put up with in the software localization industry.
 preview: illustration.jpg
 ---
 
 # Falsehoods programmers believe about languages
 
 
-This is what we have to put up with in the software localisation industry. {.lead}
+This is what we have to put up with in the software localization industry. {.lead}
 
 ![Illustration by “b b” on Unsplash](illustration.jpg)
 
-I can’t believe nobody has done this list yet. I mean, there is one about [names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), one about [time](https://gist.github.com/timvisee/fcda9bbdff88d45cc9061606b4b923ca) and many others on [other topics](https://github.com/kdeldycke/awesome-falsehood?tab=readme-ov-file), but not one about languages yet (except one [honorable mention](http://garbled.benhamill.com/2017/04/18/falsehoods-programmers-believe-about-language) that comes close). So, here’s my attempt to list all the misconceptions and prejudices I’ve come across in the course of my long and illustrious career in software localisation and language technology. Enjoy – and [send me](mailto:michmech@lexiconista.com) your own ones! {.meta}
+I can’t believe nobody has done this list yet. I mean, there is one about [names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), one about [time](https://gist.github.com/timvisee/fcda9bbdff88d45cc9061606b4b923ca) and many others on [other topics](https://github.com/kdeldycke/awesome-falsehood?tab=readme-ov-file), but not one about languages yet (except one [honorable mention](http://garbled.benhamill.com/2017/04/18/falsehoods-programmers-believe-about-language) that comes close). So, here’s my attempt to list all the misconceptions and prejudices I’ve come across in the course of my long and illustrious career in software localization and language technology. Enjoy – and [send me](mailto:michmech@lexiconista.com) your own ones! {.meta}
 
 ---
 
@@ -42,9 +42,9 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    One valid translation for ‘food’ in German is `Lebensmittel`: almost three times as long. The Irish for ‘please’ is `le do thoil`, three words instead of one. In Czech, ‘bus stop’ is `zastávka autobusu`, the same number of words but over twice as many characters.
+    One translation for ‘food’ in German is `Lebensmittel`: almost three times as long. The Irish for ‘please’ is `le do thoil`, three words instead of one. In Czech, ‘bus stop’ is `zastávka autobusu`, the same number of words but over twice as many characters.
 
-    Differences like these can break horizontally arranged UIs like menus and tables.
+    Differences like these can break horizontally arranged UIs such as menus and tabs.
 
   </details>
 
@@ -52,7 +52,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    It is a well-known fact that no matter which language you are translating from and into, the translation often ends up being longer than the original. Even experts disagree on why this is but it’s probably related to how **language production** works in the human brain: when you’re writing an original text from scratch in some language, your decisions about *what* to say are partially influenced by what happens to be *easy* to say in that language; but when translating into another language you don’t have the same amount of freedom anymore, you are constrained by what the original author has decided.
+    It is a well-known fact that no matter which language you are translating from and into, the translation often ends up being longer than the original. Even experts disagree on why this is but it’s probably related to how *language production* works in the human brain: when you’re writing an original text from scratch in some language, your decisions about *what* to say are partially influenced by what happens to be *easy* to say in that language; but when translating into another language you don’t have the same amount of freedom anymore, you are constrained by what the original author has decided.
     
     This is the same reason why, in spite of the translator’s best efforts, translated texts sometimes feel less “natural” than original texts, but that is a different matter...
   </details>
@@ -67,7 +67,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
 
     More on the [Dotless I...](https://en.wikipedia.org/wiki/Dotless_I)
 
-    In German, the character `ß` has traditionally only existed in lower-case and, to upper-case it, you had to turn into two capital S: `Viel Spaß` becomes `VIEL SPASS`. That's how it has worked for centuries. Recently a capitalised version of `ß` has been brought into the world and even accepted into Unicode, but far from everybody likes it.
+    In German, the character `ß` has traditionally only existed in lower-case and, to upper-case it, you had to turn into two capital S: `Viel Spaß` becomes `VIEL SPASS`. That’s how it has worked for centuries. Recently a capitalised version of `ß` has been brought into the world and even accepted into Unicode, but far from everybody likes it.
     
     More on the [German Capital Letter Eszett...](https://medium.com/@typefacts/the-german-capital-letter-eszett-e0936c1388f8)
 
@@ -77,7 +77,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
    <details>
     <summary>Explain...</summary>
 
-    This distinction exists only in some writing systems, notably the Latin alphabet (used in English and many other European languages), the Cyrillic alphabet (Russian etc.) and the Greek alphabet. It doesn't exist in the alphabets used for writing Arabic, Hebrew, Chinese, Korean etc.   
+    This distinction exists only in some writing systems, notably the Latin alphabet (used in English and many other European languages), the Cyrillic alphabet (Russian etc.) and the Greek alphabet. It doesn’t exist in the alphabets used for writing Arabic, Hebrew, Chinese, Korean etc.   
 
   </details>
 
@@ -85,7 +85,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Languages generally don't have words for exactly the same things. Languages are not just different *codes* for the same stuff, they are different ways of *understanding* stuff. That's why Russian has two words for different kinds of ‘blue’ and Czech has one word for both ‘security’ and ‘safety’.
+    Languages generally don’t have words for exactly the same things. Languages are not just different *codes* for the same stuff, they are different ways of *understanding* stuff. That’s why Russian has two words for different kinds of ‘blue’ and Czech has one word for both ‘security’ and ‘safety’.
   </details>
 
 - Every expression in English, however vague and out-of-context, always has exactly one translation in every other language. 
@@ -94,7 +94,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
 
     Is ‘file’ a noun (a file somewhere on your computer) or a verb (to file something somewhere)? Is ‘open’ a verb (to open something) or an adjective (something is open)? Most languages would have different translations for these. Your localizers will hate you if you give them such isolated words to translate.
 
-    Multi-word expressions can have the same problem. What's a ‘conditional jump instruction’? Is it an instruction to do a conditional jump, or a conditional instruction to do a jump? Those two readings would have different translations in many languages, even if that may seem like hair-splitting to you.
+    Multi-word expressions can have the same problem. What’s a ‘conditional jump instruction’? Is it an instruction to do a conditional jump, or a conditional instruction to do a jump? Those two readings would have different translations in many languages, even if that may seem like hair-splitting to you.
 
     And even if the intended meaning is clear, there may still be two or more valid ways to translate it – just like in English where you often have more than one way to say something. 
   </details>
@@ -103,7 +103,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Celtic languages such as Irish and Welsh don't: most sentences in these languages are verb-first, so the order is verb-subject-object.
+    Celtic languages such as Irish and Welsh don’t: most sentences in these languages are verb-first, so the order is verb-subject-object.
 
     Some languages, notably Czech and to some extent also German, have a more or less *free word order* and sentences can come in many different arrangements including verb-first and object-first.
 
@@ -115,7 +115,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    In Irish, the first one or two characters at the beginning of a word are sometimes the result of something called *initial mutation* and these characters must remain uncapitalized. What gets capitalized is the first character *after* that. Examples: `Bóthar na bhFál` (the Irish name for Falls Road in Belfast), `An tAonas Eorpach` ‘The European Union’.
+    In Irish, the first one or two characters at the beginning of a word are sometimes the result of something called *initial mutation* and these characters must remain uncapitalized. What gets capitalized is the first character *after* that. Examples: `Bóthar na bhFál` (the Irish name for Falls Road in Belfast), `An tAontas Eorpach` ‘The European Union’.
 
     In Dutch, the two characters `ij` are treated as if they were a single letter and, when they are at the beginning of a word you are going to capitalize, they both need to be capitalized: `IJsselmeer` and `IJmuiden` are placenames in the Netherlands.
 
@@ -137,7 +137,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Celtic languages such as Irish and Scottish Gaelic don't have words for *yes* and *no*. In these languages, questions are answered by recycling the verb from the question. Examples:
+    Celtic languages such as Irish and Scottish Gaelic don’t have words for *yes* and *no*. In these languages, questions are answered by recycling the verb from the question. Examples:
     - `ar shiúil tú?` ‘did you walk?’
       - `shiúil` ‘yes’, literally ‘walked’ 
       - `níor shiúil` ‘no’, literally ‘didn’t walk’ 
@@ -152,7 +152,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Would be nice but no. There are regional differences (`colour` and `color`), stylistical preferences (`café` and `cafe`), different points of view (`log into something` versus `log in to something`) and what not. By all means, be strict and consistent in your own writing if you want but be tolerant in what you accept.
+    Would be nice but no. There are regional differences (`colour` and `color`), stylistical preferences (`café` and `cafe`), different points of view (`log into something` versus `log in to something`) and what not. A good strategy is to be strict and consistent in the text your app produces but be tolerant in what it accepts.
 
   </details>
 
@@ -168,7 +168,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Although the basic A-to-Z order is the same for all languages that use the Latin script, different languages follow different strategies as to where they place extended characters (= characters with accents). Some mix them in while others put them at the end:
+    Although the basic A-to-Z order is the same for all languages that use the Latin script, different languages follow different strategies as to where they place any additional characters. Some mix them in while others put them at the end:
     - In German, `Ä` comes right after `A` and before `B`.
     - In Swedish, `Ä` comes at the end of the alphabet, after `Z`.
 
@@ -180,7 +180,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Arabic, Hebrew etc, are written from right to left. And don't even get me started on [bidirectional text...](https://en.wikipedia.org/wiki/Bidirectional_text)
+    Arabic, Hebrew etc, are written from right to left. And don’t even get me started on [bidirectional text...](https://en.wikipedia.org/wiki/Bidirectional_text)
 
   </details>
 
@@ -188,11 +188,11 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    No. In a well-designed Arabic UI, *everything* will flow from right to left. If your UI has a navigation menu on the left-hand side for English and other European languages, your Arabic version should have it on the right-hand side. You often see Arabic UIs which don't (because it's "difficult") but that's disappointing. Do it and your users will be delighted!
+    No. In a well-designed Arabic UI, *everything* will flow from right to left. If your UI has a navigation menu on the left-hand side for European languages, your Arabic version should have it on the right-hand side. You often see Arabic UIs which don’t (because it’s “difficult”) but that’s disappointing. Do it and your users will be delighted!
 
-    I don't speak Arabic and so I am not basing this on personal experience, but years ago when we were localizing [Terminologue](https://www.terminologue.org/) into Arabic we did this and it was really well received by users.
+    I don’t speak Arabic and so I am not basing this on personal experience, but years ago when we were localizing [Terminologue](https://www.terminologue.org/) into Arabic we did this and it was really well received by users.
 
-    Ahmad Shadeed’s [RTL Styling 101](https://rtlstyling.com/) has a lot of useful guidance on this.
+    Ahmad Shadeed’s [RTL Styling 101](https://rtlstyling.com/) has a lot of useful guidance on such matters.
 
   </details>
 
@@ -200,7 +200,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Chinese and Japanese don't, for one.
+    [Chinese doesn’t](https://aubreyyung.com/space-between-chinese-words/), for one.
 
   </details>
 
@@ -208,7 +208,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    That gets you far but not the whole way. Word-splitting natural-language text is never easy, there are always lots of annoying exceptions, in any language. It's a “difficult task” and you're better off using an NLP library for that. See [how spaCy does it](https://spacy.io/usage/linguistic-features#tokenization), for example.
+    That gets you far but not the whole way. Word-splitting natural-language text is never easy, there are always lots of annoying exceptions, in any language. It’s a “difficult task” and you’re better off using an NLP library for that. See [how spaCy does it](https://spacy.io/usage/linguistic-features#tokenization), for example.
 
   </details>
 
@@ -216,7 +216,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    End-of-sentence punctuation symbols such as `.!?` are used for other things too. The period in particular is heavily overloaded with other functions such as abbreviations (`in the U.K.`) and number formatting (`30,000.00`). Sentence segmentation is a “difficult task” and you're better off using an NLP library for that. See [how spaCy does it](https://spacy.io/usage/linguistic-features#sbd), for example.
+    End-of-sentence punctuation symbols such as `.!?` are used for other things too. The period in particular is heavily overloaded with other functions such as abbreviations (`in the U.K.`) and number formatting (`30,000.00`). Sentence segmentation is a “difficult task” and you’re better off using an NLP library for that. See [how spaCy does it](https://spacy.io/usage/linguistic-features#sbd), for example.
 
   </details>
 
@@ -272,14 +272,14 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    No they aren't. The same number looks different in different languages – or more accurately, in different locales.
+    No they aren’t. The same number looks different in different languages – or more accurately, in different locales.
     - English: `80,763.00`
       - the thousands separator is a comma
       - the decimal separator is a period
     - German, Czech etc.: `80.763,00`, sometimes also `80 763,00`
       - the thousands separator is a period or a (non-breaking) space
       - the decimal separator is a comma
-    - In Switzerland (regardless of which language): `80'763.00`
+    - In Switzerland (regardless of which language): `80’763.00`
       - the thousands separator is an apostrophe
       - the decimal separator is a period
 
@@ -291,17 +291,16 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
     
-    It's common in the Slavic language family to have pairs of languages which are so similar that, for short titles or slogans in particular, it can genuinely be both. Czech and Slovak, for example.
+    It’s common in the Slavic language family to have pairs of languages which are so similar that, for short texts like titles or slogans, it can genuinely be both. Czech and Slovak, for example.
 
   </details>
-
 
 - Languages that have similar names are similar.
 
   <details>
     <summary>Explain...</summary>
 
-    Slovak and Slovene have similar names and, even though they belong to the same language family (Slavic), they aren't really all that similar, they're not even mutually understandable (not “out of the box” anyway) and the populations that speak them aren't geographical neighbours.
+    Slovak and Slovene have similar names and, even though they belong to the same language family (Slavic), they aren’t really all that similar, they’re not even mutually understandable (not “out of the box” anyway) and the populations that speak them aren’t geographical neighbours.
 
     Same for Serbian (the language Serbia) and Sorbian (a minority language in east Germany).
 
@@ -313,7 +312,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
 
     The key-shaped emoticon 🔑 only means ‘key’ as an in ‘of key importance’ to those who speak English. For nearly everyone else it just means ‘key’ as the thing you lock doors with.
 
-    Send me your favourite pun icons and emoji wordplays that don't translate!
+    Send me your favourite pun icons and emoji wordplays that don’t translate!
 
 </details>
 
@@ -321,7 +320,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    As a first guess, maybe. But you do need to ask the user eventually which language they prefer. What if I'm on holiday in Portugal and don't speak a word of Portuguese?
+    As a first guess, maybe. But you do need to ask the user eventually which language they prefer. What if I’m on holiday in Portugal and don’t speak a word of Portuguese?
   
   </details>
 
@@ -329,7 +328,7 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Of course not but it's complicated: I have a whole separate [blog post about flags as language symbols](/flags-as-language-symbols/). 
+    Of course not but it’s complicated: I have a whole separate [blog post about flags as language symbols](/flags-as-language-symbols/). 
 
   </details>
 
@@ -337,9 +336,9 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    Switzerland has four. Canada has two (at least). Belgium has two (or three if you're including German). Luxembourg has three.
+    Switzerland has four. Canada has two (at least). Belgium has two (or three if you’re including German). Luxembourg has three.
 
-    And what does it mean to be some country's “national” language anyway? It's such vague concept.
+    And what does it mean to be some country’s “national” language anyway? It’s such vague concept.
 
   </details>
 
