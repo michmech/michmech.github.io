@@ -252,19 +252,34 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
   <details>
     <summary>Explain...</summary>
 
-    In English:
-    - the opening quotes are shaped like `66`
-    - the closing quotes are shaped like `99`
+    - In English:
 
-    and they are both located at the top of the line (superscript level). Example: `“blabla”`
+      - the opening quotes are shaped like `66`
+      - the closing quotes are shaped like `99`
 
-    In many continental European languages, basically everywhere east of Germany including Germany itself:
-    - the opening quotes are shaped like `99` and are located at the base of the line (subscript level) 
-    - the closing quotes are shaped like `66` and are located at the top of the line (superscript level)
+      and they are both located at the top of the line (superscript level). Example: `“blabla”`
+
+    - In many continental European languages, basically everywhere east of Germany including Germany itself:
+
+      - the opening quotes are shaped like `99` and are located at the base of the line (subscript level) 
+      - the closing quotes are shaped like `66` and are located at the top of the line (superscript level)
     
-    Example: `„blabla“`
+      Example: `„blabla“`
 
-    These are the two main schemes that exist in Europe, but individual languages, countries and locales often have their highly specific styles which differ from these in details. One honorable mention is the French-speaking world where the quotes are usually `«` and `»`. This style is sometimes seen in German too, especially in Switzerland.
+    - In French:
+
+      - the opening quote is `«` followed by a non-breaking space
+      - the closing quote is `»` preceded by a non-breaking space
+
+      Example: `« blabla »`
+
+    - The same quotes are used for writing German and all other languages of Switzerland, but without spaces.
+    
+      Example: `«blabla»`
+
+    - These symbols are sometimes used as quotes for writing German in Germany too, but flipped.
+    
+      Example: `»blabla«`
 
   </details>
 
