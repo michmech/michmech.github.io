@@ -375,3 +375,12 @@ details:open summary {
 details p, details ul {
   margin: 0.75em 0 !important; 
 }
+
+#mishmash {
+  border: 5px solid #ddeeff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 10px 10px 10px 12px;
+  background-color: #ffffff;
+  margin: 2em 0;
+}

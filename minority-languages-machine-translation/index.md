@@ -41,3 +41,6 @@ I am of the opinion that languages are judged by the quality of what is said and
 These are the tools the language technology industry needs to provide in order to support language revival. What they have in common is that they work ‘inside’ the language. They enable speakers of the minority language to have a life in the language. They facilitate contact with other speakers, they make possible the emergence of a language community engaged in a constant conversation with itself. A language that has this is a language worth using, learning and not forgetting, not for its own sake but for the sake of what’s said and written in it.
 
 Only when all this has been provided and taken care of is the right time to start pouring money and effort into machine translation.
+
+<div id="mishmash"></div><script src="https://www.nativedialogs.com/api/mishmash.js?lingo=ga"></script>
+

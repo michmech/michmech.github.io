@@ -22,6 +22,8 @@ Surprisingly, in spite of centuries of language contact with English, Irish has 
 
 What this means in practical terms is that Irish speakers cannot easily dismiss a question or offer without giving it some consideration. Unlike English or German or French where you can say *no* or *nein* or *non* to pretty much anything without giving it any thought, an Irish question needs to be processed more deeply.
 
+<div id="mishmash"></div><script src="https://www.nativedialogs.com/api/mishmash.js?lingo=ga"></script>
+
 ## 2. Irish has inflected prepositions
 
 Prepositions are words like *with* and *for* and *on*. In most languages they’re pretty boring and never change, but in Irish they inflect for person and number. Yes, prepositions inflect! From **le** *with* we have **liom** *with me*, **leat** *with you*, **leis** *with it* and so on. From **ar** *on* we have **orm** *on me*, **ort** *on you*, **air** *on it* and son on. You get the idea. It’s a pretty simple concept to get your head around in theory, but if you’re a learner of Irish as a second language, it’s easy to get confused and start saying things like \***le mé** instead of **liom** *with me*, \***ar tú** instead of **ort** *on you*. Learner beware!

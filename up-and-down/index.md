@@ -10,7 +10,7 @@ blurb: A nice and simple example of how learning a new language causes you to st
 
 In this article, I am going to give a nice and simple example of how learning a new language causes you to start perceiving the world differently. By doing so I will provide support for the <a href="https://en.wikipedia.org/wiki/Linguistic_relativity">Sapir-Whorf hypothesis</a> (in its weak form), which is a hypothesis that claims that the language you speak predetermines, to some extent, how you think. I will demonstrate this on my favourite toy language, Irish. {.lead}
 
----
+<div id="mishmash"></div><script src="https://www.nativedialogs.com/api/mishmash.js?lingo=ga"></script>
 
 My example concerns the Irish equivalents for the English adverbs <em>up</em> and <em>down</em> when these describe motion, as in <em>I am going up</em> or <em>the sun is coming down</em>. I will call them <strong>adverbs of vertical motion</strong>. Notice that <em>up</em> and <em>down</em> can also be used as adverbs of vertical <u>position</u>, as in <em>I am up</em> or <em>the sun is down</em>. That is not what we are dealing with here, though. Here, we will only concern ourselves with their use for motion.
 
