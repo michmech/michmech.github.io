@@ -146,6 +146,8 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
       - `níor thiomáin` ‘no’, literally ‘didn’t drive’ 
 
     This is a well-known complication when localizing dialog boxes with pre-baked ‘yes’ and ‘no’ buttons.
+    Here's [an article](/pdf/LocalizationWithIrish.pdf) I write years go which explains this is more detail for Irish.
+    [@etchedpixels](https://mastodon.ie/@etchedpixels@mastodon.social/116289496956881148) confirms this is also a problem for Welsh.
   </details>
 
 - There is always only one correct way to spell anything.
@@ -169,8 +171,8 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
     <summary>Explain...</summary>
 
     Although the basic A-to-Z order is the same for all languages that use the Latin script, different languages follow different strategies as to where they place any additional characters. Some mix them in while others put them at the end:
-    - In German, `Ä` comes right after `A` and before `B`.
     - In Swedish, `Ä` comes at the end of the alphabet, after `Z`.
+    - In German, `Ä` is sorted as if it were `AE`: `München` comes between `Mud` and `Muf` as if it were written `Muenchen` (thank you [@dingens](https://mastodon.ie/@dingens@troet.cafe/116283600831876750) for a clarification on this)
 
     Shameless plug: I have a whole [chapter about alphabetical sorting](http://arit.lexiconista.com/arit/chap06/) in my book *An Ríomhaire Ilteangach*.
 
@@ -238,6 +240,9 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
 
     Yes, in Spanish these things are actually pairs of two symbols where one goes at the start of the sentence and the other goes at the end. [More on Spanish punctuation...](https://www.babbel.com/en/magazine/spanish-punctuation-guide)
 
+    Additional detail (thank you [@dingens](https://mastodon.ie/@dingens@troet.cafe/116283600831876750)): sometimes, the opening question mark (the upside down one) can appear inside the sentence:
+    - `Tengo galletas, ¿quieres una?` (I got cookies, want one?)
+
   </details>
 
 - No language puts spaces after opening quotes and before closing quotes.
@@ -273,13 +278,15 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
 
       Example: `« blabla »`
 
-    - The same quotes are used for writing German and all other languages of Switzerland, but without spaces.
+    - In Switerland, the same quotes are used for writing the other languages of Switzerland too, but without spaces.
     
       Example: `«blabla»`
 
     - These symbols are sometimes used as quotes for writing German in Germany too, but flipped.
     
       Example: `»blabla«`
+
+    (Thank you [@mxp](https://mastodon.ie/@mxp@mastodon.acm.org/115368750137073428) for a few additional details I didn't know about Switzerland and about the use of `»...«` in German.) 
 
   </details>
 
@@ -299,6 +306,8 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
       - the decimal separator is a period
 
     Shameless plug: the website for my book *An Ríomhaire Ilteangach* comes with a [Multicultural data formatter](http://arit.lexiconista.com/arit/multicultural-data-formatter/?m) which shows you how the same number is formatted in different locales.
+
+    Something similar (thank you [@laumapret](https://mastodon.ie/@laumapret@toot.lv/115391086759103509) for reminding me) happens with ordinal numbers: ‘1st, 2nd, 3rd’. The `st` `nd` `rd` stuff is English-only. Many other languages in Europe use a dot: ‘3rd of May’ is `3. Mai` in German. Russian uses no punctuation at all for ordinal numbers: ‘3rd of May’ is `3 мая`.
 
   </details>
 
@@ -328,6 +337,8 @@ I can’t believe nobody has done this list yet. I mean, there is one about [nam
     The key-shaped emoticon 🔑 only means ‘key’ as an in ‘of key importance’ to those who speak English. For nearly everyone else it just means ‘key’ as the thing you lock doors with.
 
     Send me your favourite pun icons and emoji wordplays that don’t translate!
+
+    Here's another fun one (thank you [@dingens](https://mastodon.ie/@dingens@troet.cafe/116283596408662605)): the fingers crossed emoji 🤞 doest not mean ‘I wish you good luck’ to speakers of most European languages besides English. To a German or a Czech, this gesture is meaningless (unless its something they recognise from American movies), they use a different gesture for saying ‘I wish you good luck’ which looks like pressing both your thumbs with both your fists – which in turn is probably meaningless to an English speaker. 
 
 </details>
 
