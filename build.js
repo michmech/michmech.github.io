@@ -54,43 +54,51 @@ function addPubs(years){
   });
   pubs.map(pub => {
     var year=pub.issued["date-parts"][0][0];
-    var html=`<div class="item">`;
+    var lang = pub.language || "en";
+    var html=`<div class="item" lang="${lang}">`;
     html+=`<div class="tagline">`;
       if(pub.type=="book"){
         html+=`<span class="icon fas fa-book" aria-hidden="true"></span>`;
-        html+=`<span class="type">BOOK</span>`;
+        html+=`<span class="type">${{en: "BOOK", ga: "LEABHAR", cs: "KNIHA"}[lang]}</span>`;
+      }
+      if(pub.type=="chapter"){
+        html+=`<span class="icon fas fa-book" aria-hidden="true"></span>`;
+        html+=`<span class="type">${{en: "BOOK CHAPTER", ga: "CAIBIDIL I LEABHAR", cs: "KAPITOLA V KNIZE"}[lang]}</span>`;
       }
       else if(pub.type=="post-weblog"){
-        html+=`<span class="type">GUEST ARTICLE</span>`;
+        html+=`<span class="type">${{en: "GUEST ARTICLE", ga: "AOI-ALT", cs: "POZVANÝ ČLÁNEK"}[lang]}</span>`;
       }
       else if(pub.type=="standard"){
         html+=`<span class="icon fas fa-clipboard-check" aria-hidden="true"></span>`;
-        html+=`<span class="type">STANDARD</span>`;
+        html+=`<span class="type">${{en: "STANDARD", ga: "CAIGHDEÁN", cs: "NORMA"}[lang]}</span>`;
       }
       else if(pub.type=="paper-conference"){
         html+=`<span class="icon fas fa-book-reader" aria-hidden="true"></span>`;
-        html+=`<span class="type">CONFERENCE PAPER</span>`;
+        html+=`<span class="type">${{en: "CONFERENCE PAPER", ga: "PÁIPÉAR COMHDHÁLA", cs: "KONFERENČNÍ PŘÍSPĚVEK"}[lang]}</span>`;
       }
       else if(pub.type=="article-journal"){
         html+=`<span class="icon fas fa-book-reader" aria-hidden="true"></span>`;
-        html+=`<span class="type">JOURNAL ARTICLE</span>`;
+        html+=`<span class="type">${{en: "JOURNAL ARTICLE", ga: "ALT IN IRIS ACADÚIL", cs: "ČLÁNEK V AKADEMICKÉM ČASOPISE"}[lang]}</span>`;
       }
       else if(pub.type=="interview"){
         html+=`<span class="icon fas fa-comments" aria-hidden="true"></span>`;
-        html+=`<span class="type">INTERVIEW</span>`;
+        html+=`<span class="type">${{en: "INTERVIEW", ga: "AGALLAMH", cs: "ROZHOVOR"}[lang]}</span>`;
       }
       else if(pub.type=="speech" && pub.genre=="Panel Discussion"){
         html+=`<span class="icon fas fa-couch" aria-hidden="true"></span>`;
-        html+=`<span class="type">PANEL DISCUSSION</span>`;
+        html+=`<span class="type">${{en: "PANEL DISCUSSION", ga: "PLÉ PAINÉIL", cs: "PANELOVÁ DISKUSE"}[lang]}</span>`;
       }
       else if(pub.type=="speech" && pub.genre=="Keynote"){
         html+=`<span class="icon fas fa-key" aria-hidden="true"></span>`;
         html+=`<span class="type">KEYNOTE SPEECH</span>`;
       }
-      else if(pub.type=="speech") html+=`<span class="type">TALK</span>`;
-      else if(pub.type=="article-magazine") html+=`<span class="type">MAGAZINE ARTICLE</span>`;
-      else if(pub.type=="manuscript") html+=`<span class="type">MANUSCRIPT</span>`;
-      else if(pub.type=="report") html+=`<span class="type">REPORT</span>`;
+      else if(pub.type=="speech" && pub.genre=="Tutorial"){
+        html+=`<span class="type">TUTORIAL</span>`;
+      }
+      else if(pub.type=="speech") html+=`<span class="type">${{en: "TALK", ga: "CAINT", cs: "PŘEDNÁŠKA"}[lang]}</span>`;
+      else if(pub.type=="article-magazine") html+=`<span class="type">${{en: "MAGAZINE ARTICLE", ga: "ALT IN IRIS", cs: "ČLÁNEK V ČASOPISE"}[lang]}</span>`;
+      else if(pub.type=="manuscript") html+=`<span class="type">${{en: "MANUSCRIPT", ga: "LÁMHSCRÍBIHNN", cs: "RUKOPIS"}[lang]}</span>`;
+      else if(pub.type=="report") html+=`<span class="type">${{en: "REPORT", ga: "TUAIRISC", cs: "PROJEKTOVÁ ZPRÁVA"}[lang]}</span>`;
       else if(pub.type=="thesis"){
         html+=`<span class="icon fas fa-graduation-cap" aria-hidden="true"></span>`;
         if(year=="2024") html+=`<span class="type">PH.D. THESIS</span>`;
@@ -103,19 +111,20 @@ function addPubs(years){
     const bibUrl=`https://www.zotero.org/michmech/search/${encodeURIComponent(pub.title)}/titleCreatorYear/`;
     if(pub.URL){
       pub.URL=pub.URL.replace(/https\:\/\/michmech\.github\.io\//, "");
-      html+=`<h3 class="title"><a target="_blank" href="${pub.URL}">${pub.title}</a>&nbsp;<a class="biblink" target="_blank" href="${bibUrl}">BIB</a></h3>`;
+      pub.URL=pub.URL.replace(/https\:\/\/www\.lexiconista\.com\//, "");
+      html+=`<h3 class="title"><a ${pub.URL.startsWith("http") ? 'target="_blank"' : ''} href="${pub.URL}">${pub.title}</a>&nbsp;<a class="biblink" target="_blank" href="${bibUrl}">BIB</a></h3>`;
     } else {
       html+=`<h3 class="title">${pub.title}&nbsp;<a class="biblink" target="_blank" href="${bibUrl}">BIB</a></h3>`;
     }
     var data=``;
     if(pub["event"] || pub["event-title"]){
-      data+=`<div><span class='intro'>EVENT</span> `;
+      data+=`<div><span class='intro'>${{en: "EVENT", ga: "ÓCÁID", cs: "UDÁLOST"}[lang]}</span> `;
       data+=`${pub["event"] || pub["event-title"]}`;
       if(pub["event-place"]) data+=`, ${pub["event-place"]}`;
       data+=`</div>`;
     }
     if(pub["container-title"]){
-      data+=`<div><span class='intro'>PUBLISHED IN</span> `;
+      data+=`<div><span class='intro'>${{en: "PUBLISHED IN", ga: "FOILSITHE IN", cs: "VYŠLO V"}[lang]}</span> `;
       data+=`${pub["container-title"]}`;
       data+=`</div>`;
     }
@@ -125,7 +134,7 @@ function addPubs(years){
       data+=`</div>`;
     }
     if(pub["publisher"]){
-      var label="PUBLISHER"; if(pub.type=="thesis") label="INSTITUTION";
+      var label=`${{en: "PUBLISHER", ga: "FOILSITHEOIR", cs: "VYDAVATEL"}[lang]}`; if(pub.type=="thesis") label="INSTITUTION";
       data+=`<div><span class='intro'>${label}</span> `;
       data+=`${pub["publisher"]}`;
       // if(pub["publisher-place"]) data+=`, ${pub["publisher-place"]}`;
@@ -147,7 +156,7 @@ function addPubs(years){
       data+=`</div>`;
     }
     if(data!="") html+=`<div class="data">${data}</div>`;
-    if(pub.abstract) html+=`<div class="blurb">${pub.abstract.replace(/\r?\n\r?\n/g, " ● ")}</div>`;
+    //if(pub.abstract) html+=`<div class="blurb">${pub.abstract.replace(/\r?\n\r?\n/g, " ● ")}</div>`;
     html+=`</div>`;
     if(!years[year]) years[year]={pubs: [], arts: []};
     years[year].pubs.unshift(html);

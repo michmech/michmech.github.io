@@ -12,10 +12,16 @@ $(document).ready(function(){
     $("#bio h1.name span.lingo").removeClass("current");
     $("#bio h1.name span.lingo[lang='"+lang+"']").addClass("current");
     //show/hide blurb:
-    $("#bio div.blurb div.version:visible").fadeOut(function(){
-      $("#bio div.blurb div.version").hide();
-      $("#bio div.blurb div.version[lang='"+lang+"']").fadeIn();
-    });
+    $("#bio div.blurb div.version").hide();
+    $("#bio div.blurb div.version[lang='"+lang+"']").fadeIn();
+    //show/hide titles:
+    $("h2.overvanity").hide();
+    $("h2.overpubs").hide();
+    $("h2.overvanity[lang='"+lang+"']").fadeIn();
+    $("h2.overpubs[lang='"+lang+"']").fadeIn();
+    //show/hide vanity titles and subtitles:
+    $("div.vanity span[lang]").hide();
+    $("div.vanity span[lang='"+lang+"']").fadeIn();
   });
 
 });

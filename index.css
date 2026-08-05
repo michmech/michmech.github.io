@@ -113,9 +113,11 @@ div#bio div.data div.group span.icon {position: absolute; left: 10px; top: 7px;}
 div#bio div.data div.group div.item {position: relative; padding-left: 1.5em; margin-bottom: 0.15em;}
 div#bio div.data div.group div.item span.bullet {position: absolute; left: 0;}
 
-h2.overYears {font-size: 0.85em; text-align: center; margin: 7em 0 3em 0; font-weight: normal; color: #999999; text-transform: uppercase;}
-h2.overYears::before {content: "•"; margin-right: 1em;}
-h2.overYears::after {content: "•"; margin-left: 1em;}
+h2.inbio {font-size: 0.85em; text-align: center; margin: 7em 0 3em 0; font-weight: normal; color: #999999; text-transform: uppercase;}
+h2.inbio::before {content: "•"; margin-right: 1em;}
+h2.inbio::after {content: "•"; margin-left: 1em;}
+h2.inbio.overquals {margin-top: 3em; margin-bottom: 1.5em;}
+h2.inbio.overvanity {margin-top: 4em; margin-bottom: 1.5em;}
 
 div.years {}
 div.years div.year {}
@@ -128,11 +130,11 @@ div.years div.year div.item div.tagline > span.icon {font-size: 1.5em; position:
 div.years div.year div.item div.tagline > span.type {font-size: 0.75em; color: #666666; font-weight: bold;}
 div.years div.year div.item div.tagline > span.coauthors {font-style: italic; font-size: 0.9em; color: #999999;}
 div.years div.year div.item h3.title {font-weight: bold; color: #444444; margin: 0px; font-size: 1em;}
-div.years div.year div.item h3.title a.biblink {display: inline-block; font-weight: normal; font-size: 0.75em; color: #999999; border: 1px solid #cccccc; padding: 6px 6px 2px 6px; line-height: 0.75em; border-radius: 2px; margin-left: 0.25em; position: relative; top: -1px; box-shadow: 1px 1px 0px #ffffff;}
+div.years div.year div.item h3.title a.biblink {display: inline-block; font-weight: normal; font-size: 0.75em; color: #999999; border: 1px solid #cccccc; padding: 3px 6px 4px 6px; line-height: 0.75em; border-radius: 2px; position: relative; top: -1px; box-shadow: 1px 1px 0px #ffffff;}
 div.years div.year div.item h3.title a.biblink:hover {color: #666666; border-color: #666666;}
 div.years div.year div.item div.blurb {color: #666666; font-size: 0.9em; line-height: 1.5em; margin-top: 3px;}
 div.years div.year div.item div.data {color: #666666; font-size: 0.9em; line-height: 1.5em; margin-top: 3px;}
-div.years div.year div.item div.data span.intro {color: #000000; font-size: 0.8em; margin-right: 0.25em; }
+div.years div.year div.item div.data span.intro {color: #000000; font-size: 0.8em; margin-right: 0.25em; position: relative; top: 0px;}
 div.years div.year div.boxtitle {margin-top: 1.75em;}
 div.years div.year div.boxtitle span {font-size: 0.75em; color: #666666; font-weight: bold; background-color: #ffffff; padding: 5px 10px; margin-left: -10px; border-radius: 8px; box-shadow: 0px 0px 10px #ffffff;}
 div.years div.year div.arts {padding: 0px 25px 0.5em 25px; margin: 0px -25px; background-color: #ffffff; border: 1px solid #999999; border-radius: 8px; margin-top: -1em;}
@@ -188,6 +190,7 @@ div.vanity {
   line-height: 1.5em;
   /* background-color: #eeeeee;
   min-height: 100px; */
+  text-wrap: balance;
 }
 @media(max-width: 1000px) {
   div.vanity {
@@ -197,20 +200,22 @@ div.vanity {
 }
 @media(max-width: 500px) {
   div.vanity {
-    /* white-space: nowrap;
-    overflow-x: scroll; */
+    white-space: nowrap;
+    overflow-x: scroll;
     padding-bottom: 20px;
-    /* margin-right: -25px;
+    margin-right: -25px;
     margin-left: -25px;
-    padding-left: 15px; */
+    padding-left: 15px;
   }
 }
 div.vanity a.box {
+  vertical-align: top;
   display: inline-block;
   text-align: center;
   padding-top: 1px;
   margin: 30px 5px 0px 5px;
   min-width: 125px;
+  max-width: 175px;
 }
 /* @media(max-width: 500px) {
   div.vanity a.box {
@@ -239,6 +244,13 @@ div.vanity a.box:hover img.icon {
 div.vanity a.box span.title {
   display: block;
   font-weight: bold;
+  text-wrap: balance;
+}
+div.vanity a.box span.subtitle {
+  display: block;
+  font-weight: normal;
+  color: #666666;
+  text-wrap: balance;
 }
 div.vanity a.box img.icon.makeSmaller {
   width: 32px;

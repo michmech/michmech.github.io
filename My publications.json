@@ -84,6 +84,7 @@
 		"id": "http://zotero.org/users/4089510/items/TIC62MMV",
 		"type": "manuscript",
 		"abstract": "Sa saothar seo tá cuntasar iomlán na rialacha a bhaineann le húsáid uimhreacha sa Ghaeilge. Mar is eol donléitheoir, tá córas uimhreacha na Gaeilge an-chasta, rud a chuireann fonn ar lucht scríofa leabhar gramadaí a gcuid cuntas ar an chóras a shimpliú agus ceisteanna áirithe a fhágáil gan freagra soiléir mar bheadh an freagra casta agus deacair le tuiscint. Sa saothar seo, tá a mhalairt de chur chuige i gceist. Rinne mé iarracht cur síos a dhéanamh ar chóras na n-uimhreachaar bhealach atá chomh hiomlán agus is féidir, in ainneoin a chastachta. Fónfaidh an saothar seo don té atá ar thóir cruinnis.",
+		"language": "ga",
 		"license": "All rights reserved",
 		"title": "Uimhreacha na Gaeilge",
 		"URL": "https://michmech.github.io/pdf/Uimhreacha.pdf",
@@ -106,6 +107,7 @@
 		"type": "article-magazine",
 		"container-title": "Comhar",
 		"issue": "8",
+		"language": "ga",
 		"license": "All rights reserved",
 		"page": "13–16",
 		"title": "Ionchódú Téacs ar Ríomhairí",
@@ -154,9 +156,10 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/JM7ZABS4",
 		"type": "speech",
+		"event-place": "Dublin, Ireland",
 		"event-title": "Engineers Ireland",
+		"language": "ga",
 		"license": "All rights reserved",
-		"publisher-place": "Dublin, Ireland",
 		"title": "Cá bhfuil mo shínte fada? – ionchódú téacs ar ríomhairí",
 		"author": [
 			{
@@ -235,9 +238,9 @@
 		"id": "userFriendlinessTartu",
 		"type": "speech",
 		"citation-key": "userFriendlinessTartu",
+		"event-place": "Tartu, Estonia",
 		"event-title": "12th International Conference on Minority Languages",
 		"license": "All rights reserved",
-		"publisher-place": "Tartu, Estonia",
 		"title": "User-Friendliness: the key to promoting a minority language on the Internet",
 		"author": [
 			{
@@ -261,9 +264,10 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/ZA7FEVEC",
 		"type": "speech",
+		"event-place": "Baile Bhuirne, Ireland",
 		"event-title": "Imbolc",
+		"language": "ga",
 		"license": "All rights reserved",
-		"publisher-place": "Baile Bhuirne, Ireland",
 		"title": "Tabhair dom a bhfuil uaim: conas inneall cuardaigh a thógáil d'fhoclóir leictreonach",
 		"URL": "http://imbolc.ie/2010/04/michal-mechura/",
 		"author": [
@@ -356,9 +360,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/FB4KIXCJ",
 		"type": "speech",
+		"event-place": "Dublin, Ireland",
 		"event-title": "Terminology and Knowledge Engineering (TKE) Conference",
 		"license": "All rights reserved",
-		"publisher-place": "Dublin, Ireland",
 		"title": "How to build a termbase for 500,000 users (and live to tell the story)",
 		"author": [
 			{
@@ -393,9 +397,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/RBZGXHF5",
 		"type": "speech",
+		"event-place": "Ljouwert/Leeuwarden",
 		"event-title": "14th Euralex International Congress",
 		"license": "All rights reserved",
-		"publisher-place": "Ljouwert/Leeuwarden",
 		"title": "The Focal.ie National Terminology Database for Irish",
 		"URL": "https://michmech.github.io/pdf/FocalDemoEuralex2010.pdf",
 		"author": [
@@ -430,9 +434,10 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/CIBAQI9P",
 		"type": "speech",
+		"event-place": "Waterford, Ireland",
 		"event-title": "Daonscoil na Mumhan",
+		"language": "ga",
 		"license": "All rights reserved",
-		"publisher-place": "Waterford, Ireland",
 		"title": "Idir foclóir agus léarscáil: Bunachar Logainmneacha na hÉireann",
 		"author": [
 			{
@@ -452,9 +457,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/UEF6JJAP",
 		"type": "speech",
+		"event-place": "Hamburg, Germany",
 		"event-title": "Digital Humanities Conference",
 		"license": "All rights reserved",
-		"publisher-place": "Hamburg, Germany",
 		"title": "Landscapes, languages and data structures: Issues in building the Placenames Database of Ireland",
 		"URL": "http://lecture2go.uni-hamburg.de/konferenzen/-/k/13986",
 		"author": [
@@ -627,6 +632,7 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/XHFC3A5U",
 		"type": "report",
+		"language": "ga",
 		"license": "All rights reserved",
 		"publisher": "Foras na Gaeilge",
 		"title": "Bunachar Náisiúnta Moirfeolaíochta agus Gramadán: Doiciméadúchán Teicniúil",
@@ -648,9 +654,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/JJ8GAGZF",
 		"type": "speech",
+		"event-place": "Dublin Castle, Ireland",
 		"event-title": "British-Irish Council conference on language technology in indigenous, minority and lesser-used languages",
 		"license": "All rights reserved",
-		"publisher-place": "Dublin Castle, Ireland",
 		"title": "Do minority languages need the same language technology as majority languages?",
 		"author": [
 			{
@@ -692,6 +698,7 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/WSZ7SAR2",
 		"type": "manuscript",
+		"language": "cs",
 		"license": "All rights reserved",
 		"title": "Irská národní folklorní sbírka: jak (ne)zdigitalizovat 300 000 rukopisných stránek",
 		"URL": "https://michmech.github.io/pdf/duchas2016.pdf",
@@ -749,9 +756,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/Z9CSQIW4",
 		"type": "speech",
+		"event-place": "Barcelona, Catalonia",
 		"event-title": "European Network of e-Lexicography",
 		"license": "All rights reserved",
-		"publisher-place": "Barcelona, Catalonia",
 		"title": "Things to think about when building a dictionary website",
 		"author": [
 			{
@@ -832,9 +839,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/EP979WSZ",
 		"type": "speech",
+		"event-place": "Leiden",
 		"event-title": "Final Conference of the European Network of e-Lexicography",
 		"license": "All rights reserved",
-		"publisher-place": "Leiden",
 		"title": "How (not) to build a European Dictionary Portal",
 		"URL": "http://www.elexicography.eu/events/meetings/final-action-conference/",
 		"author": [
@@ -884,6 +891,7 @@
 		"type": "book",
 		"abstract": "Treoirleabhar don teicneolaíocht teanga atá dírithe ar an léitheoir ginearálta. Léitheoireacht riachtanach é seo do gach duine a láimhseálann breis is teanga amháin ar an ríomhaire. |  A guide to language technology for general readers. This book is required reading for everybody who uses more than one language on their computer.",
 		"ISBN": "978-1-907494-70-3",
+		"language": "ga",
 		"license": "All rights reserved",
 		"number-of-pages": "145",
 		"publisher": "Cois Life",
@@ -907,9 +915,10 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/XGG6M825",
 		"type": "speech",
+		"event-place": "Prág, Poblacht na Seice",
 		"event-title": "‘Ar an Imeall i Lár an Domhain?’: An tairseachúlacht i litríocht agus i gcultúr na hÉireann agus na hEorpa",
+		"language": "ga",
 		"license": "All rights reserved",
-		"publisher-place": "Prague",
 		"title": "Ar thairseach na haoise digití: mionteangacha agus an ríomhaireacht",
 		"author": [
 			{
@@ -930,9 +939,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/48DNB6J4",
 		"type": "speech",
+		"event-place": "Budapest",
 		"event-title": "European Network of e-Lexicography",
 		"license": "All rights reserved",
-		"publisher-place": "Budapest",
 		"title": "Towards a Metadata Infrastructure for Online Dictionaries",
 		"URL": "https://michmech.github.io/pdf/towards-infrastructure.pdf",
 		"author": [
@@ -1022,9 +1031,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/2PLADB89",
 		"type": "speech",
+		"event-place": "Stellenbosch, South Africa",
 		"event-title": "Grammatical Framework Summer School",
 		"license": "All rights reserved",
-		"publisher-place": "Stellenbosch, South Africa",
 		"title": "Breaking the tyranny of machine translation",
 		"author": [
 			{
@@ -1095,9 +1104,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/5YRHU57X",
 		"type": "speech",
+		"event-place": "Mikulov, Moravia",
 		"event-title": "Lexicom",
 		"license": "All rights reserved",
-		"publisher-place": "Mikulov, Moravia",
 		"title": "The future of dictionary editing",
 		"author": [
 			{
@@ -1165,9 +1174,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/X8FCSGN4",
 		"type": "speech",
+		"event-place": "Online",
 		"event-title": "XIX EURALEX International Congress",
 		"license": "All rights reserved",
-		"publisher-place": "Online",
 		"title": "Help, my XML is too complex! The problem of excessive structural markup in dictionaries",
 		"URL": "http://videolectures.net/euralex2021_mechura_structural_markup/",
 		"author": [
@@ -1212,9 +1221,9 @@
 		"id": "http://zotero.org/users/4089510/items/YUTXFEFT",
 		"type": "speech",
 		"abstract": "An introduction to Czechslator and the technology behind it.",
+		"event-place": "Singapore and online",
 		"event-title": "Grammatical Framework Summer School",
 		"license": "All rights reserved",
-		"publisher-place": "Singapore and online",
 		"title": "Re‑inventing the phrasebook with rule‑based language technology",
 		"URL": "https://www.youtube.com/watch?v=9mQSgIGSFus",
 		"author": [
@@ -1259,9 +1268,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/AP4K2CQL",
 		"type": "speech",
+		"event-place": "Online",
 		"event-title": "XIX EURALEX International Congress",
 		"license": "All rights reserved",
-		"publisher-place": "Online",
 		"title": "Introducing Terminologue: a cloud-based, open-source terminology management tool",
 		"author": [
 			{
@@ -1285,9 +1294,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/JSQ3YG8N",
 		"type": "speech",
+		"event-place": "Online",
 		"event-title": "European Association for Terminology Summit 2021",
 		"license": "All rights reserved",
-		"publisher-place": "Online",
 		"title": "Terminologue and open source terminology solutions",
 		"URL": "https://www.youtube.com/watch?v=Tb9fJFF0JL4",
 		"author": [
@@ -1340,9 +1349,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/UWHCRZ7V",
 		"type": "speech",
+		"event-place": "Telč, Czech Republic",
 		"event-title": "Lexicom",
 		"license": "All rights reserved",
-		"publisher-place": "Telč, Czech Republic",
 		"title": "An introduction to lexicographic data modelling",
 		"author": [
 			{
@@ -1363,9 +1372,10 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/HEN73ZP9",
 		"type": "speech",
+		"event-place": "Baile Átha Cliath",
 		"event-title": "An Ghaeilge agus an Téarmeolaíocht",
+		"language": "ga",
 		"license": "All rights reserved",
-		"publisher-place": "Dublin, Ireland",
 		"title": "Ceardlann ar Terminologue",
 		"author": [
 			{
@@ -1386,9 +1396,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/IP2WSM5K",
 		"type": "speech",
+		"event-place": "Florence, Italy",
 		"event-title": "ELEXIS Showcase Event",
 		"license": "All rights reserved",
-		"publisher-place": "Florence, Italy",
 		"title": "DMLex, a data model for lexicography: an example-by-example introduction",
 		"URL": "http://videolectures.net/elexisevent2020_krek_dmlex_oasis/",
 		"author": [
@@ -1433,9 +1443,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/9PJYA5KK",
 		"type": "speech",
+		"event-place": "Brno",
 		"event-title": "Text, Speech and Dialogue Conference",
 		"license": "All rights reserved",
-		"publisher-place": "Brno",
 		"title": "Fairslator Demo",
 		"URL": "https://www.tsdconference.org/tsd2022/download/tsd2022demo-1185.pdf",
 		"author": [
@@ -1484,9 +1494,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/PM47IEGJ",
 		"type": "speech",
+		"event-place": "Dublin, Ireland",
 		"event-title": "Placenames in Bilingual Areas Workshop",
 		"license": "All rights reserved",
-		"publisher-place": "Dublin, Ireland",
 		"title": "So you want to build a placenames database: an introduction to toponymic data modelling",
 		"author": [
 			{
@@ -1555,9 +1565,10 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/KVHWTY4E",
 		"type": "speech",
+		"event-place": "Praha",
 		"event-title": "Seminář Ústavu Českého národního korpusu",
+		"language": "cs",
 		"license": "All rights reserved",
-		"publisher-place": "Praha",
 		"title": "Za námi mnoho, před námi ještě víc: digitalizace lexikografie včera, dnes a zítra",
 		"URL": "https://www.korpus.cz/seminar/329",
 		"author": [
@@ -1613,31 +1624,13 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/4089510/items/VYMJAMZ4",
-		"type": "interview",
-		"abstract": "Das Goethe-Institut hatte ein paar Fragen zu meinem Projekt Fairslator.",
-		"license": "All rights reserved",
-		"medium": "Goethe-Institut: Artificially Correct",
-		"title": "Wenn die Maschine den Menschen fragt: im Gespräch mit Michal Měchura",
-		"URL": "https://www.goethe.de/ins/gb/de/kul/lue/art/art/23121288.html",
-		"issued": {
-			"date-parts": [
-				[
-					"2022",
-					7,
-					1
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/4089510/items/73TKG97S",
 		"type": "interview",
 		"abstract": "Germany's Goethe-Institut had a few questions to ask me about my Fairslator project.",
 		"license": "All rights reserved",
 		"medium": "Goethe-Institut: Artificially Correct",
 		"title": "When the machine asks the human: in conversation with Michal Měchura",
-		"URL": "https://www.goethe.de/ins/gb/en/kul/lue/art/art/23121288.html",
+		"URL": "https://www.goethe.de/ins/gb/en/kul/past/lit/artifically-correct-neu/23121288a.html",
 		"issued": {
 			"date-parts": [
 				[
@@ -1753,9 +1746,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/SP5KXB5P",
 		"type": "speech",
+		"event-place": "Barcelona",
 		"event-title": "EAFT Summit",
 		"license": "All rights reserved",
-		"publisher-place": "Barcelona",
 		"title": "Gender bias in machine translation and what terminologists can do about it",
 		"author": [
 			{
@@ -1776,9 +1769,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/QB7BBRVW",
 		"type": "speech",
+		"event-place": "Amsterdam",
 		"event-title": "Declarative Amsterdam",
 		"license": "All rights reserved",
-		"publisher-place": "Amsterdam",
 		"title": "Lexicography versus XML",
 		"URL": "https://www.youtube.com/watch?v=xzFneIBu0jA",
 		"author": [
@@ -1801,9 +1794,9 @@
 		"id": "relationsRelationsEverywhere",
 		"type": "speech",
 		"citation-key": "relationsRelationsEverywhere",
+		"event-place": "Brno, Czech Republic",
 		"event-title": "eLex 2023",
 		"license": "All rights reserved",
-		"publisher-place": "Brno, Czech Republic",
 		"title": "Relations, relations everywhere: an introduction to the DMLex data model",
 		"URL": "https://youtu.be/b6Lkv-3D5C0",
 		"author": [
@@ -1854,9 +1847,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/6YPWJAXN",
 		"type": "speech",
+		"event-place": "Dublin",
 		"event-title": "Thirtieth Spring Conference of Society for Name Studies in Britain and Ireland",
 		"license": "All rights reserved",
-		"publisher-place": "Dublin",
 		"title": "A critical look at the data structure behind Logainm.ie",
 		"URL": "https://www.snsbi.org.uk/2024_Dublin.html",
 		"author": [
@@ -1879,6 +1872,7 @@
 		"id": "http://zotero.org/users/4089510/items/HSMF3CHL",
 		"type": "speech",
 		"event-title": "AMTA (Association for Machine Translation in the Americas) Conference 2024: Tutorials Day",
+		"genre": "Tutorial",
 		"license": "All rights reserved",
 		"title": "Bias in machine translation: challenges, techniques, perspectives",
 		"author": [
@@ -1900,9 +1894,10 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/AZCI99UY",
 		"type": "speech",
+		"event-place": "Praha",
 		"event-title": "Jeronýmovy dny 2024",
+		"language": "cs",
 		"license": "All rights reserved",
-		"publisher-place": "Praha",
 		"title": "Zaujatost ve strojovém překladu a co s ní",
 		"URL": "https://www.youtube.com/watch?v=DvYoD2nxaUI&t=12987s",
 		"author": [
@@ -2011,9 +2006,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/E5F3QKSG",
 		"type": "speech",
+		"event-place": "Dublin, Ireland",
 		"event-title": "PyCon 2025",
 		"genre": "Panel Discussion",
-		"publisher-place": "Dublin, Ireland",
 		"title": "AI and the Future of the Irish Language",
 		"author": [
 			{
@@ -2046,9 +2041,9 @@
 	{
 		"id": "http://zotero.org/users/4089510/items/BKK32X98",
 		"type": "speech",
+		"event-place": "Bled, Slovenia",
 		"event-title": "eLex 2025",
 		"genre": "Keynote",
-		"publisher-place": "Bled, Slovenia",
 		"title": "We need to talk about data structures in lexicography",
 		"URL": "https://videolectures.net/videos/elexconference2025_bled_mechura_need_talk",
 		"author": [
@@ -2063,6 +2058,124 @@
 					"2025",
 					11,
 					20
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/JYTYTH9N",
+		"type": "speech",
+		"event-place": "Baile Átha Cliath",
+		"event-title": "Comhdháil ar na Daonnachtaí Digiteacha sa Ghaeilge",
+		"language": "ga",
+		"title": "An tras-scríobh sluafhoinsithe: sa tóir ar an oideas ceart",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					5,
+					14
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/LXAMVY3C",
+		"type": "speech",
+		"event-place": "Dublin, Ireland",
+		"event-title": "Placenames Workshop",
+		"language": "en",
+		"title": "Between a map and a gazetteer: the user experience of toponymic websites",
+		"URL": "https://www.lexiconista.com/ux-of-toponymy/",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					7,
+					23
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/EMMCUBRW",
+		"type": "speech",
+		"event-place": "Vienna, Austria",
+		"event-title": "TTT Translation Technology Talks",
+		"title": "Help, my translation is biased: understanding gender bias in machine translation",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					7,
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/AIC89932",
+		"type": "paper-conference",
+		"event-place": "Tilburg, The Netherlands",
+		"event-title": "4th International Workshop on Gender-Inclusive Translation Technologies",
+		"title": "The past and future of Fairslator",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					6,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/L85M7LA6",
+		"type": "chapter",
+		"container-title": "International Encyclopedia of Language and Linguistics",
+		"DOI": "https://doi.org/10.1016/B978-0-323-95504-1.01172-8",
+		"edition": "Third Edition",
+		"ISBN": "978-0-443-22286-3",
+		"page": "737-746",
+		"publisher": "Elsevier",
+		"title": "DMLex: Data Model for Lexicography",
+		"URL": "https://www.sciencedirect.com/science/article/pii/B9780323955041011728",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					6,
+					8
 				]
 			]
 		}
