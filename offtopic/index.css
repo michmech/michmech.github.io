@@ -171,6 +171,7 @@ div.years div.year div.item a.image {
   bottom: 20px;
   border-radius: 2px;
   background-size: cover;
+  background-position: center center;
 }
 @media(max-width: 500px) {
   div.years div.year div.item a.image {
@@ -371,7 +372,7 @@ div.rubric span {
 }
 div.item div.rubric {
   margin-top: 0px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   font-size: 0.8em;
 }
 div.item  div.rubric span {
