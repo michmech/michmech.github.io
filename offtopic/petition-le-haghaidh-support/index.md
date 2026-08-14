@@ -10,7 +10,7 @@ blurb: Ná bí i do couch potato, tacaigh lenár initiative ar son na Gaeilge!
 image: preview.jpg
 ---
 
-Fuair mé inspioráid don téacs ó cholún éigin greannmhar a léigh mé i nuachtán éigin Gearmámise tráth. Ní cumhin liom beo cén nuachtán ná cé hiad an t‑údar, tá brón orm. {.preintro}
+Fuair mé inspioráid don téacs ó cholún éigin greannmhar a léigh mé i nuachtán éigin Gearmáinise tráth. Ní cumhin liom beo cén nuachtán ná cé hiad an t‑údar, tá brón orm. {.preintro}
 
 # Petition le haghaidh support don Ghaeilge
 
