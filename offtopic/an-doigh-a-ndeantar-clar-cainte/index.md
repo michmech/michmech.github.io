@@ -1,7 +1,7 @@
 ---
 lang: ga
 published: 2026-08-05
-rubric: Litríocht thar sáile 
+rubric: 
 originalAuthor: Michal Viewegh
 title: An dóigh a ndéantar clár cainte
 myrole: Aistrithe ag

@@ -1,7 +1,7 @@
 ---
 lang: ga
 published: 2022-01-08
-rubric: Litríocht thar sáile 
+rubric: 
 originalAuthor: Jiří Březina
 title: Tiontú agus imeacht
 myrole: Aistrithe ag

@@ -1,7 +1,7 @@
 ---
 lang: ga
 published: 2022-10-22
-rubric: Litríocht thar sáile 
+rubric: 
 originalAuthor: Jaroslav Hašek
 title: San oifig leasa shóisialaigh
 myrole: Aistrithe ag

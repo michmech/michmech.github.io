@@ -1,7 +1,7 @@
 ---
 lang: ga
 published: 2021-10-12
-rubric: Litríocht thar sáile 
+rubric: 
 originalAuthor: Marc-Uwe Kling
 title: Tuigeann muid a chéile
 myrole: Aistrithe ag

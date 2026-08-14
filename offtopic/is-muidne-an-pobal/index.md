@@ -1,7 +1,7 @@
 ---
 lang: ga
 published: 2023-09-01
-rubric: Litríocht thar sáile 
+rubric: 
 originalAuthor: Urs Widmer
 title: Is muidne an pobal
 myrole: Aistrithe ag

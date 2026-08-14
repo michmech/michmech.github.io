@@ -1,7 +1,7 @@
 ---
 lang: en
 published: 2021-07-01
-rubric: Future Past 
+rubric: 
 originalAuthor: 
 title: “It refuses to be fixed”: Hopes fade for a state near failure
 myrole: Rewritten by

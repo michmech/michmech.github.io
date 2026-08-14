@@ -1,7 +1,7 @@
 ---
 lang: de
 published: 2021-10-10
-rubric: Future Past 
+rubric: 
 originalAuthor: 
 title: Die letzte tschechische Demokratie
 myrole: Umgedichtet von

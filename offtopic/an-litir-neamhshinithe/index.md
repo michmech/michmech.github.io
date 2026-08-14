@@ -1,7 +1,7 @@
 ---
 lang: ga
 published: 2026-08-05
-rubric: Litríocht thar sáile 
+rubric: 
 originalAuthor: Jaroslav Hašek
 title: An litir neamhshínithe
 myrole: Aistrithe ag

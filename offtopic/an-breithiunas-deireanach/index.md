@@ -1,7 +1,7 @@
 ---
 lang: ga
 published: 2025-06-25
-rubric: Litríocht thar sáile 
+rubric: 
 originalAuthor: Karel Čapek
 title: An Breithiúnas Deireanach
 myrole: Aistrithe ag
