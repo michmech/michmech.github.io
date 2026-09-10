@@ -2180,5 +2180,28 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/users/4089510/items/N5C5CZT6",
+		"type": "speech",
+		"event-place": "Québec, Canada",
+		"event-title": "Association for Machine Translation in the Americas 2026 Conference: Tutorials Day",
+		"genre": "Tutorial",
+		"title": "Understanding and mitigating bias in machine translation",
+		"author": [
+			{
+				"family": "Měchura",
+				"given": "Michal"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					19
+				]
+			]
+		}
 	}
 ]
